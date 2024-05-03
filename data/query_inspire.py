@@ -39,7 +39,8 @@ for hi, hit in enumerate(hits):
     date = str(parse(hit['created']).date())
     hid = metadata['control_number']
     abstract = metadata['abstracts'][0]['value']
-
+    authors = [a['full_name'] for a in metadata['authors']]
+    
     try:
         doi = metadata['dois'][0]['value']
     except KeyError:
@@ -52,6 +53,7 @@ for hi, hit in enumerate(hits):
     obj['date'] = date
     obj['url'] = f'https://inspirehep.net/literature/{hid}'
     obj['doi'] = doi
+    obj['authors'] = authors
     
     papers.append(obj)
 

@@ -31,6 +31,7 @@ for e in entries:
     date = str(parse(e.published).date())
     url = e.link
     doi = e.links[0].href
+    authors = [a.name for a in e.authors]
     
     obj = {}
 
@@ -39,7 +40,8 @@ for e in entries:
     obj['date'] = date
     obj['url'] = url
     obj['doi'] = doi
-
+    obj['authors'] = authors
+    
     papers.append(obj)
 
 ofile.write(
