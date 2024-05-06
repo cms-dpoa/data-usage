@@ -5,6 +5,18 @@ import io
 from dateutil.parser import parse
 from time import gmtime, strftime
 
+def get_dataset(references):
+
+    dois_referenced = []
+    
+    for r in references:
+        if 'dois' in r['reference']:
+            if '/OPENDATA.CMS' in r['reference']['dois'][0]:
+                doi = r['reference']['dois'][0]
+                dois_referenced.append(doi)
+
+    return dois_referenced
+                
 inspire_url = 'https://inspirehep.net/api'
 
 '''
@@ -24,7 +36,7 @@ query = f'{inspire_url}/{record_type}?{query_string}'
 
 results = json.load(
     urllib.request.urlopen(query)
-    )
+)
 
 papers = []
 ofile = open('inspire.json', 'w')
@@ -40,6 +52,13 @@ for hi, hit in enumerate(hits):
     hid = metadata['control_number']
     abstract = metadata['abstracts'][0]['value']
     authors = [a['full_name'] for a in metadata['authors']]
+
+    dois_referenced = get_dataset(metadata['references'])
+    
+    try: 
+        keywords = [m['value'] for m in metadata['keywords']]
+    except KeyError:
+        keywords = []
     
     try:
         doi = metadata['dois'][0]['value']
@@ -54,6 +73,8 @@ for hi, hit in enumerate(hits):
     obj['url'] = f'https://inspirehep.net/literature/{hid}'
     obj['doi'] = doi
     obj['authors'] = authors
+    obj['keywords'] = keywords
+    obj['dois_referenced'] = dois_referenced
     
     papers.append(obj)
 
