@@ -1,22 +1,36 @@
 import json
 import urllib.request
 import io
+import re
 
 from dateutil.parser import parse
 from time import gmtime, strftime
 
-def get_dataset(references):
+def get_dataset_dois(references):
 
     dois_referenced = []
     
     for r in references:
         if 'dois' in r['reference']:
-            if '/OPENDATA.CMS' in r['reference']['dois'][0]:
+            if re.search('OPENDATA.CMS', r['reference']['dois'][0], re.IGNORECASE):
                 doi = r['reference']['dois'][0]
                 dois_referenced.append(doi)
 
     return dois_referenced
-                
+
+def handle_publication_info(info):
+
+    if 'publication_info' in info:
+
+        publication_info = info['publication_info']
+        
+        if 'journal_title' in publication_info[0]:
+            return publication_info[0]['journal_title']
+        else:
+            return ''
+    else:
+        return ''
+    
 inspire_url = 'https://inspirehep.net/api'
 
 '''
@@ -52,9 +66,10 @@ for hi, hit in enumerate(hits):
     hid = metadata['control_number']
     abstract = metadata['abstracts'][0]['value']
     authors = [a['full_name'] for a in metadata['authors']]
+    document_type = metadata['document_type'][0]
+    publication_info = handle_publication_info(metadata)        
+    dois_referenced = get_dataset_dois(metadata['references'])
 
-    dois_referenced = get_dataset(metadata['references'])
-    
     try: 
         keywords = [m['value'] for m in metadata['keywords']]
     except KeyError:
@@ -75,6 +90,8 @@ for hi, hit in enumerate(hits):
     obj['authors'] = authors
     obj['keywords'] = keywords
     obj['dois_referenced'] = dois_referenced
+    obj['document_type'] = document_type
+    obj['publication'] = publication_info
     
     papers.append(obj)
 

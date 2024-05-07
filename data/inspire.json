@@ -1,110 +1,5 @@
 [
     {
-        "abstract": "The CMS Experiment at the LHC has released many large datasets of proton-proton collision dataas well as simulation to the public as part of its commitment to data preservation and open access.The collision data released totals around 2 $\\mathrm{fb^{-1}}$ at 7 TeV and nearly 12 $\\mathrm{fb^{-1}}$ at 8 TeV. Data preservation describes the efforts to not only preserve the data itself but the conditionsin which it can be analyzed. This requires archiving and documenting information such as runenvironment and conditions and tools such as analysis software and workflows. Open access describesthe efforts to share these tools and information with the public, including educators and researchers.These efforts present many challenges, partly due to the complexity and size of the CMS datasetsand also to the knowledge required to make meaningful use of them. We describe here how we dealtwith these challenges and the usage of CMS open data not only in public education and engagementbut also in fundamental research. Furthermore we describe plans for future releases of data.",
-        "authors": [
-            "Mccauley, Thomas"
-        ],
-        "date": "2019-12-11",
-        "doi": "10.22323/1.350.0260",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.7347.JDWH",
-            "10.7483/OPENDATA.CMS.SSYF.EGXW",
-            "10.7483/OPENDATA.CMS.JKB8.RR42",
-            "10.7483/OPENDATA.CMS.JGJX.MS7Q",
-            "10.7483/OPENDATA.CMS.N1IN.TQHD",
-            "10.7483/OPENDATA.CMS.RY2V.T797",
-            "10.7483/OPENDATA.CMS.CHC3.5KPG",
-            "10.7483/OPENDATA.CMS.W24L.SGYC",
-            "10.7483/OPENDATA.CMS.QJ68.VK85",
-            "10.7483/OPENDATA.CMS.1R58.OMBD",
-            "10.7483/OPENDATA.CMS.HK0O.ZF9Q"
-        ],
-        "keywords": [
-            "talk: Puebla 2019/05/20",
-            "p p: scattering",
-            "p p: colliding beams",
-            "CMS",
-            "data preservation",
-            "CERN LHC Coll",
-            "programming",
-            "data management"
-        ],
-        "title": "Open Data at CMS: Status and Plans",
-        "url": "https://inspirehep.net/literature/1769970"
-    },
-    {
-        "abstract": "At HEP experiments, processing billions of records of structured numerical data can be a bottleneckin the analysis pipeline. This step is typically more complex than current query languages allow,such that numerical codes are used. As highly parallel computing architectures are increasinglyimportant in the computing ecosystem, it may be useful to consider how accelerators such as GPUscan be used for data analysis. Using CMS and ATLAS Open Data, we implement a benchmarkphysics analysis with GPU acceleration directly in Python based on efficient computational kernelsusing Numba/LLVM, resulting in an order of magnitude throughput increase over a pure CPU-based approach. We discuss the implementation and performance benchmarks of the physicskernels on CPU and GPU targets. We demonstrate how these kernels are combined to a modernML-intensive workflow to enable efficient data analysis on high-performance servers and remarkon possible operational considerations.",
-        "authors": [
-            "Pata, Joosep",
-            "Dutta, Irene",
-            "Lu, Nan",
-            "Vlimant, Jean-Roch",
-            "Newman, Harvey",
-            "Spiropulu, Maria",
-            "Reissel, Christina",
-            "Ruini, Daniele"
-        ],
-        "date": "2021-04-23",
-        "doi": "10.22323/1.390.0908",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.42GY.2VJI",
-            "10.7483/OPENDATA.CMS.2DSE.HYDF",
-            "10.7483/OPENDATA.CMS.7RZ3.0BXP",
-            "10.7483/OPENDATA.CMS.ARKO.6NV3",
-            "10.7483/OPENDATA.CMS.REHM.JKUH",
-            "10.7483/OPENDATA.CMS.DELK.2V7R",
-            "10.7483/OPENDATA.CMS.HHCJ.TVXH",
-            "10.7483/OPENDATA.CMS.DELK.2V7R",
-            "10.7483/OPENDATA.CMS.KAYE.XLAH"
-        ],
-        "keywords": [
-            "performance",
-            "benchmark",
-            "ATLAS",
-            "CMS",
-            "data analysis method",
-            "data management",
-            "programming",
-            "numerical calculations",
-            "microprocessor",
-            "multiprocessor: graphics"
-        ],
-        "title": "Data Analysis with GPU-Accelerated Kernels",
-        "url": "https://inspirehep.net/literature/1860231"
-    },
-    {
-        "abstract": "The CMS experiment, in recognition of its commitment to data preservation and open access as well as to education and outreach, has made its first public release of high-level data under the CC0 waiver: up to half of the proton-proton collision data (by volume) at 7 TeV from 2010 in CMS Analysis Object Data format. CMS has prepared, in collaboration with CERN and the other LHC experiments, an open-data web portal based on Invenio. The portal provides access to CMS public data as well as to analysis tools and documentation for the public. The tools include an event display and histogram application that run in the browser. In addition a virtual machine containing a CMS software environment along with XRootD access to the data is available. Within the virtual machine the public can analyse CMS data, example code is provided. We describe the accompanying tools and documentation and discuss the first experiences of data use.",
-        "authors": [
-            "Calderon, A.",
-            "Colling, D.",
-            "Huffman, A.",
-            "Lassila-Perini, K.",
-            "McCauley, T.",
-            "Rao, A.",
-            "Rodriguez-Marrero, A.",
-            "Sexton-Kennedy, E."
-        ],
-        "date": "2016-01-07",
-        "doi": "10.1088/1742-6596/664/3/032027",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.B8MR.C4A2",
-            "10.7483/OPENDATA.CMS.PDY4.7H2H",
-            "10.7483/OPENDATA.CMS.RB4W.3ZK9",
-            "10.7483/OPENDATA.CMS.QXY9.X47P"
-        ],
-        "keywords": [
-            "CMS",
-            "data preservation",
-            "programming",
-            "computer: interface",
-            "computer: network",
-            "data management",
-            "data compilation"
-        ],
-        "title": "Open access to high-level data and analysis tools in the CMS experiment at the LHC",
-        "url": "https://inspirehep.net/literature/1413825"
-    },
-    {
         "abstract": "In this paper, a Chou\u2013Yang-type multiplicity distribution comprising a total multiplicity component and a binomial asymmetry component is used to describe charged hadron multiplicity data at s = 0.9, 7 and 8 TeV from the CMS experiment at CERN. The data was obtained and processed from the CERN Open Data Portal. For the total multiplicity component, it was found that a weighted superposition of a Negative Binomial Distribution (NBD) and a Furry\u2013Yule Distribution (FYD) is able to describe the shoulder-like structure characteristic of Koba\u2013Nielsen\u2013Olesen (KNO) scaling violation well. The mean cluster size produced from collisions was also found to increase with collision energy. A prediction is given for pp collisions at s = 14 TeV.",
         "authors": [
             "Ong, Z.",
@@ -114,6 +9,7 @@
             "Oh, C.H."
         ],
         "date": "2022-01-21",
+        "document_type": "article",
         "doi": "10.1142/S0217732323500141",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.1R58.OMBD",
@@ -138,49 +34,9 @@
             "structure",
             "numerical calculations"
         ],
+        "publication": "Mod.Phys.Lett.A",
         "title": "Forward\u2013backward multiplicity distribution with the Chou\u2013Yang model for pp collisions at s = 0.9, 7 and 8\u00a0TeV from the CMS experiment",
         "url": "https://inspirehep.net/literature/2014518"
-    },
-    {
-        "abstract": "Deep generative models parametrised by neural networks have recently started to provide accurate results in modeling natural images. In particular, generative adversarial networks provide an unsupervised solution to this problem. In this work, we apply this kind of technique to the simulation of particle detector response to hadronic jets. We show that deep neural networks can achieve high fidelity in this task, while attaining a speed increase of several orders of magnitude with respect to traditional algorithms.",
-        "authors": [
-            "Musella, Pasquale",
-            "Pandolfi, Francesco"
-        ],
-        "date": "2018-05-03",
-        "doi": "10.1007/s41781-018-0015-y",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.Q3BX.69VQ",
-            "10.7483/OPENDATA.CMS.84VC.RU8W",
-            "10.7483/OPENDATA.CMS.PUTE.7H2H",
-            "10.7483/OPENDATA.CMS.QJND.HA88",
-            "10.7483/OPENDATA.CMS.WKRR.DCJP",
-            "10.7483/OPENDATA.CMS.X3XQ.USQR",
-            "10.7483/OPENDATA.CMS.BKTD.SGJX",
-            "10.7483/OPENDATA.CMS.EJT7.KSAY",
-            "10.7483/OPENDATA.CMS.S3D5.KF2C",
-            "10.7483/OPENDATA.CMS.96U2.3YAH",
-            "10.7483/OPENDATA.CMS.RC9V.B5KX",
-            "10.7483/OPENDATA.CMS.CX2X.J3KW"
-        ],
-        "keywords": [
-            "Generative adversarial networks",
-            "Deep learning",
-            "High-energy physics",
-            "Simulation",
-            "Fast simulation",
-            "Jet images",
-            "CERN open data",
-            "jet: hadronic",
-            "track data analysis: jet",
-            "neural network",
-            "network",
-            "statistical analysis",
-            "data analysis method",
-            "numerical calculations: Monte Carlo"
-        ],
-        "title": "Fast and Accurate Simulation of Particle Detectors Using Generative Adversarial Networks",
-        "url": "https://inspirehep.net/literature/1671151"
     },
     {
         "abstract": "At high energy physics experiments, processing billions of records of structured numerical data from collider events to a few statistical summaries is a common task. The data processing is typically more complex than standard query languages allow, such that custom numerical codes are used. At present, these codes mostly operate on individual event records and are parallelized in multi-step data reduction workflows using batch jobs across CPU farms. Based on a simplified top quark pair analysis with CMS Open Data, we demonstrate that it is possible to carry out significant parts of a collider analysis at a rate of around a million events per second on a single multicore server with optional GPU acceleration. This is achieved by representing HEP event data as memory-mappable sparse arrays of columns, and by expressing common analysis operations as kernels that can be used to process the event data in parallel. We find that only a small number of relatively simple functional kernels are needed for a generic HEP analysis. The approach based on columnar processing of data could speed up and simplify the cycle for delivering physics results at HEP experiments. We release the \\texttt{hepaccelerate} prototype library as a demonstrator of such methods.",
@@ -189,6 +45,7 @@
             "Spiropulu, Maria"
         ],
         "date": "2019-06-17",
+        "document_type": "article",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.42GY.2VJI",
@@ -211,27 +68,86 @@
             "statistical analysis",
             "performance"
         ],
+        "publication": "",
         "title": "Processing Columnar Collider Data with GPU-Accelerated Kernels",
         "url": "https://inspirehep.net/literature/1740021"
     },
     {
-        "abstract": "Careful preservation of experimental data, simulations, analysis products, and theoretical work maximizes their long-term scientific return on investment by enabling new analyses and reinterpretation of the results in the future. Key infrastructure and technical developments needed for some high-value science targets are not in scope for the operations program of the large experiments and are often not effectively funded. Increasingly, the science goals of our projects require contributions that span the boundaries between individual experiments and surveys, and between the theoretical and experimental communities. Furthermore, the computational requirements and technical sophistication of this work is increasing. As a result, it is imperative that the funding agencies create programs that can devote significant resources to these efforts outside of the context of the operations of individual major experiments, including smaller experiments and theory/simulation work. In this Snowmass 2021 Computational Frontier topical group report (CompF7: Reinterpretation and long-term preservation of data and code), we summarize the current state of the field and make recommendations for the future.",
+        "abstract": "The CMS Experiment at the LHC has released many large datasets of proton-proton collision dataas well as simulation to the public as part of its commitment to data preservation and open access.The collision data released totals around 2 $\\mathrm{fb^{-1}}$ at 7 TeV and nearly 12 $\\mathrm{fb^{-1}}$ at 8 TeV. Data preservation describes the efforts to not only preserve the data itself but the conditionsin which it can be analyzed. This requires archiving and documenting information such as runenvironment and conditions and tools such as analysis software and workflows. Open access describesthe efforts to share these tools and information with the public, including educators and researchers.These efforts present many challenges, partly due to the complexity and size of the CMS datasetsand also to the knowledge required to make meaningful use of them. We describe here how we dealtwith these challenges and the usage of CMS open data not only in public education and engagementbut also in fundamental research. Furthermore we describe plans for future releases of data.",
         "authors": [
-            "Bailey, Stephen",
-            "Cranmer, K.S.",
-            "Feickert, Matthew",
-            "Fine, Rob",
-            "Kraml, Sabine",
-            "Lange, Clemens"
+            "Mccauley, Thomas"
         ],
-        "date": "2022-09-19",
-        "doi": "",
+        "date": "2019-12-11",
+        "document_type": "conference paper",
+        "doi": "10.22323/1.350.0260",
         "dois_referenced": [
-            "10.7483/OPENDATA.CMS.1BNU.8V1W"
+            "10.7483/OPENDATA.CMS.7347.JDWH",
+            "10.7483/OPENDATA.CMS.SSYF.EGXW",
+            "10.7483/OPENDATA.CMS.JKB8.RR42",
+            "10.7483/OPENDATA.CMS.JGJX.MS7Q",
+            "10.7483/OPENDATA.CMS.N1IN.TQHD",
+            "10.7483/OPENDATA.CMS.RY2V.T797",
+            "10.7483/OPENDATA.CMS.CHC3.5KPG",
+            "10.7483/OPENDATA.CMS.W24L.SGYC",
+            "10.7483/OPENDATA.CMS.QJ68.VK85",
+            "10.7483/OPENDATA.CMS.1R58.OMBD",
+            "10.7483/OPENDATA.CMS.HK0O.ZF9Q"
         ],
-        "keywords": [],
-        "title": "Reinterpretation and Long-Term Preservation of Data and Code",
-        "url": "https://inspirehep.net/literature/2153139"
+        "keywords": [
+            "talk: Puebla 2019/05/20",
+            "p p: scattering",
+            "p p: colliding beams",
+            "CMS",
+            "data preservation",
+            "CERN LHC Coll",
+            "programming",
+            "data management"
+        ],
+        "publication": "PoS",
+        "title": "Open Data at CMS: Status and Plans",
+        "url": "https://inspirehep.net/literature/1769970"
+    },
+    {
+        "abstract": "At HEP experiments, processing billions of records of structured numerical data can be a bottleneckin the analysis pipeline. This step is typically more complex than current query languages allow,such that numerical codes are used. As highly parallel computing architectures are increasinglyimportant in the computing ecosystem, it may be useful to consider how accelerators such as GPUscan be used for data analysis. Using CMS and ATLAS Open Data, we implement a benchmarkphysics analysis with GPU acceleration directly in Python based on efficient computational kernelsusing Numba/LLVM, resulting in an order of magnitude throughput increase over a pure CPU-based approach. We discuss the implementation and performance benchmarks of the physicskernels on CPU and GPU targets. We demonstrate how these kernels are combined to a modernML-intensive workflow to enable efficient data analysis on high-performance servers and remarkon possible operational considerations.",
+        "authors": [
+            "Pata, Joosep",
+            "Dutta, Irene",
+            "Lu, Nan",
+            "Vlimant, Jean-Roch",
+            "Newman, Harvey",
+            "Spiropulu, Maria",
+            "Reissel, Christina",
+            "Ruini, Daniele"
+        ],
+        "date": "2021-04-23",
+        "document_type": "conference paper",
+        "doi": "10.22323/1.390.0908",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.42GY.2VJI",
+            "10.7483/OPENDATA.CMS.2DSE.HYDF",
+            "10.7483/OPENDATA.CMS.7RZ3.0BXP",
+            "10.7483/OPENDATA.CMS.ARKO.6NV3",
+            "10.7483/OPENDATA.CMS.REHM.JKUH",
+            "10.7483/OPENDATA.CMS.DELK.2V7R",
+            "10.7483/OPENDATA.CMS.HHCJ.TVXH",
+            "10.7483/OPENDATA.CMS.DELK.2V7R",
+            "10.7483/OPENDATA.CMS.KAYE.XLAH"
+        ],
+        "keywords": [
+            "performance",
+            "benchmark",
+            "ATLAS",
+            "CMS",
+            "data analysis method",
+            "data management",
+            "programming",
+            "numerical calculations",
+            "microprocessor",
+            "multiprocessor: graphics"
+        ],
+        "publication": "PoS",
+        "title": "Data Analysis with GPU-Accelerated Kernels",
+        "url": "https://inspirehep.net/literature/1860231"
     },
     {
         "abstract": "Despite extensive theoretical and experimental efforts, we have yet to discover evidence of new physics. Since there is no obvious candidate for a particular new physics model that can resolve the variety of anomalies and shortcomings of the Standard Model, a potentially lucrative strategy is to explore as broadly as possible. In this dissertation we consider a two pronged approach to this strategy: constructing phenomenological models that capture the dynamics of general new physics scenarios, and developing robust tools for identifying new phenomena. We consider primarily the application of this strategy at existing and future colliders. For phenomenological models, we first consider the generic scenario where new particles are produced back-to-back with substantial transverse momenta, ultimately decaying into a dimuon pair. We also use extra dimensional models to construct tractable hidden sector scenarios with tunable radiation patterns. For both of these toy models, we expect signal events to look inherently distinct from Standard Model backgrounds. To classify these signatures, we develop a new event shape observable\u2014event isotropy\u2014that has a complementary dynamic range to commonly used event shapes. We discuss the efficacy of this observable and explore potential correlations. Finally we discuss how this program for new physics searches can expand even further with the construction of a multi-TeV muon machine. We show how using muons increases sensitivity to new physics scenarios that couple to second-generation particles and how we can use an O(TeV) beam in a beam-dump experiment to probe enormously small couplings. Ultimately we present many possible channels towards uncovering the first hints of new physics to motivate more concentrated efforts to identify the particle content of the universe.",
@@ -239,6 +155,7 @@
             "Cesarotti, Cari"
         ],
         "date": "2023-12-05",
+        "document_type": "thesis",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.7347.JDWH",
@@ -280,69 +197,9 @@
             "dimuon",
             "numerical calculations"
         ],
+        "publication": "",
         "title": "Hints of a Hidden World",
         "url": "https://inspirehep.net/literature/2730282"
-    },
-    {
-        "abstract": "Search for SUSY in HEP is of enormous interest for the past few decades. Continuous searches were conducted at LHC regarding SUSY for prompt, non-prompt, R-parity conserving and violating generation and decays. The limits obtained from these analysis to detect the signatures of SUSY particles, revealed greater possibilities of such experiments in collider. These signatures are usually derived assuming a bit optimistic conditions of the decaying process of s-particles to final-states. Moreover, SUSY might have been in a disguised state in lower-mass scales resulting from challenging mass-spectra and mixed-modes of decays. The proposed chaos-based, novel method of 2D-Multifractal-Detrended-Fluctuation-Analysis(2D-MF-DFA), is extended using rectangular scale. The experimental data-surfaces are constructed using the component-space(in the X,Y,Z co-ordinates) taken out from the 4-momenta of final-state-signatures of the produced di-muons from the selected events. Two publicly-available datasets are used here. First is the data from MultiJet primary pp collision-data from RunB(2010) at 7TeV, used in analysis of the SUSY with Razor-variables. Second is the data from primary dataset of pp collisions at 7TeV from RunA(2011) of CMS-collaboration. The 2D-MF behaviour of particle production process is studied in terms of symmetry-scaling, the inherent scale-freeness and multifractality. The analysis outcome for SUSY data is compared with the same for the non-SUSY data in terms of the generalized Hurst-exponent and 2D-MF spectrum width. Significantly different scaling behaviour and long-range correlation is observed between the final-state-signatures of the di-lepton production-process of the first and second datasets. This difference may indicate a possible signature of SUSY which may be missed in the conventional method of analysing the invariant-mass/transverse-momentum-spectrum.",
-        "authors": [
-            "Bhaduri, Susmita",
-            "Bhaduri, Anirban"
-        ],
-        "date": "2020-12-02",
-        "doi": "",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.QAJC.TR8V",
-            "10.7483/OPENDATA.CMS.FZ5U.TTXP",
-            "10.7483/OPENDATA.CMS.ZCFQ.Q557"
-        ],
-        "keywords": [
-            "p p: colliding beams",
-            "new physics: search for",
-            "supersymmetry: signature",
-            "correlation: long-range",
-            "p p: scattering",
-            "muon: pair production",
-            "transverse momentum: momentum spectrum",
-            "dimension: 2",
-            "conservation law",
-            "CERN LHC Coll",
-            "mass spectrum",
-            "fluctuation",
-            "R parity: invariance",
-            "R parity: violation",
-            "scaling",
-            "CMS",
-            "data analysis method",
-            "experimental results",
-            "7000 GeV-cms"
-        ],
-        "title": "Analysis of Prospective Super-Symmetry Inherent in the $pp$ Collision Data at $7$ TeV from CMS Collaboration Using Novel Two-Dimensional Multifractal-Detrended Fluctuation Analysis Method with Rectangular Scale",
-        "url": "https://inspirehep.net/literature/1834237"
-    },
-    {
-        "abstract": "The CMS collaboration at the CERN LHC has made more than one petabyte of open data available to the public, including large parts of the data which formed the basis for the discovery of the Higgs boson in 2012. Apart from their scientific value, these data can be used not only for education and outreach, but also for software development. However, in their original format, the data cannot be accessed easily without experiment-specific knowledge and skills. Work is presented that allows to set up open analyses that are performed close to the published ones, but which meet minimum requirements for experiment-specific knowledge and software. The suitability of this approach for education and outreach is demonstrated with analyses that have been made fully accessible to the public via the CERN Open Data portal. Further, the value of these data for software development and as basis for benchmarks of analysis software under realistic conditions of a high-energy physics experiment is discussed.",
-        "authors": [
-            "Wunsch, Stefan"
-        ],
-        "date": "2020-11-23",
-        "doi": "10.1051/epjconf/202024508006",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.7347",
-            "10.7483/OPENDATA.CMS.N1IN.TQHD",
-            "10.7483/OPENDATA.CMS.944Q.PN2X",
-            "10.7483/OPENDATA.CMS.AAR1.4NZQ",
-            "10.7483/OPENDATA.CMS.GV20.PR5T"
-        ],
-        "keywords": [
-            "activity report",
-            "programming",
-            "CMS",
-            "benchmark",
-            "data management"
-        ],
-        "title": "Using CMS Open Data for education, outreach and software development",
-        "url": "https://inspirehep.net/literature/1832119"
     },
     {
         "abstract": "The solutions adopted by the high-energy physics community to foster reproducible research are examples of best practices that could be embraced more widely. This first experience suggests that reproducibility requires going beyond openness.",
@@ -373,11 +230,140 @@
             "Neubert, Sebastian"
         ],
         "date": "2018-11-19",
+        "document_type": "article",
         "doi": "10.1038/s41567-018-0342-2",
-        "dois_referenced": [],
+        "dois_referenced": [
+            "10.7483/opendata.cms.udbf.jkr9",
+            "10.7483/opendata.cms.jkb8.rr42"
+        ],
         "keywords": [],
+        "publication": "Nature Phys.",
         "title": "Open is not enough",
         "url": "https://inspirehep.net/literature/1704097"
+    },
+    {
+        "abstract": "The CMS experiment, in recognition of its commitment to data preservation and open access as well as to education and outreach, has made its first public release of high-level data under the CC0 waiver: up to half of the proton-proton collision data (by volume) at 7 TeV from 2010 in CMS Analysis Object Data format. CMS has prepared, in collaboration with CERN and the other LHC experiments, an open-data web portal based on Invenio. The portal provides access to CMS public data as well as to analysis tools and documentation for the public. The tools include an event display and histogram application that run in the browser. In addition a virtual machine containing a CMS software environment along with XRootD access to the data is available. Within the virtual machine the public can analyse CMS data, example code is provided. We describe the accompanying tools and documentation and discuss the first experiences of data use.",
+        "authors": [
+            "Calderon, A.",
+            "Colling, D.",
+            "Huffman, A.",
+            "Lassila-Perini, K.",
+            "McCauley, T.",
+            "Rao, A.",
+            "Rodriguez-Marrero, A.",
+            "Sexton-Kennedy, E."
+        ],
+        "date": "2016-01-07",
+        "document_type": "conference paper",
+        "doi": "10.1088/1742-6596/664/3/032027",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.B8MR.C4A2",
+            "10.7483/OPENDATA.CMS.PDY4.7H2H",
+            "10.7483/OPENDATA.CMS.RB4W.3ZK9",
+            "10.7483/OPENDATA.CMS.QXY9.X47P"
+        ],
+        "keywords": [
+            "CMS",
+            "data preservation",
+            "programming",
+            "computer: interface",
+            "computer: network",
+            "data management",
+            "data compilation"
+        ],
+        "publication": "J.Phys.Conf.Ser.",
+        "title": "Open access to high-level data and analysis tools in the CMS experiment at the LHC",
+        "url": "https://inspirehep.net/literature/1413825"
+    },
+    {
+        "abstract": "Deep generative models parametrised by neural networks have recently started to provide accurate results in modeling natural images. In particular, generative adversarial networks provide an unsupervised solution to this problem. In this work, we apply this kind of technique to the simulation of particle detector response to hadronic jets. We show that deep neural networks can achieve high fidelity in this task, while attaining a speed increase of several orders of magnitude with respect to traditional algorithms.",
+        "authors": [
+            "Musella, Pasquale",
+            "Pandolfi, Francesco"
+        ],
+        "date": "2018-05-03",
+        "document_type": "article",
+        "doi": "10.1007/s41781-018-0015-y",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.Q3BX.69VQ",
+            "10.7483/OPENDATA.CMS.84VC.RU8W",
+            "10.7483/OPENDATA.CMS.PUTE.7H2H",
+            "10.7483/OPENDATA.CMS.QJND.HA88",
+            "10.7483/OPENDATA.CMS.WKRR.DCJP",
+            "10.7483/OPENDATA.CMS.X3XQ.USQR",
+            "10.7483/OPENDATA.CMS.BKTD.SGJX",
+            "10.7483/OPENDATA.CMS.EJT7.KSAY",
+            "10.7483/OPENDATA.CMS.S3D5.KF2C",
+            "10.7483/OPENDATA.CMS.96U2.3YAH",
+            "10.7483/OPENDATA.CMS.RC9V.B5KX",
+            "10.7483/OPENDATA.CMS.CX2X.J3KW"
+        ],
+        "keywords": [
+            "Generative adversarial networks",
+            "Deep learning",
+            "High-energy physics",
+            "Simulation",
+            "Fast simulation",
+            "Jet images",
+            "CERN open data",
+            "jet: hadronic",
+            "track data analysis: jet",
+            "neural network",
+            "network",
+            "statistical analysis",
+            "data analysis method",
+            "numerical calculations: Monte Carlo"
+        ],
+        "publication": "Comput.Softw.Big Sci.",
+        "title": "Fast and Accurate Simulation of Particle Detectors Using Generative Adversarial Networks",
+        "url": "https://inspirehep.net/literature/1671151"
+    },
+    {
+        "abstract": "The CMS collaboration at the CERN LHC has made more than one petabyte of open data available to the public, including large parts of the data which formed the basis for the discovery of the Higgs boson in 2012. Apart from their scientific value, these data can be used not only for education and outreach, but also for software development. However, in their original format, the data cannot be accessed easily without experiment-specific knowledge and skills. Work is presented that allows to set up open analyses that are performed close to the published ones, but which meet minimum requirements for experiment-specific knowledge and software. The suitability of this approach for education and outreach is demonstrated with analyses that have been made fully accessible to the public via the CERN Open Data portal. Further, the value of these data for software development and as basis for benchmarks of analysis software under realistic conditions of a high-energy physics experiment is discussed.",
+        "authors": [
+            "Wunsch, Stefan"
+        ],
+        "date": "2020-11-23",
+        "document_type": "conference paper",
+        "doi": "10.1051/epjconf/202024508006",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.7347",
+            "10.7483/OPENDATA.CMS.N1IN.TQHD",
+            "10.7483/OPENDATA.CMS.944Q.PN2X",
+            "10.7483/OPENDATA.CMS.AAR1.4NZQ",
+            "10.7483/OPENDATA.CMS.GV20.PR5T"
+        ],
+        "keywords": [
+            "activity report",
+            "programming",
+            "CMS",
+            "benchmark",
+            "data management"
+        ],
+        "publication": "EPJ Web Conf.",
+        "title": "Using CMS Open Data for education, outreach and software development",
+        "url": "https://inspirehep.net/literature/1832119"
+    },
+    {
+        "abstract": "Careful preservation of experimental data, simulations, analysis products, and theoretical work maximizes their long-term scientific return on investment by enabling new analyses and reinterpretation of the results in the future. Key infrastructure and technical developments needed for some high-value science targets are not in scope for the operations program of the large experiments and are often not effectively funded. Increasingly, the science goals of our projects require contributions that span the boundaries between individual experiments and surveys, and between the theoretical and experimental communities. Furthermore, the computational requirements and technical sophistication of this work is increasing. As a result, it is imperative that the funding agencies create programs that can devote significant resources to these efforts outside of the context of the operations of individual major experiments, including smaller experiments and theory/simulation work. In this Snowmass 2021 Computational Frontier topical group report (CompF7: Reinterpretation and long-term preservation of data and code), we summarize the current state of the field and make recommendations for the future.",
+        "authors": [
+            "Bailey, Stephen",
+            "Cranmer, K.S.",
+            "Feickert, Matthew",
+            "Fine, Rob",
+            "Kraml, Sabine",
+            "Lange, Clemens"
+        ],
+        "date": "2022-09-19",
+        "document_type": "article",
+        "doi": "",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.1BNU.8V1W"
+        ],
+        "keywords": [],
+        "publication": "",
+        "title": "Reinterpretation and Long-Term Preservation of Data and Code",
+        "url": "https://inspirehep.net/literature/2153139"
     },
     {
         "abstract": "Daily operation of a large-scale experiment is a challenging task, particularly from perspectives of routine monitoring of quality for data being taken. We describe an approach that uses Machine Learning for the automated system to monitor data quality, which is based on partial use of data qualified manually by detector experts. The system automatically classifies marginal cases: both of good an bad data, and use human expert decision to classify remaining \u201cgrey area\u201d cases. This study uses collision data collected by the CMS experiment at LHC in 2010. We demonstrate that proposed workflow is able to automatically process at least 20% of samples without noticeable degradation of the result.",
@@ -388,6 +374,7 @@
             "Ustyuzhanin, Andrey"
         ],
         "date": "2017-09-26",
+        "document_type": "conference paper",
         "doi": "10.1088/1742-6596/898/9/092041",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.6BPY.XFRQ:",
@@ -405,30 +392,9 @@
             "CERN Lab",
             "data analysis method: efficiency"
         ],
+        "publication": "J.Phys.Conf.Ser.",
         "title": "Towards automation of data quality system for CERN CMS experiment",
         "url": "https://inspirehep.net/literature/1625297"
-    },
-    {
-        "abstract": "A cornerstone of good scientific practice is to make results available to the public. This is espe- cially true for experiments at the LHC at CERN where public investment in fundamental research is significant and long-standing. As part of their commitment to open access and public engage- ment the ATLAS and CMS collaborations have made several large datasets available to the public. There are many challenges posed in presenting complex and high-level data to the public in an accessible and meaningful way. We describe the solutions to these challenges, part of which is the creation and use of the CERN Open Data Portal and the content found therein. Furthermore we describe the impact and future plans of the ATLAS and CMS open access efforts including future releases of data and accompanying educational material.",
-        "authors": [
-            "McCauley, Thomas"
-        ],
-        "date": "2017-04-26",
-        "doi": "10.22323/1.282.0335",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.UDBF.JKR9"
-        ],
-        "keywords": [
-            "talk: Chicago 2016/08/03",
-            "communications",
-            "lectures",
-            "ATLAS",
-            "CMS",
-            "CERN Lab",
-            "CERN LHC Coll"
-        ],
-        "title": "HEP data for everyone: CERN open data and the ATLAS and CMS experiments",
-        "url": "https://inspirehep.net/literature/1596537"
     },
     {
         "abstract": "We make the case for the systematic, reliable preservation of event-wise data, derived data products, and executable analysis code. This preservation enables the analyses' long-term future reuse, in order to maximise the scientific impact of publicly funded particle-physics experiments. We cover the needs of both the experimental and theoretical particle physics communities, and outline the goals and benefits that are uniquely enabled by analysis recasting and reinterpretation. We also discuss technical challenges and infrastructure needs, as well as sociological challenges and changes, and give summary recommendations to the particle-physics community.",
@@ -453,13 +419,222 @@
             "Watt, Graeme"
         ],
         "date": "2022-03-21",
+        "document_type": "article",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.1BNU.8V1W"
         ],
         "keywords": [],
+        "publication": "",
         "title": "Data and Analysis Preservation, Recasting, and Reinterpretation",
         "url": "https://inspirehep.net/literature/2054747"
+    },
+    {
+        "abstract": "Search for SUSY in HEP is of enormous interest for the past few decades. Continuous searches were conducted at LHC regarding SUSY for prompt, non-prompt, R-parity conserving and violating generation and decays. The limits obtained from these analysis to detect the signatures of SUSY particles, revealed greater possibilities of such experiments in collider. These signatures are usually derived assuming a bit optimistic conditions of the decaying process of s-particles to final-states. Moreover, SUSY might have been in a disguised state in lower-mass scales resulting from challenging mass-spectra and mixed-modes of decays. The proposed chaos-based, novel method of 2D-Multifractal-Detrended-Fluctuation-Analysis(2D-MF-DFA), is extended using rectangular scale. The experimental data-surfaces are constructed using the component-space(in the X,Y,Z co-ordinates) taken out from the 4-momenta of final-state-signatures of the produced di-muons from the selected events. Two publicly-available datasets are used here. First is the data from MultiJet primary pp collision-data from RunB(2010) at 7TeV, used in analysis of the SUSY with Razor-variables. Second is the data from primary dataset of pp collisions at 7TeV from RunA(2011) of CMS-collaboration. The 2D-MF behaviour of particle production process is studied in terms of symmetry-scaling, the inherent scale-freeness and multifractality. The analysis outcome for SUSY data is compared with the same for the non-SUSY data in terms of the generalized Hurst-exponent and 2D-MF spectrum width. Significantly different scaling behaviour and long-range correlation is observed between the final-state-signatures of the di-lepton production-process of the first and second datasets. This difference may indicate a possible signature of SUSY which may be missed in the conventional method of analysing the invariant-mass/transverse-momentum-spectrum.",
+        "authors": [
+            "Bhaduri, Susmita",
+            "Bhaduri, Anirban"
+        ],
+        "date": "2020-12-02",
+        "document_type": "article",
+        "doi": "",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.QAJC.TR8V",
+            "10.7483/OPENDATA.CMS.FZ5U.TTXP",
+            "10.7483/OPENDATA.CMS.ZCFQ.Q557"
+        ],
+        "keywords": [
+            "p p: colliding beams",
+            "new physics: search for",
+            "supersymmetry: signature",
+            "correlation: long-range",
+            "p p: scattering",
+            "muon: pair production",
+            "transverse momentum: momentum spectrum",
+            "dimension: 2",
+            "conservation law",
+            "CERN LHC Coll",
+            "mass spectrum",
+            "fluctuation",
+            "R parity: invariance",
+            "R parity: violation",
+            "scaling",
+            "CMS",
+            "data analysis method",
+            "experimental results",
+            "7000 GeV-cms"
+        ],
+        "publication": "",
+        "title": "Analysis of Prospective Super-Symmetry Inherent in the $pp$ Collision Data at $7$ TeV from CMS Collaboration Using Novel Two-Dimensional Multifractal-Detrended Fluctuation Analysis Method with Rectangular Scale",
+        "url": "https://inspirehep.net/literature/1834237"
+    },
+    {
+        "abstract": "An essential part of new physics searches at the Large Hadron Collider (LHC) at CERN involves event classification, or distinguishing potential signal events from those coming from background processes. Current machine learning techniques accomplish this using traditional hand-engineered features like particle 4-momenta, motivated by our understanding of particle decay phenomenology. While such techniques have proven useful for simple decays, they are highly dependent on our ability to model all aspects of the phenomenology and detector response. Meanwhile, powerful deep learning algorithms are capable of not only training on high-level features, but of performing feature extraction. In computer vision, convolutional neural networks have become the state-of-the-art for many applications. Motivated by their success, we apply deep learning algorithms to low-level detector data from the 2012 CMS Simulated Open Data to directly learn useful features, in what we call, end-to-end event classification. We demonstrate the power of this approach in the context of a physics search and offer solutions to some of the inherent challenges, such as image construction, image sparsity, combining multiple sub-detectors, and de-correlating the classifier from the search observable, among others.",
+        "authors": [
+            "Andrews, Michael",
+            "Paulini, Manfred",
+            "Gleyzer, Sergei",
+            "Poczos, Barnabas"
+        ],
+        "date": "2019-10-28",
+        "document_type": "conference paper",
+        "doi": "10.1051/epjconf/201921406031",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.WQ7P.BZP3(2017)",
+            "10.7483/OPENDATA.CMS.WV7J.8GN0(2017)",
+            "10.7483/OPENDATA.CMS.2W51.W8AT(2017)"
+        ],
+        "keywords": [
+            "talk: Sofia 2018/07/09",
+            "p p: scattering",
+            "p p: colliding beams",
+            "CERN LHC Coll",
+            "CMS",
+            "neural network",
+            "statistical analysis",
+            "new physics: search for",
+            "background",
+            "CERN Lab",
+            "computer",
+            "programming",
+            "data analysis method",
+            "numerical calculations: Monte Carlo"
+        ],
+        "publication": "EPJ Web Conf.",
+        "title": "Exploring End-to-end Deep Learning Applications for Event Classification at CMS",
+        "url": "https://inspirehep.net/literature/1761292"
+    },
+    {
+        "abstract": "In this paper we present newly launched services for open data and for long-term preservation and reuse of high-energy-physics data analyses based on the digital library software Invenio. We track the \u201ddata continuum\u201d practices through several progressive data analysis phases up to the final publication. The aim is to capture for subsequent generations all digital assets and associated knowledge inherent in the data analysis process, and to make a subset available rapidly to the public. The ultimate goal of the analysis preservation platform is to capture enough information about the processing steps in order to facilitate reproduction of an analysis even many years after its initial publication, permitting to extend the impact of preserved analyses through future revalidation and recasting services. A related \u201dopen data\u201d service was launched for the benefit of the general public.",
+        "authors": [
+            "Cowton, J.",
+            "Dallmeier-Tiessen, S.",
+            "Fokianos, P.",
+            "Rueda, L.",
+            "Herterich, P.",
+            "Kun\u010dar, J.",
+            "\u0160imko, T.",
+            "Smith, T."
+        ],
+        "date": "2016-01-07",
+        "document_type": "conference paper",
+        "doi": "10.1088/1742-6596/664/3/032030",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.UDBF.JKR9"
+        ],
+        "keywords": [
+            "CERN LHC Coll",
+            "programming",
+            "data management",
+            "data preservation"
+        ],
+        "publication": "J.Phys.Conf.Ser.",
+        "title": "Open Data and Data Analysis Preservation Services for LHC Experiments",
+        "url": "https://inspirehep.net/literature/1413827"
+    },
+    {
+        "abstract": "From particle identification to the discovery of the Higgs boson, deep learning algorithms have become an increasingly important tool for data analysis at the Large Hadron Collider (LHC). We present an innovative end-to-end deep learning approach for jet identification at the Compact Muon Solenoid (CMS) experiment at the LHC. The method combines deep neural networks with low-level detector information, such as calorimeter energy deposits and tracking information, to build a discriminator to identify different particle species. Using two physics examples as references: electron vs. photon discrimination and quark vs. gluon discrimination, we demonstrate the performance of the end-to-end approach on simulated events with full detector geometry as available in the CMS Open Data. We also offer insights into the importance of the information extracted from various sub-detectors and describe how end-to-end techniques can be extended to event-level classification using information from the whole CMS detector.",
+        "authors": [
+            "Alison, John",
+            "An, Sitong",
+            "Bryant, Patrick",
+            "Burkle, Bjorn",
+            "Gleyzer, Sergei",
+            "Narain, Meenakshi",
+            "Paulini, Manfred",
+            "Poczos, Barnabas",
+            "Usai, Emanuele"
+        ],
+        "date": "2019-10-17",
+        "document_type": "conference paper",
+        "doi": "",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.CHC3.5KPG",
+            "10.7483/OPENDATA.CMS.GZU3.FZ51"
+        ],
+        "keywords": [
+            "talk: Boston 2019/07/29",
+            "p p: scattering",
+            "p p: colliding beams",
+            "detector: geometry",
+            "CMS",
+            "CERN LHC Coll",
+            "track data analysis: jet",
+            "neural network",
+            "Higgs particle",
+            "calorimeter",
+            "performance",
+            "electron",
+            "photon",
+            "quark",
+            "gluon",
+            "statistical analysis",
+            "data analysis method",
+            "numerical calculations: Monte Carlo"
+        ],
+        "publication": "",
+        "title": "End-to-end particle and event identification at the Large Hadron Collider with CMS Open Data",
+        "url": "https://inspirehep.net/literature/1759341"
+    },
+    {
+        "abstract": "The application of deep learning techniques using convolutional neural networks for the classification of particle collisions in High Energy Physics is explored. An intuitive approach to transform physical variables, like momenta of particles and jets, into a single image that captures the relevant information, is proposed. The idea is tested using a well-known deep learning framework on a simulation dataset, including leptonic ttbar events and the corresponding background at 7 TeV from the CMS experiment at LHC, available as Open Data. This initial test shows competitive results when compared to more classical approaches, like those using feedforward neural networks.",
+        "authors": [
+            "Madrazo, Celia Fern\u00e1ndez",
+            "Cacha, Ignacio Heredia",
+            "Iglesias, Lara Lloret",
+            "de Lucas, Jes\u00fas Marco"
+        ],
+        "date": "2017-08-25",
+        "document_type": "conference paper",
+        "doi": "10.1051/epjconf/201921406017",
+        "dois_referenced": [
+            "10.7483/opendata.cms.txt4.4rrp",
+            "10.7483/opendata.cms.u7p6.ckvb",
+            "10.7483/opendata.cms.zbgf.h543"
+        ],
+        "keywords": [
+            "Deep Learning",
+            "Machine Learning",
+            "Convolutional Neural Networks",
+            "Particle Physics",
+            "OpenData",
+            "LHC",
+            "CMS",
+            "top: pair production",
+            "neural network",
+            "CMS",
+            "information theory",
+            "data analysis method",
+            "numerical calculations",
+            "numerical methods"
+        ],
+        "publication": "EPJ Web Conf.",
+        "title": "Application of a Convolutional Neural Network for image classification for the analysis of collisions in High Energy Physics",
+        "url": "https://inspirehep.net/literature/1618344"
+    },
+    {
+        "abstract": "A cornerstone of good scientific practice is to make results available to the public. This is espe- cially true for experiments at the LHC at CERN where public investment in fundamental research is significant and long-standing. As part of their commitment to open access and public engage- ment the ATLAS and CMS collaborations have made several large datasets available to the public. There are many challenges posed in presenting complex and high-level data to the public in an accessible and meaningful way. We describe the solutions to these challenges, part of which is the creation and use of the CERN Open Data Portal and the content found therein. Furthermore we describe the impact and future plans of the ATLAS and CMS open access efforts including future releases of data and accompanying educational material.",
+        "authors": [
+            "McCauley, Thomas"
+        ],
+        "date": "2017-04-26",
+        "document_type": "conference paper",
+        "doi": "10.22323/1.282.0335",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.UDBF.JKR9"
+        ],
+        "keywords": [
+            "talk: Chicago 2016/08/03",
+            "communications",
+            "lectures",
+            "ATLAS",
+            "CMS",
+            "CERN Lab",
+            "CERN LHC Coll"
+        ],
+        "publication": "PoS",
+        "title": "HEP data for everyone: CERN open data and the ATLAS and CMS experiments",
+        "url": "https://inspirehep.net/literature/1596537"
     },
     {
         "abstract": "The Standard Model violates parity, but only by mechanisms which are invisible to Large Hadron Collider (LHC) experiments (on account of the lack of initial state polarisation or spin-sensitivity in the detectors). Nonetheless, new physical processes could potentially violate parity in ways which are detectable by those same experiments. If those sources of new physics occur only at LHC energies, they are untested by direct searches. We probe the feasibility of such measurements using approximately 0.2 fb$^{\u2212}^{1}$ of data which was recorded in 2012 by the CMS collaboration and made public within the CMS Open Data initiative. In particular, we test an inclusive three-jet event selection which is primarily sensitive to non-standard parity violating effects in quark-gluon interactions. Within our measurements, no significant deviation from the Standard Model is seen and no obvious experimental limitations have been found. We discuss other ways that searches for non-standard parity violation could be performed, noting that these would be sensitive to very different sorts of models to those which our method would constrain. We hope that our initial studies provide a valuable starting point for rigorous future analyses using the full LHC datasets at 13 TeV with a careful and less conservative estimate of experimental uncertainties.",
@@ -468,6 +643,7 @@
             "Schott, Matthias"
         ],
         "date": "2019-04-26",
+        "document_type": "article",
         "doi": "10.1007/JHEP12(2019)120",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.WYJG.FYK9",
@@ -499,140 +675,9 @@
             "data analysis method",
             "interpretation of experiments"
         ],
+        "publication": "JHEP",
         "title": "Testing non-standard sources of parity violation in jets at the LHC, trialled with CMS Open Data",
         "url": "https://inspirehep.net/literature/1731226"
-    },
-    {
-        "abstract": "An essential part of new physics searches at the Large Hadron Collider (LHC) at CERN involves event classification, or distinguishing potential signal events from those coming from background processes. Current machine learning techniques accomplish this using traditional hand-engineered features like particle 4-momenta, motivated by our understanding of particle decay phenomenology. While such techniques have proven useful for simple decays, they are highly dependent on our ability to model all aspects of the phenomenology and detector response. Meanwhile, powerful deep learning algorithms are capable of not only training on high-level features, but of performing feature extraction. In computer vision, convolutional neural networks have become the state-of-the-art for many applications. Motivated by their success, we apply deep learning algorithms to low-level detector data from the 2012 CMS Simulated Open Data to directly learn useful features, in what we call, end-to-end event classification. We demonstrate the power of this approach in the context of a physics search and offer solutions to some of the inherent challenges, such as image construction, image sparsity, combining multiple sub-detectors, and de-correlating the classifier from the search observable, among others.",
-        "authors": [
-            "Andrews, Michael",
-            "Paulini, Manfred",
-            "Gleyzer, Sergei",
-            "Poczos, Barnabas"
-        ],
-        "date": "2019-10-28",
-        "doi": "10.1051/epjconf/201921406031",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.WQ7P.BZP3(2017)",
-            "10.7483/OPENDATA.CMS.WV7J.8GN0(2017)",
-            "10.7483/OPENDATA.CMS.2W51.W8AT(2017)"
-        ],
-        "keywords": [
-            "talk: Sofia 2018/07/09",
-            "p p: scattering",
-            "p p: colliding beams",
-            "CERN LHC Coll",
-            "CMS",
-            "neural network",
-            "statistical analysis",
-            "new physics: search for",
-            "background",
-            "CERN Lab",
-            "computer",
-            "programming",
-            "data analysis method",
-            "numerical calculations: Monte Carlo"
-        ],
-        "title": "Exploring End-to-end Deep Learning Applications for Event Classification at CMS",
-        "url": "https://inspirehep.net/literature/1761292"
-    },
-    {
-        "abstract": "In this paper we present newly launched services for open data and for long-term preservation and reuse of high-energy-physics data analyses based on the digital library software Invenio. We track the \u201ddata continuum\u201d practices through several progressive data analysis phases up to the final publication. The aim is to capture for subsequent generations all digital assets and associated knowledge inherent in the data analysis process, and to make a subset available rapidly to the public. The ultimate goal of the analysis preservation platform is to capture enough information about the processing steps in order to facilitate reproduction of an analysis even many years after its initial publication, permitting to extend the impact of preserved analyses through future revalidation and recasting services. A related \u201dopen data\u201d service was launched for the benefit of the general public.",
-        "authors": [
-            "Cowton, J.",
-            "Dallmeier-Tiessen, S.",
-            "Fokianos, P.",
-            "Rueda, L.",
-            "Herterich, P.",
-            "Kun\u010dar, J.",
-            "\u0160imko, T.",
-            "Smith, T."
-        ],
-        "date": "2016-01-07",
-        "doi": "10.1088/1742-6596/664/3/032030",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.UDBF.JKR9"
-        ],
-        "keywords": [
-            "CERN LHC Coll",
-            "programming",
-            "data management",
-            "data preservation"
-        ],
-        "title": "Open Data and Data Analysis Preservation Services for LHC Experiments",
-        "url": "https://inspirehep.net/literature/1413827"
-    },
-    {
-        "abstract": "From particle identification to the discovery of the Higgs boson, deep learning algorithms have become an increasingly important tool for data analysis at the Large Hadron Collider (LHC). We present an innovative end-to-end deep learning approach for jet identification at the Compact Muon Solenoid (CMS) experiment at the LHC. The method combines deep neural networks with low-level detector information, such as calorimeter energy deposits and tracking information, to build a discriminator to identify different particle species. Using two physics examples as references: electron vs. photon discrimination and quark vs. gluon discrimination, we demonstrate the performance of the end-to-end approach on simulated events with full detector geometry as available in the CMS Open Data. We also offer insights into the importance of the information extracted from various sub-detectors and describe how end-to-end techniques can be extended to event-level classification using information from the whole CMS detector.",
-        "authors": [
-            "Alison, John",
-            "An, Sitong",
-            "Bryant, Patrick",
-            "Burkle, Bjorn",
-            "Gleyzer, Sergei",
-            "Narain, Meenakshi",
-            "Paulini, Manfred",
-            "Poczos, Barnabas",
-            "Usai, Emanuele"
-        ],
-        "date": "2019-10-17",
-        "doi": "",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.CHC3.5KPG",
-            "10.7483/OPENDATA.CMS.GZU3.FZ51"
-        ],
-        "keywords": [
-            "talk: Boston 2019/07/29",
-            "p p: scattering",
-            "p p: colliding beams",
-            "detector: geometry",
-            "CMS",
-            "CERN LHC Coll",
-            "track data analysis: jet",
-            "neural network",
-            "Higgs particle",
-            "calorimeter",
-            "performance",
-            "electron",
-            "photon",
-            "quark",
-            "gluon",
-            "statistical analysis",
-            "data analysis method",
-            "numerical calculations: Monte Carlo"
-        ],
-        "title": "End-to-end particle and event identification at the Large Hadron Collider with CMS Open Data",
-        "url": "https://inspirehep.net/literature/1759341"
-    },
-    {
-        "abstract": "The application of deep learning techniques using convolutional neural networks for the classification of particle collisions in High Energy Physics is explored. An intuitive approach to transform physical variables, like momenta of particles and jets, into a single image that captures the relevant information, is proposed. The idea is tested using a well-known deep learning framework on a simulation dataset, including leptonic ttbar events and the corresponding background at 7 TeV from the CMS experiment at LHC, available as Open Data. This initial test shows competitive results when compared to more classical approaches, like those using feedforward neural networks.",
-        "authors": [
-            "Madrazo, Celia Fern\u00e1ndez",
-            "Cacha, Ignacio Heredia",
-            "Iglesias, Lara Lloret",
-            "de Lucas, Jes\u00fas Marco"
-        ],
-        "date": "2017-08-25",
-        "doi": "10.1051/epjconf/201921406017",
-        "dois_referenced": [],
-        "keywords": [
-            "Deep Learning",
-            "Machine Learning",
-            "Convolutional Neural Networks",
-            "Particle Physics",
-            "OpenData",
-            "LHC",
-            "CMS",
-            "top: pair production",
-            "neural network",
-            "CMS",
-            "information theory",
-            "data analysis method",
-            "numerical calculations",
-            "numerical methods"
-        ],
-        "title": "Application of a Convolutional Neural Network for image classification for the analysis of collisions in High Energy Physics",
-        "url": "https://inspirehep.net/literature/1618344"
     },
     {
         "abstract": "The standard model (SM) of particle physics represents a theoretical paradigm for the description of the fundamental forces of nature. Despite its broad applicability, the SM does not enable the description of all physically possible events. The detection of events that cannot be described by the SM, which are typically referred to as anomalous, and the related potential discovery of exotic physical phenomena is a non-trivial task. The challenge becomes even greater with next-generation colliders that will produce even more events with additional levels of complexity. The additional data complexity motivates the search for unsupervised anomaly detection methods that do not require prior knowledge about the underlying models. In this work, we develop such a technique. More explicitly, we employ a quantum generative adversarial network to identify anomalous events. The method learns the background distribution from SM data and, then, determines whether a given event is characteristic for the learned background distribution. The proposed quantum-powered anomaly detection strategy is tested on proof-of-principle examples using numerical simulations and IBM Quantum processors. We find that the quantum generative techniques using ten times fewer training data samples can yield comparable accuracy to the classical counterpart for the detection of the Graviton and Higgs particles. Additionally, we empirically compute the capacity of the quantum model and observe an improved expressivity compared to its classical counterpart.",
@@ -646,6 +691,7 @@
             "Tavernelli, Ivano"
         ],
         "date": "2023-05-01",
+        "document_type": "article",
         "doi": "10.1109/QCE57702.2023.00045",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.3R3P.5JYR",
@@ -661,6 +707,7 @@
             "numerical calculations",
             "Higgs particle"
         ],
+        "publication": "",
         "title": "Quantum Generative Adversarial Networks For Anomaly Detection In High Energy Physics",
         "url": "https://inspirehep.net/literature/2655301"
     },
@@ -672,6 +719,7 @@
             "Ore, Ayodele"
         ],
         "date": "2023-12-07",
+        "document_type": "article",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.UP77.P6PQ",
@@ -704,6 +752,7 @@
             "data analysis method",
             "neural network"
         ],
+        "publication": "",
         "title": "Quark-versus-gluon tagging in CMS Open Data with CWoLa and TopicFlow",
         "url": "https://inspirehep.net/literature/2731403"
     },
@@ -714,13 +763,45 @@
             "Dallmeier-Tiessen, S\u00fcnje"
         ],
         "date": "2016-01-16",
+        "document_type": "article",
         "doi": "10.1045/january2016-herterich",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.UDBF.JKR9"
         ],
         "keywords": [],
+        "publication": "D-Lib Magazine",
         "title": "Data Citation Services in the High-Energy Physics Community",
         "url": "https://inspirehep.net/literature/1415495"
+    },
+    {
+        "abstract": "The intermittency-type fluctuations as outlined by Bialas and Peschanski in the 1980s is analysed in $pp$ collisions at $\\sqrt{s}=$ 0.9, 7 and 8 TeV from the CMS collaboration at CERN. Our preliminary analysis shows that the intermittency exponents in the bin-averaged scaled factorial moments decrease in magnitude with increasing collision energy at the TeV scale, which suggests that the cascading nature of multiparticle production described by the $\\alpha$-model is weakening. We outline possible areas planned for future studies.",
+        "authors": [
+            "Ong, Zongjin",
+            "Agarwal, Pulkit",
+            "Ang, H.W.",
+            "Chan, A.H.",
+            "Oh, C.H."
+        ],
+        "date": "2021-10-26",
+        "document_type": "conference paper",
+        "doi": "10.21468/SciPostPhysProc.10.032",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.1R58.OMBD",
+            "10.7483/OPENDATA.CMS.6B3H.TR6Z",
+            "10.7483/OPENDATA.CMS.HU6U.DRLD"
+        ],
+        "keywords": [
+            "p p: scattering",
+            "scale: TeV",
+            "CMS",
+            "intermittency",
+            "slope",
+            "fluctuation",
+            "data analysis method"
+        ],
+        "publication": "SciPost Phys.Proc.",
+        "title": "Intermittency in pp collisions at $\\sqrt{s}=$ 0.9, 7 and 8 TeV from the CMS collaboration",
+        "url": "https://inspirehep.net/literature/1951171"
     },
     {
         "abstract": "We explore the metric space of jets using public collider data from the CMS experiment. Starting from 2.3\u2009\u2009fb-1 of proton-proton collisions at s=7\u2009\u2009TeV collected at the Large Hadron Collider in 2011, we isolate a sample of 1,690,984 central jets with transverse momentum above 375\u00a0GeV. To validate the performance of the CMS detector in reconstructing the energy flow of jets, we compare the CMS Open Data to corresponding simulated data samples for a variety of jet kinematic and substructure observables. Even without detector unfolding, we find very good agreement for track-based observables after using charged hadron subtraction to mitigate the impact of pileup. We perform a range of novel analyses, using the \u201cenergy mover\u2019s distance\u201d (EMD) to measure the pairwise difference between jet energy flows. The EMD allows us to quantify the impact of detector effects, visualize the metric space of jets, extract correlation dimensions, and identify the most and least typical jet configurations. To facilitate future jet studies with CMS Open Data, we make our datasets and analysis code available, amounting to around two gigabytes of distilled data and one hundred gigabytes of simulation files.",
@@ -732,6 +813,7 @@
             "Thaler, Jesse"
         ],
         "date": "2019-08-26",
+        "document_type": "article",
         "doi": "10.1103/PhysRevD.101.034009",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.3S7F.2E9W",
@@ -766,6 +848,7 @@
             "jet: transverse momentum",
             "pile-up"
         ],
+        "publication": "Phys.Rev.D",
         "title": "Exploring the Space of Jets with CMS Open Data",
         "url": "https://inspirehep.net/literature/1750786"
     },
@@ -777,6 +860,7 @@
             "Moult, Ian"
         ],
         "date": "2022-05-10",
+        "document_type": "article",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.7347.JDWH",
@@ -798,36 +882,9 @@
             "conformal",
             "CMS"
         ],
+        "publication": "",
         "title": "Conformal Colliders Meet the LHC",
         "url": "https://inspirehep.net/literature/2078551"
-    },
-    {
-        "abstract": "The intermittency-type fluctuations as outlined by Bialas and Peschanski in the 1980s is analysed in $pp$ collisions at $\\sqrt{s}=$ 0.9, 7 and 8 TeV from the CMS collaboration at CERN. Our preliminary analysis shows that the intermittency exponents in the bin-averaged scaled factorial moments decrease in magnitude with increasing collision energy at the TeV scale, which suggests that the cascading nature of multiparticle production described by the $\\alpha$-model is weakening. We outline possible areas planned for future studies.",
-        "authors": [
-            "Ong, Zongjin",
-            "Agarwal, Pulkit",
-            "Ang, H.W.",
-            "Chan, A.H.",
-            "Oh, C.H."
-        ],
-        "date": "2021-10-26",
-        "doi": "10.21468/SciPostPhysProc.10.032",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.1R58.OMBD",
-            "10.7483/OPENDATA.CMS.6B3H.TR6Z",
-            "10.7483/OPENDATA.CMS.HU6U.DRLD"
-        ],
-        "keywords": [
-            "p p: scattering",
-            "scale: TeV",
-            "CMS",
-            "intermittency",
-            "slope",
-            "fluctuation",
-            "data analysis method"
-        ],
-        "title": "Intermittency in pp collisions at $\\sqrt{s}=$ 0.9, 7 and 8 TeV from the CMS collaboration",
-        "url": "https://inspirehep.net/literature/1951171"
     },
     {
         "abstract": "We report on the status of efforts to improve the reinterpretation of searches and measurements at the LHC in terms of models for new physics, in the context of the LHC Reinterpretation Forum. We detail current experimental offerings in direct searches for new particles, measurements, technical implementations and Open Data, and provide a set of recommendations for further improving the presentation of LHC results in order to better enable reinterpretation in the future. We also provide a brief description of existing software reinterpretation frameworks and recent global analyses of new physics that make use of the current data.",
@@ -976,6 +1033,7 @@
             "Zurita, Jos\u00e9"
         ],
         "date": "2020-03-19",
+        "document_type": "article",
         "doi": "10.21468/SciPostPhys.9.2.022",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.7347.JDWH"
@@ -989,70 +1047,9 @@
             "new physics",
             "new particle"
         ],
+        "publication": "SciPost Phys.",
         "title": "Reinterpretation of LHC Results for New Physics: Status and Recommendations after Run 2",
         "url": "https://inspirehep.net/literature/1785921"
-    },
-    {
-        "abstract": "The CERN laboratory has released a new open data policy for the LHC experiments. Although this policy focuses on the common strategy for the release of research-quality data, it strengthens all aspects of open data, and reaffirms the commitment of all the LHC experiments towards open science. In this presentation we give a summary on the status of the open data efforts from each of the large LHC experiments as well as their plans and strategies under the new policy.",
-        "authors": [
-            "Carrera Jarr\u00edn, Edgar Fernando"
-        ],
-        "date": "2021-11-19",
-        "doi": "10.22323/1.397.0334",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.1BNU.8V1W"
-        ],
-        "keywords": [
-            "talk: Paris 2021/06/07",
-            "data management",
-            "data compilation",
-            "programming",
-            "CERN LHC Coll",
-            "CERN Lab",
-            "ALICE",
-            "ATLAS",
-            "CMS",
-            "LHC-B"
-        ],
-        "title": "LHC experiments and their Open Data",
-        "url": "https://inspirehep.net/literature/1971399"
-    },
-    {
-        "abstract": "We study quark and gluon jets separately using public collider data from the CMS experiment. Our analysis is based on <math display=\"inline\"><mn>2.3</mn><mrow><mtext>\u2009</mtext><mtext>\u2009</mtext><msup><mi>fb</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></math> of proton-proton collisions at <math display=\"inline\"><msqrt><mi>s</mi></msqrt><mo>=</mo><mn>7</mn><mtext>\u2009</mtext><mtext>\u2009</mtext><mi>TeV</mi></math>, collected at the Large Hadron Collider in 2011. We define two nonoverlapping samples via a pseudorapidity cut\u2014central jets with <math display=\"inline\"><mo stretchy=\"false\">|</mo><mi>\u03b7</mi><mo stretchy=\"false\">|</mo><mo>\u2264</mo><mn>0.65</mn></math> and forward jets with <math display=\"inline\"><mo stretchy=\"false\">|</mo><mi>\u03b7</mi><mo stretchy=\"false\">|</mo><mo>&gt;</mo><mn>0.65</mn></math>\u2014and employ jet topic modeling to extract individual distributions for the maximally separable categories. Under certain assumptions, such as sample independence and mutual irreducibility, these categories correspond to \u201cquark\u201d and \u201cgluon\u201d jets, as given by a recently proposed operational definition. We consider a number of different methods for extracting reducibility factors from the central and forward datasets, from which the fractions of quark jets in each sample can be determined. The greatest stability and robustness to statistical uncertainties is achieved by a novel method based on parametrizing the end points of a receiver operating characteristic curve. To mitigate detector effects, which would otherwise induce unphysical differences between central and forward jets, we use the omnifold method to perform central value unfolding. As a demonstration of the power of this method, we extract the intrinsic dimensionality of the quark and gluon jet samples, which exhibit Casimir scaling, as expected from the strongly ordered limit. To our knowledge, this work is the first application of full phase space unfolding to real collider data (albeit without a full systematics analysis), and the first application of topic modeling using a machine-learned classifier to extract separate quark and gluon distributions at the LHC.",
-        "authors": [
-            "Komiske, Patrick T.",
-            "Kryhin, Serhii",
-            "Thaler, Jesse"
-        ],
-        "date": "2022-05-10",
-        "doi": "10.1103/PhysRevD.106.094021",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.UP77.P6PQ",
-            "10.7483/OPENDATA.CMS.WKRR.DCJP",
-            "10.7483/OPENDATA.CMS.X3XQ.USQR",
-            "10.7483/OPENDATA.CMS.BKTD.SGJX",
-            "10.7483/OPENDATA.CMS.EJT7.KSAY",
-            "10.7483/OPENDATA.CMS.S3D5.KF2C",
-            "10.7483/OPENDATA.CMS.96U2.3YAH",
-            "10.7483/OPENDATA.CMS.RC9V.B5KX",
-            "10.7483/OPENDATA.CMS.CX2X.J3KW"
-        ],
-        "keywords": [
-            "gluon: jet",
-            "quark: jet",
-            "scaling: Casimir",
-            "p p: scattering",
-            "category",
-            "CMS",
-            "CERN LHC Coll",
-            "stability",
-            "rapidity",
-            "statistical",
-            "phase space",
-            "TeV"
-        ],
-        "title": "Disentangling quarks and gluons in CMS open data",
-        "url": "https://inspirehep.net/literature/2078772"
     },
     {
         "abstract": "The CMS collaboration has made some of their data public, making it possible for external users to perform physics analysis using real data. In this work, we report the measurement of jet properties such as fragmentation function, and the average multiplicity distribution of leptons and charged hadrons within the jets, all of them produced in pp collisions at = 7 TeV. We show that by implementing high energy cuts, the uncorrected experimental data approaches the behavior of corrected data, facilitating the use of open-data for simple analysis. The analysis is restricted in pseudorapidity and energy of the jets to: \u2223\u03b7\n$^{Jet}$\u2223 < 2.1 and E\n$^{Jet}$ > 120 GeV respectively. For the study we used the anti \u2212 K$_{T}$ algorithm applied to four samples of 2011 CMS open-data, to explore the possible differences obtained by using different trigger conditions, and the results are compared with predictions from the Pythia 8 event generator.",
@@ -1062,6 +1059,7 @@
             "Le\u00f3n Vargas, Hermes"
         ],
         "date": "2023-02-19",
+        "document_type": "article",
         "doi": "10.1088/1402-4896/acba51",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.5JYA.HKSG",
@@ -1093,6 +1091,7 @@
             "numerical calculations",
             "Monte Carlo"
         ],
+        "publication": "Phys.Scripta",
         "title": "Jet fragmentation properties with CMS open-data",
         "url": "https://inspirehep.net/literature/2633969"
     },
@@ -1107,6 +1106,7 @@
             "Gonzalez Suarez, Rebeca"
         ],
         "date": "2024-04-08",
+        "document_type": "article",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.29BN",
@@ -1125,8 +1125,36 @@
             "meson",
             "phase space"
         ],
+        "publication": "",
         "title": "Sparks in the Dark",
         "url": "https://inspirehep.net/literature/2774596"
+    },
+    {
+        "abstract": "The CERN laboratory has released a new open data policy for the LHC experiments. Although this policy focuses on the common strategy for the release of research-quality data, it strengthens all aspects of open data, and reaffirms the commitment of all the LHC experiments towards open science. In this presentation we give a summary on the status of the open data efforts from each of the large LHC experiments as well as their plans and strategies under the new policy.",
+        "authors": [
+            "Carrera Jarr\u00edn, Edgar Fernando"
+        ],
+        "date": "2021-11-19",
+        "document_type": "conference paper",
+        "doi": "10.22323/1.397.0334",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.1BNU.8V1W"
+        ],
+        "keywords": [
+            "talk: Paris 2021/06/07",
+            "data management",
+            "data compilation",
+            "programming",
+            "CERN LHC Coll",
+            "CERN Lab",
+            "ALICE",
+            "ATLAS",
+            "CMS",
+            "LHC-B"
+        ],
+        "publication": "PoS",
+        "title": "LHC experiments and their Open Data",
+        "url": "https://inspirehep.net/literature/1971399"
     },
     {
         "abstract": "We study dimuon events in 2.11\u2009\u2009fb-1 of 7\u00a0TeV pp collisions, using CMS Open Data, and search for a narrow dimuon resonance with moderate mass (14\u201366\u00a0GeV) and substantial transverse momentum (pT). Applying dimuon pT cuts of 25 and 60\u00a0GeV, we explore two overlapping samples: one with isolated muons, and one with prompt muons without an isolation requirement. Using the latter sample requires information about detector effects and QCD backgrounds, which we obtain directly from the CMS Open Data. We present model-independent limits on the product of cross section, branching fraction, acceptance, and efficiencies. These limits are stronger, relative to a corresponding inclusive search without a pT cut, by factors of as much as 9. Our \u201cpT-enhanced\u201d dimuon search strategy provides improved sensitivity to models in which a new particle is produced mainly in the decay of something heavier, as could occur, for example, in decays of the Higgs boson or of a TeV-scale top partner. An implementation of this method with the current 13\u00a0TeV data should improve the sensitivity to such signals further by roughly an order of magnitude.",
@@ -1138,6 +1166,7 @@
             "Xue, Wei"
         ],
         "date": "2019-02-13",
+        "document_type": "article",
         "doi": "10.1103/PhysRevD.100.015021",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.7347.JDWH",
@@ -1164,8 +1193,48 @@
             "acceptance",
             "detector: efficiency"
         ],
+        "publication": "Phys.Rev.D",
         "title": "Searching in CMS Open Data for Dimuon Resonances with Substantial Transverse Momentum",
         "url": "https://inspirehep.net/literature/1719954"
+    },
+    {
+        "abstract": "We study quark and gluon jets separately using public collider data from the CMS experiment. Our analysis is based on <math display=\"inline\"><mn>2.3</mn><mrow><mtext>\u2009</mtext><mtext>\u2009</mtext><msup><mi>fb</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></math> of proton-proton collisions at <math display=\"inline\"><msqrt><mi>s</mi></msqrt><mo>=</mo><mn>7</mn><mtext>\u2009</mtext><mtext>\u2009</mtext><mi>TeV</mi></math>, collected at the Large Hadron Collider in 2011. We define two nonoverlapping samples via a pseudorapidity cut\u2014central jets with <math display=\"inline\"><mo stretchy=\"false\">|</mo><mi>\u03b7</mi><mo stretchy=\"false\">|</mo><mo>\u2264</mo><mn>0.65</mn></math> and forward jets with <math display=\"inline\"><mo stretchy=\"false\">|</mo><mi>\u03b7</mi><mo stretchy=\"false\">|</mo><mo>&gt;</mo><mn>0.65</mn></math>\u2014and employ jet topic modeling to extract individual distributions for the maximally separable categories. Under certain assumptions, such as sample independence and mutual irreducibility, these categories correspond to \u201cquark\u201d and \u201cgluon\u201d jets, as given by a recently proposed operational definition. We consider a number of different methods for extracting reducibility factors from the central and forward datasets, from which the fractions of quark jets in each sample can be determined. The greatest stability and robustness to statistical uncertainties is achieved by a novel method based on parametrizing the end points of a receiver operating characteristic curve. To mitigate detector effects, which would otherwise induce unphysical differences between central and forward jets, we use the omnifold method to perform central value unfolding. As a demonstration of the power of this method, we extract the intrinsic dimensionality of the quark and gluon jet samples, which exhibit Casimir scaling, as expected from the strongly ordered limit. To our knowledge, this work is the first application of full phase space unfolding to real collider data (albeit without a full systematics analysis), and the first application of topic modeling using a machine-learned classifier to extract separate quark and gluon distributions at the LHC.",
+        "authors": [
+            "Komiske, Patrick T.",
+            "Kryhin, Serhii",
+            "Thaler, Jesse"
+        ],
+        "date": "2022-05-10",
+        "document_type": "article",
+        "doi": "10.1103/PhysRevD.106.094021",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.UP77.P6PQ",
+            "10.7483/OPENDATA.CMS.WKRR.DCJP",
+            "10.7483/OPENDATA.CMS.X3XQ.USQR",
+            "10.7483/OPENDATA.CMS.BKTD.SGJX",
+            "10.7483/OPENDATA.CMS.EJT7.KSAY",
+            "10.7483/OPENDATA.CMS.S3D5.KF2C",
+            "10.7483/OPENDATA.CMS.96U2.3YAH",
+            "10.7483/OPENDATA.CMS.RC9V.B5KX",
+            "10.7483/OPENDATA.CMS.CX2X.J3KW"
+        ],
+        "keywords": [
+            "gluon: jet",
+            "quark: jet",
+            "scaling: Casimir",
+            "p p: scattering",
+            "category",
+            "CMS",
+            "CERN LHC Coll",
+            "stability",
+            "rapidity",
+            "statistical",
+            "phase space",
+            "TeV"
+        ],
+        "publication": "Phys.Rev.D",
+        "title": "Disentangling quarks and gluons in CMS open data",
+        "url": "https://inspirehep.net/literature/2078772"
     },
     {
         "abstract": "We develop an algorithm based on an interaction network to identify high-transverse-momentum Higgs bosons decaying to bottom quark-antiquark pairs and distinguish them from ordinary jets that reflect the configurations of quarks and gluons at short distances. The algorithm\u2019s inputs are features of the reconstructed charged particles in a jet and the secondary vertices associated with them. Describing the jet shower as a combination of particle-to-particle and particle-to-vertex interactions, the model is trained to learn a jet representation on which the classification problem is optimized. The algorithm is trained on simulated samples of realistic LHC collisions, released by the CMS Collaboration on the CERN Open Data Portal. The interaction network achieves a drastic improvement in the identification performance with respect to state-of-the-art algorithms.",
@@ -1181,6 +1250,7 @@
             "Pierini, Maurizio"
         ],
         "date": "2019-09-27",
+        "document_type": "article",
         "doi": "10.1103/PhysRevD.102.012010",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.JGJX.MS7Q"
@@ -1206,6 +1276,7 @@
             "statistical analysis",
             "data analysis method"
         ],
+        "publication": "Phys.Rev.D",
         "title": "Interaction networks for the identification of boosted $H \\rightarrow b\\overline{b}$ decays",
         "url": "https://inspirehep.net/literature/1756269"
     },
@@ -1215,6 +1286,7 @@
             "Layer, Lukas"
         ],
         "date": "2023-07-31",
+        "document_type": "thesis",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.8N95.GCTN",
@@ -1252,39 +1324,9 @@
             "data analysis method",
             "experimental results"
         ],
+        "publication": "",
         "title": "Inference Aware Neural Optimization for Top Pair Cross-Section Measurements with CMS Open Data",
         "url": "https://inspirehep.net/literature/2683469"
-    },
-    {
-        "abstract": "Fiducial production cross-section measurements of Standard Model processes, in principle, provide constraints on new physics scenarios via a comparison of the predicted Standard Model cross-section and the observed cross-section. This approach received significant attention in recent years, both from direct constraints on specific models and the interpretation of measurements in the view of effective field theories. A generic problem in the reinterpretation of Standard Model measurements is the corrections application of to data to account for detector effects. These corrections inherently assume the Standard Model to be valid, thus implying a model bias of the final result. In this work, we study the size of this bias by studying several new physics models and fiducial phase\u2013space regions. The studies are based on fast detector simulations of a generic multi-purpose detector at the Large Hadron Collider. We conclude that the model bias in the associated reinterpretations is negligible only in specific cases, however, typically on the same level as systematic uncertainties of the available measurements.",
-        "authors": [
-            "Facini, Gabriel",
-            "Merkotan, Kyrylo",
-            "Schott, Matthias",
-            "Sydorenko, Alexander"
-        ],
-        "date": "2019-06-05",
-        "doi": "10.1142/S0217732320500650",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.QGC3.PTZ9",
-            "10.7483/OPENDATA.CMS.FZCE.MBDW",
-            "10.7483/OPENDATA.CMS.F78O.K8QJ"
-        ],
-        "keywords": [
-            "Reinterpretation",
-            "standard model cross-section measurements",
-            "new physics",
-            "effective field theory",
-            "CERN LHC Coll",
-            "phase space",
-            "signature",
-            "standard model: validity test",
-            "channel cross section",
-            "numerical calculations: Monte Carlo",
-            "interpretation of experiments"
-        ],
-        "title": "On the model dependence of fiducial cross-section measurements",
-        "url": "https://inspirehep.net/literature/1738304"
     },
     {
         "abstract": "We introduce the feasibility of running hybrid analysis pipelines in the REANA reproducible analysis platform. The REANA platform allows researchers to specify declarative computational workflow steps describing the analysis process and to execute analysis workload on remote containerised compute clouds. We have designed an abstract job controller component permitting to execute different parts of the analysis workflow on different compute backends, such as HTCondor, Kubernetes and SLURM. We have prototyped the designed solution including the job execution, job monitoring, and input/output file staging mechanism between the various compute backends. We have tested the prototype using several particle physics model analyses. The present work introduces support for hybrid analysis workflows in the REANA reproducible analysis platform and paves the way towards studying underlying performance advantages and challenges associated with hybrid analysis patterns in complex particle physics data analyses.",
@@ -1295,35 +1337,15 @@
             "\u0160imko, Tibor"
         ],
         "date": "2020-11-23",
+        "document_type": "conference paper",
         "doi": "10.1051/epjconf/202024506041",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.JKB8.RR42"
         ],
         "keywords": [],
+        "publication": "EPJ Web Conf.",
         "title": "Hybrid analysis pipelines in the REANA reproducible analysis platform",
         "url": "https://inspirehep.net/literature/1832231"
-    },
-    {
-        "abstract": "The management of separate memory spaces of CPUs and GPUs brings an additional burden to the development of software for GPUs. To help with this, CUDA unified memory provides a single address space that can be accessed from both CPU and GPU. The automatic data transfer mechanism is based on page faults generated by the memory accesses. This mechanism has a performance cost, that can be with explicit memory prefetch requests. Various hints on the inteded usage of the memory regions can also be given to further improve the performance. The overall effect of unified memory compared to an explicit memory management can depend heavily on the application. In this paper we evaluate the performance impact of CUDA unified memory using the heterogeneous pixel reconstruction code from the CMS experiment as a realistic use case of a GPU-targeting HEP reconstruction software. We also compare the programming model using CUDA unified memory to the explicit management of separate CPU and GPU memory spaces.",
-        "authors": [
-            "Kortelainen, Matti J.",
-            "Kwok, Martin"
-        ],
-        "date": "2021-04-16",
-        "doi": "10.1051/epjconf/202125103035",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.GOB0.0LEW"
-        ],
-        "keywords": [
-            "performance",
-            "programming",
-            "track data analysis",
-            "CMS",
-            "data management",
-            "multiprocessor: graphics"
-        ],
-        "title": "Performance of CUDA Unified Memory in CMS Heterogeneous Pixel Reconstruction",
-        "url": "https://inspirehep.net/literature/1858527"
     },
     {
         "abstract": "$J/\\psi $ particle, the ground state of charmonium, is one of the significant probes to understand formation of quark\u2013gluon plasma, a state of deconfined quarks and gluons created in relativistic collisions. $J/\\psi $ is identified by reconstructing the decay products from relevant decay modes with the application of sophisticated techniques mainly based on a high level of physics knowledge and complex computation skills requiring long process time for data quality assurance. For the measurement, a high-purity sample is needed which can be obtained by traditional cut-based methods to extract well-defined particle signal distribution, resulting in high systematic uncertainties. It is revealed that application of artificial intelligence-based machine learning models in various fields enhanced the speed, accuracy, and efficiency of human efforts. Therefore, in this study random forest classifier (RFC), one of the successful classification algorithms, was implemented in measurement of $J/\\psi $ production from its dielectron decay channel. With the RFC model, identification of $J/\\psi $ was studied in three different signal selection approaches: loose track-level analysis, loose pair-level analysis, and tight track-level analysis. The RFC analyses for the charmonium production were found to be compatible with the experimental measurements, and tight signal selection has 98.3% success for predicting the state with 92.9% sensitivity and 93.3% precision. The invariant mass spectrum of $J/\\psi $ was also presented for each approach.",
@@ -1331,6 +1353,7 @@
             "Kuzu, Serpil Yalcin"
         ],
         "date": "2022-03-28",
+        "document_type": "article",
         "doi": "10.1140/epjp/s13360-022-02615-9",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.97YF.C4AH",
@@ -1351,6 +1374,7 @@
             "numerical calculations",
             "quality"
         ],
+        "publication": "Eur.Phys.J.Plus",
         "title": "$J/\\psi $ production with machine learning at the LHC",
         "url": "https://inspirehep.net/literature/2058742"
     },
@@ -1372,6 +1396,7 @@
             "Rusack, Roger"
         ],
         "date": "2021-08-06",
+        "document_type": "article",
         "doi": "10.1038/s41597-021-01109-0",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.4P88.F4RS",
@@ -1392,6 +1417,7 @@
             "artificial intelligence",
             "data analysis method"
         ],
+        "publication": "",
         "title": "A FAIR and AI-ready Higgs boson decay dataset",
         "url": "https://inspirehep.net/literature/1899903"
     },
@@ -1404,6 +1430,7 @@
             "Srimanobhas, N."
         ],
         "date": "2018-12-28",
+        "document_type": "conference paper",
         "doi": "10.1088/1742-6596/1144/1/012031",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.SW96.PFX3"
@@ -1420,34 +1447,9 @@
             "statistical analysis",
             "programming"
         ],
+        "publication": "J.Phys.Conf.Ser.",
         "title": "Machine Learning system mimicking student\u2019s choice in Particle Data Analysis laboratory activity",
         "url": "https://inspirehep.net/literature/1711445"
-    },
-    {
-        "abstract": "Programming for a diverse set of compute accelerators in addition to the CPU is a challenge. Maintaining separate source code for each architecture would require lots of effort, and development of new algorithms would be daunting if it had to be repeated many times. Fortunately there are several portability technologies on the market such as Alpaka, Kokkos, and SYCL. These technologies aim to improve the developer\u2019s productivity by making it possible to use the same source code for many different architectures. In this paper we use heterogeneous pixel reconstruction code from the CMS experiment at the CERNL LHC as a realistic use case of a GPU-targeting HEP reconstruction software, and report experience from prototyping a portable version of it using Kokkos. The development was done in a standalone program that attempts to model many of the complexities of a HEP data processing framework such as CMSSW. We also compare the achieved event processing throughput to the original CUDA code and a CPU version of it.",
-        "authors": [
-            "Kortelainen, Matti J.",
-            "Kwok, Martin",
-            "Childers, Taylor",
-            "Strelchenko, Alexei",
-            "Wang, Yunsong"
-        ],
-        "date": "2021-04-15",
-        "doi": "10.1051/epjconf/202125103034",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.GOB0.0LEW"
-        ],
-        "keywords": [
-            "programming",
-            "semiconductor detector: pixel",
-            "CMS",
-            "multiprocessor: graphics",
-            "microprocessor",
-            "data management",
-            "performance"
-        ],
-        "title": "Porting CMS Heterogeneous Pixel Reconstruction to Kokkos",
-        "url": "https://inspirehep.net/literature/1858274"
     },
     {
         "abstract": "The declarative approach to data analysis provides high-level abstractions for users to operate on their datasets in a much more ergonomic fashion compared to imperative interfaces. ROOT offers such a tool with RDataFrame, which has been tested in production environments and used in real-world analyses with optimal results. Its programming model acts by creating a computation graph with the operations issued by the user and executing it lazily only when the final results are queried. It has always been oriented towards parallelisation, with native support for multi-thread execution on a single machine. Recently, RDataFrame has been extended with a Python layer that is capable of steering and executing the RDataFrame computation graph over a set of distributed resources. In addition, such a layer requires minimal code changes for an RDataFrame application to run distributedly. The new tool effectively allows running a C++ event loop based on RDataFrame while leveraging common industry tools like Dask to schedule the usage of resources. This work presents results and insights gathered through the distributed RDataFrame tool running a physics analysis connecting multiple nodes with a Dask scheduler that requests resources from a Slurm cluster.",
@@ -1458,6 +1460,7 @@
             "Guiraud, E."
         ],
         "date": "2023-02-17",
+        "document_type": "conference paper",
         "doi": "10.1088/1742-6596/2438/1/012097",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.AAR1.4NZQ"
@@ -1469,8 +1472,82 @@
             "data management",
             "performance"
         ],
+        "publication": "J.Phys.Conf.Ser.",
         "title": "Leveraging HPC resources with distributed RDataFrame",
         "url": "https://inspirehep.net/literature/2633620"
+    },
+    {
+        "abstract": "Today's world of scientific software for High Energy Physics (HEP) is powered by x86 code, while the future will be much more reliant on accelerators like GPUs and FPGAs. The portable parallelization strategies (PPS) project of the High Energy Physics Center for Computational Excellence (HEP/CCE) is investigating solutions for portability techniques that will allow the coding of an algorithm once, and the ability to execute it on a variety of hardware products from many vendors, especially including accelerators. We think without these solutions, the scientific success of our experiments and endeavors is in danger, as software development could be expert driven and costly to be able to run on available hardware infrastructure. We think the best solution for the community would be an extension to the C++ standard with a very low entry bar for users, supporting all hardware forms and vendors. We are very far from that ideal though. We argue that in the future, as a community, we need to request and work on portability solutions and strive to reach this ideal.",
+        "authors": [
+            "Bhattacharya, Meghna",
+            "Calafiura, Paolo",
+            "Childers, Taylor",
+            "Dewing, Mark",
+            "Dong, Zhihua",
+            "Gutsche, Oliver",
+            "Habib, Salman",
+            "Ju, Xiangyang",
+            "Kirby, Michael",
+            "Knoepfel, Kyle",
+            "Kortelainen, Matti",
+            "Kwok, Martin",
+            "Leggett, Charles",
+            "Lin, Meifeng",
+            "Pascuzzi, Vincent R.",
+            "Strelchenko, Alexei",
+            "Viren, Brett",
+            "Yeo, Beomki",
+            "Yu, Haiwang"
+        ],
+        "date": "2022-03-21",
+        "document_type": "conference paper",
+        "doi": "",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.GOB0.0LEW"
+        ],
+        "keywords": [
+            "activity report",
+            "hardware",
+            "programming",
+            "multiprocessor: graphics",
+            "FPGA"
+        ],
+        "publication": "",
+        "title": "Portability: A Necessary Approach for Future Scientific Software",
+        "url": "https://inspirehep.net/literature/2054702"
+    },
+    {
+        "abstract": "Fiducial production cross-section measurements of Standard Model processes, in principle, provide constraints on new physics scenarios via a comparison of the predicted Standard Model cross-section and the observed cross-section. This approach received significant attention in recent years, both from direct constraints on specific models and the interpretation of measurements in the view of effective field theories. A generic problem in the reinterpretation of Standard Model measurements is the corrections application of to data to account for detector effects. These corrections inherently assume the Standard Model to be valid, thus implying a model bias of the final result. In this work, we study the size of this bias by studying several new physics models and fiducial phase\u2013space regions. The studies are based on fast detector simulations of a generic multi-purpose detector at the Large Hadron Collider. We conclude that the model bias in the associated reinterpretations is negligible only in specific cases, however, typically on the same level as systematic uncertainties of the available measurements.",
+        "authors": [
+            "Facini, Gabriel",
+            "Merkotan, Kyrylo",
+            "Schott, Matthias",
+            "Sydorenko, Alexander"
+        ],
+        "date": "2019-06-05",
+        "document_type": "article",
+        "doi": "10.1142/S0217732320500650",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.QGC3.PTZ9",
+            "10.7483/OPENDATA.CMS.FZCE.MBDW",
+            "10.7483/OPENDATA.CMS.F78O.K8QJ"
+        ],
+        "keywords": [
+            "Reinterpretation",
+            "standard model cross-section measurements",
+            "new physics",
+            "effective field theory",
+            "CERN LHC Coll",
+            "phase space",
+            "signature",
+            "standard model: validity test",
+            "channel cross section",
+            "numerical calculations: Monte Carlo",
+            "interpretation of experiments"
+        ],
+        "publication": "Mod.Phys.Lett.A",
+        "title": "On the model dependence of fiducial cross-section measurements",
+        "url": "https://inspirehep.net/literature/1738304"
     },
     {
         "abstract": "For the last several decades, there has been tremendous interest in search for Supersymmetry (SUSY) in the area of high energy physics. At Large Hadron Collider (LHC), there have been continuous searches for SUSY for prompt and non-prompt, for particle R-parity conserving and R-parity violating generation and decays. The limits obtained from these experiments and analyses for detection of the signatures of supersymmetric particles (LSP), revealed greater possibilities of such experiments in the collider. However, these signatures are usually derived under the assumption of bit optimistic conditions of the decaying process of sparticles to the final states. Moreover, SUSY might have been in a disguised state at lower mass-scales as a result of difficult and challenging mass spectra and mixed modes of decays. In this investigation, a novel method of 3-dimensional (3D) Visibility-Graph Analysis is proposed. This is an extension of Visibility Graph analysis of data series to perform the scaling analysis for 3D space. The experimental data spaces analyzed are made up of the component-space (in the X,Y and Z coordinates) of transverse momentum (pT) values taken out from 4-momenta of the signatures of the final state of the pair of mega-jets extracted from the multiJet primary pp collision data from Run B of 2010 at 7 TeV which was used for the search of SUSY using razor filter. The symmetry scaling and the inherent scaling behavior, scale-freeness of multi-particle production process is studied in terms of 3D Power-of-Scale-freeness-of-Visibility-Graph (3D-PSVG) extracted from the 3D Visibility Graphs constructed out of the experimental data spaces. The signature of SUSY may be identified by analyzing the scaling behavior and long-range correlation inherent in the 3D space made up of signatures of final state of multi-particles produced in the pp collision at 7 TeV, for the analysis of SUSY, which the conventional method of analyzing the spectrum of invariant mass or pT may miss.",
@@ -1479,6 +1556,7 @@
             "Bhaduri, Anirban"
         ],
         "date": "2020-09-17",
+        "document_type": "article",
         "doi": "10.3390/physics2030025",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.QAJC.TR8V",
@@ -1515,46 +1593,61 @@
             "data analysis method",
             "graph theory"
         ],
+        "publication": "MDPI Physics",
         "title": "Searching for Supersymmetry at LHC Using the Complex-Network-Based Method of the Three-Dimensional Visibility-Graph",
         "url": "https://inspirehep.net/literature/1817584"
     },
     {
-        "abstract": "Today's world of scientific software for High Energy Physics (HEP) is powered by x86 code, while the future will be much more reliant on accelerators like GPUs and FPGAs. The portable parallelization strategies (PPS) project of the High Energy Physics Center for Computational Excellence (HEP/CCE) is investigating solutions for portability techniques that will allow the coding of an algorithm once, and the ability to execute it on a variety of hardware products from many vendors, especially including accelerators. We think without these solutions, the scientific success of our experiments and endeavors is in danger, as software development could be expert driven and costly to be able to run on available hardware infrastructure. We think the best solution for the community would be an extension to the C++ standard with a very low entry bar for users, supporting all hardware forms and vendors. We are very far from that ideal though. We argue that in the future, as a community, we need to request and work on portability solutions and strive to reach this ideal.",
+        "abstract": "The management of separate memory spaces of CPUs and GPUs brings an additional burden to the development of software for GPUs. To help with this, CUDA unified memory provides a single address space that can be accessed from both CPU and GPU. The automatic data transfer mechanism is based on page faults generated by the memory accesses. This mechanism has a performance cost, that can be with explicit memory prefetch requests. Various hints on the inteded usage of the memory regions can also be given to further improve the performance. The overall effect of unified memory compared to an explicit memory management can depend heavily on the application. In this paper we evaluate the performance impact of CUDA unified memory using the heterogeneous pixel reconstruction code from the CMS experiment as a realistic use case of a GPU-targeting HEP reconstruction software. We also compare the programming model using CUDA unified memory to the explicit management of separate CPU and GPU memory spaces.",
         "authors": [
-            "Bhattacharya, Meghna",
-            "Calafiura, Paolo",
-            "Childers, Taylor",
-            "Dewing, Mark",
-            "Dong, Zhihua",
-            "Gutsche, Oliver",
-            "Habib, Salman",
-            "Ju, Xiangyang",
-            "Kirby, Michael",
-            "Knoepfel, Kyle",
-            "Kortelainen, Matti",
-            "Kwok, Martin",
-            "Leggett, Charles",
-            "Lin, Meifeng",
-            "Pascuzzi, Vincent R.",
-            "Strelchenko, Alexei",
-            "Viren, Brett",
-            "Yeo, Beomki",
-            "Yu, Haiwang"
+            "Kortelainen, Matti J.",
+            "Kwok, Martin"
         ],
-        "date": "2022-03-21",
-        "doi": "",
+        "date": "2021-04-16",
+        "document_type": "conference paper",
+        "doi": "10.1051/epjconf/202125103035",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.GOB0.0LEW"
         ],
         "keywords": [
-            "activity report",
-            "hardware",
+            "performance",
             "programming",
-            "multiprocessor: graphics",
-            "FPGA"
+            "track data analysis",
+            "CMS",
+            "data management",
+            "multiprocessor: graphics"
         ],
-        "title": "Portability: A Necessary Approach for Future Scientific Software",
-        "url": "https://inspirehep.net/literature/2054702"
+        "publication": "EPJ Web Conf.",
+        "title": "Performance of CUDA Unified Memory in CMS Heterogeneous Pixel Reconstruction",
+        "url": "https://inspirehep.net/literature/1858527"
+    },
+    {
+        "abstract": "Programming for a diverse set of compute accelerators in addition to the CPU is a challenge. Maintaining separate source code for each architecture would require lots of effort, and development of new algorithms would be daunting if it had to be repeated many times. Fortunately there are several portability technologies on the market such as Alpaka, Kokkos, and SYCL. These technologies aim to improve the developer\u2019s productivity by making it possible to use the same source code for many different architectures. In this paper we use heterogeneous pixel reconstruction code from the CMS experiment at the CERNL LHC as a realistic use case of a GPU-targeting HEP reconstruction software, and report experience from prototyping a portable version of it using Kokkos. The development was done in a standalone program that attempts to model many of the complexities of a HEP data processing framework such as CMSSW. We also compare the achieved event processing throughput to the original CUDA code and a CPU version of it.",
+        "authors": [
+            "Kortelainen, Matti J.",
+            "Kwok, Martin",
+            "Childers, Taylor",
+            "Strelchenko, Alexei",
+            "Wang, Yunsong"
+        ],
+        "date": "2021-04-15",
+        "document_type": "conference paper",
+        "doi": "10.1051/epjconf/202125103034",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.GOB0.0LEW"
+        ],
+        "keywords": [
+            "programming",
+            "semiconductor detector: pixel",
+            "CMS",
+            "multiprocessor: graphics",
+            "microprocessor",
+            "data management",
+            "performance"
+        ],
+        "publication": "EPJ Web Conf.",
+        "title": "Porting CMS Heterogeneous Pixel Reconstruction to Kokkos",
+        "url": "https://inspirehep.net/literature/1858274"
     },
     {
         "abstract": "Science communication and outreach aim to engage the general public by making current research accessible. High energy physics (HEP) experiments collect large volumes of data. Analysis of these data is one of their key aspects. It is therefore desirable to make the data analysis process accessible to the general public. In doing so, the data and methods of HEP experiments become transparent to the outside world. ATLAS and CMS, two HEP experiments at the Large Hadron Collider, have implemented policies under which data and tools are to be made available to the public. The guidelines, tools, and data made available by the two collaborations will be discussed in this document.",
@@ -1562,6 +1655,7 @@
             "Socher, Felix"
         ],
         "date": "2017-04-05",
+        "document_type": "conference paper",
         "doi": "10.22323/1.276.0112",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.QXY9.X47P"
@@ -1574,6 +1668,7 @@
             "CMS",
             "CERN LHC Coll"
         ],
+        "publication": "PoS",
         "title": "ATLAS and CMS Data Release & Tools",
         "url": "https://inspirehep.net/literature/1589652"
     },
@@ -1586,6 +1681,7 @@
             "Hussein, M.T."
         ],
         "date": "2021-09-24",
+        "document_type": "article",
         "doi": "10.1140/epjp/s13360-023-04088-w",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.WYJG.FYK9",
@@ -1616,8 +1712,85 @@
             "experimental results",
             "8000 GeV-cms"
         ],
+        "publication": "Eur.Phys.J.Plus",
         "title": "Search for the production of dark matter candidates in association with heavy dimuon resonance using the CMS open data for proton\u2013proton collisions at $\\sqrt{s}$ = 8\u00a0TeV",
         "url": "https://inspirehep.net/literature/1926375"
+    },
+    {
+        "abstract": "The need for processing the ever-increasing amount of data generated by the LHC experiments in a more efficient way has motivated ROOT to further develop its support for parallelism. Such support is being tackled both for shared-memory and distributed-memory environments. The incarnations of the aforementioned parallelism are multi-threading, multi-processing and cluster-wide executions. In the area of multi-threading, we discuss the new implicit parallelism and related interfaces, as well as the new building blocks to safely operate with ROOT objects in a multi-threaded environment. Regarding multi-processing, we review the new MultiProc framework, comparing it with similar tools (e.g. multiprocessing module in Python). Finally, as an alternative to PROOF for cluster-wide executions, we introduce the efforts on integrating ROOT with state-of-the-art distributed data processing technologies like Spark, both in terms of programming model and runtime design (with EOS as one of the main components). For all the levels of parallelism, we discuss, based on real-life examples and measurements, how our proposals can increase the productivity of scientists.",
+        "authors": [
+            "Piparo, D.",
+            "Tejedor, E.",
+            "Guiraud, E.",
+            "Ganis, G.",
+            "Mato, P.",
+            "Moneta, L.",
+            "Valls Pla, X.",
+            "Canal, P."
+        ],
+        "date": "2017-11-27",
+        "document_type": "conference paper",
+        "doi": "10.1088/1742-6596/898/7/072022",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.JCDC.9CUH"
+        ],
+        "keywords": [],
+        "publication": "J.Phys.Conf.Ser.",
+        "title": "Expressing Parallelism with ROOT",
+        "url": "https://inspirehep.net/literature/1638554"
+    },
+    {
+        "abstract": "The intermittency-type fluctuations in the pseudorapidity space of pp collisions at = 7 TeV done at the LHC is investigated, by analysing the scaling properties (exponents) of the factorial moments of the event multiplicity distributions in decreasing pseudorapidity bin size. It is found that the scaling behaviour persists in the = 7 TeV regime, indicating intermittent behaviour as observed previously in analyses done at lower energies [1,2]. Comparison is also made with the theoretical predictions of the Generalised Multiplicity Distribution (GMD) [3,4,6].",
+        "authors": [
+            "Ong, Z.",
+            "Yuen, E.",
+            "Ang, H.W.",
+            "Chan, A.H.",
+            "Oh, C.H."
+        ],
+        "date": "2019-04-24",
+        "document_type": "conference paper",
+        "doi": "10.1051/epjconf/201920609004",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.QSPG.CCQ4"
+        ],
+        "keywords": [],
+        "publication": "EPJ Web Conf.",
+        "title": "Intermittency in pseudorapidity space of pp collisions at = 7 TeV",
+        "url": "https://inspirehep.net/literature/1731008"
+    },
+    {
+        "abstract": "In this paper we present the latest CMS open data release published on the CERN Oopen Data portal. Samples of collision and simulated datasets were released together with detailed information about the data provenance. The associated data production chains cover the necessary computing environments, the configuration files and the computational procedures used in each data production step. We describe data curation techniques used to obtain and publish the data provenance information and we study the possibility of reproducing parts of the released data using the publicly available information. The present work demonstrates the usefulness of releasing selected samples of raw and primary data in order to fully ensure the completeness of information about the data production chain for the attention of general data scientists and other non-specialists interested in using particle physics data for education or research purposes.",
+        "authors": [
+            "\u0160imko, Tibor",
+            "de Bittencourt, Heitor Pascoal",
+            "Carrera, Edgar",
+            "Lopez, Diyaselis Delgado",
+            "Lange, Clemens",
+            "Lassila-Perini, Kati",
+            "Lintuluoto, Adelina",
+            "Lloret Iglesias, Lara",
+            "McCauley, Thomas",
+            "Okraska, Jan",
+            "Prelipcean, Daniel",
+            "Savaniakas, Mantas"
+        ],
+        "date": "2020-11-23",
+        "document_type": "conference paper",
+        "doi": "10.1051/epjconf/202024508014",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.7347.JDWH"
+        ],
+        "keywords": [
+            "activity report",
+            "CMS",
+            "publishing",
+            "CERN Lab",
+            "data compilation"
+        ],
+        "publication": "EPJ Web Conf.",
+        "title": "Open data provenance and reproducibility: a case study from publishing CMS open data",
+        "url": "https://inspirehep.net/literature/1832125"
     },
     {
         "abstract": "An extensive knowledge of the dynamics of the process of pp collision serves as input to exhaustive theoretical models of strong interaction. This knowledge is also a baseline for a system to decipher the dynamics of AA collisions at relativistic and ultrarelativistic energies. Recent availability of di-muon data has triggered a spate of interests in revisiting strong interaction process, the study of which in detail is extremely important for enhancement of our understanding of not only the theory of strong interaction but also possible physics scenarios beyond the standard model. Apart from conventional approaches to the study of the dynamics of particle production in high-energy collision the present authors proposed a new approach with successful application in context of symmetry scaling in AA collision data from (ALICE-Collaboration, 2014) in the work (Bhaduri, S. et al., 2019) and pp collision data at 8TeV from (CMS-collaboration, 2017) in the work (Bhaduri, S. et al., 2019) and also in other numerous works with different collision data. This different approach essentially analyses fluctuation pattern from the perspective of symmetry scaling or degree of self-similarity involved in the process. This was done with the help of multifractal scaling analysis and also multifractal cross-correlation analysis using the single variable of pseudorapidity values of di-muon data taken out from the primary dataset of RunA(2011) and RunB(2012) of the pp collision at 7\u2009TeV and 8\u2009TeV, respectively, from (CMS-collaboration, 2016, 2017). High degree of persistent long-range cross-correlations (MF-DXA) exist between pseudorapidity-value and its corresponding azimuthal-value for different rapidity ranges. The different values of scaling exponents (across rapidity ranges and energies) signify that there may be multiple processes other than those conjectured, involved in the underlying dynamics of the production process of oppositely charged di-muons resulting in different kinds of scaling. Otherwise, the scaling exponents at different degrees would have remained the same across the rapidity ranges and also for different energies.",
@@ -1627,6 +1800,7 @@
             "Ghosh, Dipak"
         ],
         "date": "2019-11-25",
+        "document_type": "article",
         "doi": "10.1155/2020/4510897",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.ZCFQ.Q557",
@@ -1661,78 +1835,9 @@
             "7000 GeV-cms",
             "8000 GeV-cms"
         ],
+        "publication": "Adv.High Energy Phys.",
         "title": "Study of Di-muon Production Process in $pp$ Collision in CMS Data from Symmetry Scaling Perspective",
         "url": "https://inspirehep.net/literature/1766613"
-    },
-    {
-        "abstract": "The need for processing the ever-increasing amount of data generated by the LHC experiments in a more efficient way has motivated ROOT to further develop its support for parallelism. Such support is being tackled both for shared-memory and distributed-memory environments. The incarnations of the aforementioned parallelism are multi-threading, multi-processing and cluster-wide executions. In the area of multi-threading, we discuss the new implicit parallelism and related interfaces, as well as the new building blocks to safely operate with ROOT objects in a multi-threaded environment. Regarding multi-processing, we review the new MultiProc framework, comparing it with similar tools (e.g. multiprocessing module in Python). Finally, as an alternative to PROOF for cluster-wide executions, we introduce the efforts on integrating ROOT with state-of-the-art distributed data processing technologies like Spark, both in terms of programming model and runtime design (with EOS as one of the main components). For all the levels of parallelism, we discuss, based on real-life examples and measurements, how our proposals can increase the productivity of scientists.",
-        "authors": [
-            "Piparo, D.",
-            "Tejedor, E.",
-            "Guiraud, E.",
-            "Ganis, G.",
-            "Mato, P.",
-            "Moneta, L.",
-            "Valls Pla, X.",
-            "Canal, P."
-        ],
-        "date": "2017-11-27",
-        "doi": "10.1088/1742-6596/898/7/072022",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.JCDC.9CUH"
-        ],
-        "keywords": [],
-        "title": "Expressing Parallelism with ROOT",
-        "url": "https://inspirehep.net/literature/1638554"
-    },
-    {
-        "abstract": "The intermittency-type fluctuations in the pseudorapidity space of pp collisions at = 7 TeV done at the LHC is investigated, by analysing the scaling properties (exponents) of the factorial moments of the event multiplicity distributions in decreasing pseudorapidity bin size. It is found that the scaling behaviour persists in the = 7 TeV regime, indicating intermittent behaviour as observed previously in analyses done at lower energies [1,2]. Comparison is also made with the theoretical predictions of the Generalised Multiplicity Distribution (GMD) [3,4,6].",
-        "authors": [
-            "Ong, Z.",
-            "Yuen, E.",
-            "Ang, H.W.",
-            "Chan, A.H.",
-            "Oh, C.H."
-        ],
-        "date": "2019-04-24",
-        "doi": "10.1051/epjconf/201920609004",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.QSPG.CCQ4"
-        ],
-        "keywords": [],
-        "title": "Intermittency in pseudorapidity space of pp collisions at = 7 TeV",
-        "url": "https://inspirehep.net/literature/1731008"
-    },
-    {
-        "abstract": "In this paper we present the latest CMS open data release published on the CERN Oopen Data portal. Samples of collision and simulated datasets were released together with detailed information about the data provenance. The associated data production chains cover the necessary computing environments, the configuration files and the computational procedures used in each data production step. We describe data curation techniques used to obtain and publish the data provenance information and we study the possibility of reproducing parts of the released data using the publicly available information. The present work demonstrates the usefulness of releasing selected samples of raw and primary data in order to fully ensure the completeness of information about the data production chain for the attention of general data scientists and other non-specialists interested in using particle physics data for education or research purposes.",
-        "authors": [
-            "\u0160imko, Tibor",
-            "de Bittencourt, Heitor Pascoal",
-            "Carrera, Edgar",
-            "Lopez, Diyaselis Delgado",
-            "Lange, Clemens",
-            "Lassila-Perini, Kati",
-            "Lintuluoto, Adelina",
-            "Lloret Iglesias, Lara",
-            "McCauley, Thomas",
-            "Okraska, Jan",
-            "Prelipcean, Daniel",
-            "Savaniakas, Mantas"
-        ],
-        "date": "2020-11-23",
-        "doi": "10.1051/epjconf/202024508014",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.7347.JDWH"
-        ],
-        "keywords": [
-            "activity report",
-            "CMS",
-            "publishing",
-            "CERN Lab",
-            "data compilation"
-        ],
-        "title": "Open data provenance and reproducibility: a case study from publishing CMS open data",
-        "url": "https://inspirehep.net/literature/1832125"
     },
     {
         "abstract": "In the realm of scientific computing, both Julia and Python have established themselves as powerful tools. Within the context of High Energy Physics (HEP) data analysis, Python has been traditionally favored, yet there exists a compelling case for migrating legacy software to Julia. This article focuses on language interoperability, specifically exploring how Awkward Array data structures can bridge the gap between Julia and Python. The talk offers insights into key considerations such as memory management, data buffer copies, and dependency handling. It delves into the performance enhancements achieved by invoking Julia from Python and vice versa, particularly for intensive array-oriented calculations involving large-scale, though not excessively dimensional, arrays of HEP data. The advantages and challenges inherent in achieving interoperability between Julia and Python in the domain of scientific computing are discussed.",
@@ -1742,11 +1847,13 @@
             "Ling, Jerry"
         ],
         "date": "2024-04-30",
+        "document_type": "conference paper",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.LVG5.QT81"
         ],
         "keywords": [],
+        "publication": "",
         "title": "Bridging Worlds: Achieving Language Interoperability between Julia and Python in Scientific Computing",
         "url": "https://inspirehep.net/literature/2781858"
     },
@@ -1758,6 +1865,7 @@
             "Ghosh, Dipak"
         ],
         "date": "2020-10-05",
+        "document_type": "article",
         "doi": "10.1140/epja/s10050-020-00248-z",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.FZ5U.TTXP",
@@ -1776,29 +1884,9 @@
             "fluctuation",
             "network"
         ],
+        "publication": "Eur.Phys.J.A",
         "title": "Probing resonance states in high-energy interaction: a novel approach using complex network technique based on symmetry scaling",
         "url": "https://inspirehep.net/literature/1821335"
-    },
-    {
-        "abstract": "Awkward Arrays and RDataFrame provide two very different ways of performing calculations at scale. By adding the ability to zero-copy convert between them, users get the best of both. It gives users a better flexibility in mixing different packages and languages in their analysis. In Awkward Array version 2, the ak.to_rdataframe function presents a view of an Awkward Array as an RDataFrame source. This view is generated on demand and the data are not copied. The column readers are generated based on the run-time type of the views. The readers are passed to a generated source derived from ROOT::RDF::RDataSource. The ak.from_rdataframe function converts the selected columns as native Awkward Arrays. The details of the implementation exploiting JIT techniques are discussed. The examples of analysis of data stored in Awkward Arrays via a high-level interface of an RDataFrame are presented. A few examples of the column definition, applying user-defined filters written in C++, and plotting or extracting the columnar data as Awkward Arrays are shown. Current limitations and future plans are discussed.",
-        "authors": [
-            "Osborne, Ianna",
-            "Pivarski, Jim"
-        ],
-        "date": "2023-02-21",
-        "doi": "",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.LVG5.QT81"
-        ],
-        "keywords": [
-            "mixing",
-            "interface",
-            "data management",
-            "data analysis method",
-            "programming"
-        ],
-        "title": "Awkward to RDataFrame and back",
-        "url": "https://inspirehep.net/literature/2634727"
     },
     {
         "abstract": "The past years have shown a revolution in the way scientific workloads are being executed thanks to the wide adoption of software containers. These containers run largely isolated from the host system, ensuring that the development and execution environments are the same everywhere. This enables full reproducibility of the workloads and therefore also the associated scientific analysis performed. However, as the research software used becomes increasingly complex, the software images grow easily to sizes of multiple gigabytes. Downloading the full image onto every single compute node on which the containers are executed becomes unpractical. In this paper, we describe a novel way of distributing software images on the Kubernetes platform, with which the container can start before the entire image contents become available locally (so-called ``lazy pulling''). Each file required for the execution is fetched individually and subsequently cached on-demand using the CernVM file system (CVMFS), enabling the execution of very large software images on potentially thousands of Kubernetes nodes with very little overhead. We present several performance benchmarks making use of typical high-energy physics analysis workloads.",
@@ -1808,6 +1896,7 @@
             "Blomer, Jakob"
         ],
         "date": "2021-06-14",
+        "document_type": "article",
         "doi": "10.3389/fdata.2021.673163",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.JKB8.RR42"
@@ -1820,6 +1909,7 @@
             "workloads",
             "high-energy physics"
         ],
+        "publication": "Front.Big Data",
         "title": "Increasing the Execution Speed of Containerized Analysis Workflows Using an Image Snapshotter in Combination With CVMFS",
         "url": "https://inspirehep.net/literature/1868245"
     },
@@ -1830,6 +1920,7 @@
             "Thaler, Jesse"
         ],
         "date": "2021-07-20",
+        "document_type": "article",
         "doi": "10.1103/PhysRevD.105.076015",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.96U2.3YAH",
@@ -1843,8 +1934,32 @@
             "numerical methods",
             "data analysis method"
         ],
+        "publication": "Phys.Rev.D",
         "title": "Neural conditional reweighting",
         "url": "https://inspirehep.net/literature/1887032"
+    },
+    {
+        "abstract": "Awkward Arrays and RDataFrame provide two very different ways of performing calculations at scale. By adding the ability to zero-copy convert between them, users get the best of both. It gives users a better flexibility in mixing different packages and languages in their analysis. In Awkward Array version 2, the ak.to_rdataframe function presents a view of an Awkward Array as an RDataFrame source. This view is generated on demand and the data are not copied. The column readers are generated based on the run-time type of the views. The readers are passed to a generated source derived from ROOT::RDF::RDataSource. The ak.from_rdataframe function converts the selected columns as native Awkward Arrays. The details of the implementation exploiting JIT techniques are discussed. The examples of analysis of data stored in Awkward Arrays via a high-level interface of an RDataFrame are presented. A few examples of the column definition, applying user-defined filters written in C++, and plotting or extracting the columnar data as Awkward Arrays are shown. Current limitations and future plans are discussed.",
+        "authors": [
+            "Osborne, Ianna",
+            "Pivarski, Jim"
+        ],
+        "date": "2023-02-21",
+        "document_type": "article",
+        "doi": "",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.LVG5.QT81"
+        ],
+        "keywords": [
+            "mixing",
+            "interface",
+            "data management",
+            "data analysis method",
+            "programming"
+        ],
+        "publication": "",
+        "title": "Awkward to RDataFrame and back",
+        "url": "https://inspirehep.net/literature/2634727"
     },
     {
         "abstract": "PUNCH4NFDI (Particles, Universe, NuClei and Hadrons for the NFDI) aims at developing concepts and tools for the efficient management of digital research products in fundamental physics research. At the heart of the research products are scientific data sets that should be made interoperable and available to a broad scientific community and the public for a sustainable usage (\u201copen data\u201d). The first PUNCH4NFDI \u201cOpen Data Workshop\u201d gave the opportunity for an initial survey of existing and planned open data initiatives within the PUNCH science field. The paper addresses the conceptual differences and commonalities of the participating communities presented in the workshop. Existing open data collections were presented and discussed. This is an inquiry into the community\u2019s requirements for a better use of open data and in this context also of \u201cOpen Science\u201d.",
@@ -1865,6 +1980,7 @@
             "Typel, Stefan"
         ],
         "date": "2022-03-11",
+        "document_type": "article",
         "doi": "10.1007/s41781-022-00081-7",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.7347.JDWH"
@@ -1879,6 +1995,7 @@
             "data management",
             "data compilation"
         ],
+        "publication": "Comput.Softw.Big Sci.",
         "title": "Survey of Open Data Concepts Within Fundamental Physics: An Initiative of the PUNCH4NFDI Consortium",
         "url": "https://inspirehep.net/literature/2049914"
     },
@@ -1890,6 +2007,7 @@
             "Gripaios, Ben"
         ],
         "date": "2020-08-13",
+        "document_type": "article",
         "doi": "10.1142/S0217751X22500932",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.VZSR.LYZX"
@@ -1910,6 +2028,7 @@
             "data analysis method",
             "new physics"
         ],
+        "publication": "Int.J.Mod.Phys.A",
         "title": "Lorentz and permutation invariants of particles III: Constraining nonstandard sources of parity violation",
         "url": "https://inspirehep.net/literature/1811414"
     },
@@ -1922,6 +2041,7 @@
             "Malcles, Julie"
         ],
         "date": "2022-12-08",
+        "document_type": "article",
         "doi": "10.1140/epjc/s10052-023-11347-8",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.2W51.W8AT"
@@ -1941,8 +2061,40 @@
             "data analysis method",
             "programming"
         ],
+        "publication": "Eur.Phys.J.C",
         "title": "Data driven background estimation in HEP using generative adversarial networks",
         "url": "https://inspirehep.net/literature/2611508"
+    },
+    {
+        "abstract": "Storing and sharing increasingly large datasets is a challenge across scientific research and industry. In this paper, we document the development and applications of Baler - a Machine Learning based data compression tool for use across scientific disciplines and industry. Here, we present Baler's performance for the compression of High Energy Physics (HEP) data, as well as its application to Computational Fluid Dynamics (CFD) toy data as a proof-of-principle. We also present suggestions for cross-disciplinary guidelines to enable feasibility studies for machine learning based compression for scientific data.",
+        "authors": [
+            "Bengtsson, Fritjof",
+            "Doglioni, Caterina",
+            "Ekman, Per Alexander",
+            "Gall\u00e9n, Axel",
+            "Jawahar, Pratik",
+            "Orucevic-Alagic, Alma",
+            "Santasmasas, Marta Camps",
+            "Skidmore, Nicola",
+            "Woolland, Oliver"
+        ],
+        "date": "2023-05-04",
+        "document_type": "article",
+        "doi": "",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.KL8H.HFVH"
+        ],
+        "keywords": [
+            "machine learning",
+            "performance",
+            "data management",
+            "programming",
+            "hydrodynamics",
+            "numerical calculations"
+        ],
+        "publication": "",
+        "title": "Baler -- Machine Learning Based Compression of Scientific Data",
+        "url": "https://inspirehep.net/literature/2656205"
     },
     {
         "abstract": "This thesis describes the search for two rare Higgs processes. The first analysis describes the CMS Run 2 search for $H \\to \\mu \\mu$ decays, with 137.3 $\\fb^{-1}$ of data at $\\sqrt{s}$~=~13~TeV. The analysis targeted four different Higgs production modes: the gluon fusion (ggH), the vector boson fusion (VBF), the Higgs-strahlung process (VH), and the production in association with a pair of top quarks (ttH). Each category used a dedicated machine learning based classifier to separate the signal from the background processes. A combined fit from all these categories saw a slight excess in the data corresponding to 3.0 standard deviations at $M_{H}$ = 125.38 GeV, and gave the first evidence for the Higgs boson decay to second-generation fermions. The best-fit signal strength and the corresponding 68$\\%$ CL interval was found to be ${\\hat{\\mu} = 1.19~^{+0.41}_{-0.39}(stat)^{+0.17}_{-0.16}(syst)}$ at $M_{H}$ = 125.38 GeV. The second analysis describes the CMS Run 2 search for $HH \\to b\\b\u00a0 ar{b}b\\bar{b}$ with highly boosted Higgs bosons. This analysis used a dedicated jet identification algorithm based on graph neural networks (ParticleNet) to identify boosted H$\\rightarrow$ bb jets. This search targeted the gluon fusion and the vector boson fusion HH production modes, and put constraints on the allowed values of the various Higgs couplings as: $\\kappa_{\\lambda} \\in [-9.9, 16.9]$ when $\\kappa_v$ = 1, $\\kappa_{2v}$= 1; $\\kappa_v \\in [-1.17, -0.79] \\cup [0.81, 1.18]$ when \\kappa_{\\lambda} = 1, \\kappa_{2v} = 1; $\\kappa_{2v} \\in [0.62, 1.41]$ when $\\kappa_{\\lambda}$ = 1, $\\kappa_v$ = 1. A scenario with $\\kappa_{2v}$ = 0 was excluded with a significance of 6.3 standard deviations for the first time, when other H couplings are fixed to their SM values. The combined observed (expected) 95$\\%$ upper limit on the HH production cross section was found to be 9.9~(5.1)~$\\times$~SM. Finally, this thesis also discusses the planned MIP Timing Detector (MTD) upgrade for CMS at the HL\u00a0 -LHC. The MTD will be a time-of-flight (TOF) detector, designed to provide a precision timing information for charged particles using SiPMs + LYSO scintillating crystals, with a time resolution of $\\sim$30 ps. This thesis describes several R$\\&$D tests that have been performed for characterizing the sensor properties (time resolution, light yield, etc.) and optimizing the sensor design geometry. This thesis also contains a description of mock test setups for cooling the sensors, since it is known to be an effective way of mitigating the increased dark current rates in the sensors due to radiation damage.",
@@ -1950,6 +2102,7 @@
             "Dutta, Irene"
         ],
         "date": "2022-11-29",
+        "document_type": "thesis",
         "doi": "10.7907/tmt4-nq20",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.42GY.2VJI",
@@ -2007,37 +2160,9 @@
             "experimental results",
             "13000 GeV-cms"
         ],
+        "publication": "",
         "title": "Rare Higgs Processes at CMS and Precision Timing Detector Studies for HL-LHC CMS Upgrade",
         "url": "https://inspirehep.net/literature/2605075"
-    },
-    {
-        "abstract": "Storing and sharing increasingly large datasets is a challenge across scientific research and industry. In this paper, we document the development and applications of Baler - a Machine Learning based data compression tool for use across scientific disciplines and industry. Here, we present Baler's performance for the compression of High Energy Physics (HEP) data, as well as its application to Computational Fluid Dynamics (CFD) toy data as a proof-of-principle. We also present suggestions for cross-disciplinary guidelines to enable feasibility studies for machine learning based compression for scientific data.",
-        "authors": [
-            "Bengtsson, Fritjof",
-            "Doglioni, Caterina",
-            "Ekman, Per Alexander",
-            "Gall\u00e9n, Axel",
-            "Jawahar, Pratik",
-            "Orucevic-Alagic, Alma",
-            "Santasmasas, Marta Camps",
-            "Skidmore, Nicola",
-            "Woolland, Oliver"
-        ],
-        "date": "2023-05-04",
-        "doi": "",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.KL8H.HFVH"
-        ],
-        "keywords": [
-            "machine learning",
-            "performance",
-            "data management",
-            "programming",
-            "hydrodynamics",
-            "numerical calculations"
-        ],
-        "title": "Baler -- Machine Learning Based Compression of Scientific Data",
-        "url": "https://inspirehep.net/literature/2656205"
     },
     {
         "abstract": "In the domain of high-energy physics (HEP), query languages in general and SQL in particular have found limited acceptance. This is surprising since HEP data analysis matches the SQL model well: the data is fully structured and queried using mostly standard operators. To gain insights on why this is the case, we perform a comprehensive analysis of six diverse, general-purpose data processing platforms using an HEP benchmark. The result of the evaluation is an interesting and rather complex picture of existing solutions: Their query languages vary greatly in how natural and concise HEP query patterns can be expressed. Furthermore, most of them are also between one and two orders of magnitude slower than the domain-specific system used by particle physicists today. These observations suggest that, while database systems and their query languages are in principle viable tools for HEP, significant work remains to make them relevant to HEP researchers.",
@@ -2050,6 +2175,7 @@
             "Alonso, Gustavo"
         ],
         "date": "2021-04-27",
+        "document_type": "article",
         "doi": "10.14778/3489496.3489498",
         "dois_referenced": [],
         "keywords": [
@@ -2062,6 +2188,7 @@
             "data compilation",
             "efficiency"
         ],
+        "publication": "",
         "title": "Evaluating Query Languages and Systems for High-Energy Physics Data [Extended Version]",
         "url": "https://inspirehep.net/literature/1860769"
     },
@@ -2071,6 +2198,7 @@
             "Burr, Christopher"
         ],
         "date": "2021-04-11",
+        "document_type": "thesis",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.7347.JDWH"
@@ -2108,6 +2236,7 @@
             "D+ --> K+ electron positron",
             "D+ --> K+ muon+ muon-"
         ],
+        "publication": "",
         "title": "Searching for rare charm decays, performing alignment studies and improving the analysis ecosystem in HEP",
         "url": "https://inspirehep.net/literature/1857521"
     },
@@ -2117,6 +2246,7 @@
             "Mandrik, Petr"
         ],
         "date": "2022-05-13",
+        "document_type": "article",
         "doi": "10.1016/j.nuclphysb.2023.116141",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.4UC1.XE6W",
@@ -2150,6 +2280,7 @@
             "experimental results",
             "13000 GeV-cms"
         ],
+        "publication": "Nucl.Phys.B",
         "title": "Prospects for Higgs boson and new scalar resonant production searches in ttbb final state at the LHC",
         "url": "https://inspirehep.net/literature/2080560"
     },
@@ -2176,6 +2307,7 @@
             "Vassilev, Vassil"
         ],
         "date": "2023-06-07",
+        "document_type": "article",
         "doi": "10.1007/s41781-023-00104-x",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.AAR1.4NZQ"
@@ -2192,28 +2324,9 @@
             "interface",
             "performance"
         ],
+        "publication": "Comput.Softw.Big Sci.",
         "title": "Potential of the Julia Programming Language for High Energy Physics Computing",
         "url": "https://inspirehep.net/literature/2666479"
-    },
-    {
-        "abstract": "Machine learning offers an exciting opportunity to improve the calibration of nearly all reconstructed objects in high-energy physics detectors. However, machine learning approaches often depend on the spectra of examples used during training, an issue known as prior dependence. This is an undesirable property of a calibration, which needs to be applicable in a variety of environments. The purpose of this paper is to explicitly highlight the prior dependence of some machine-learning-based calibration strategies. We demonstrate how some recent proposals for both simulation-based and data-based calibrations inherit properties of the sample used for training, which can result in biases for downstream analyses. In the case of simulation-based calibration, we argue that our recently proposed Gaussian Ansatz approach can avoid some of the pitfalls of prior dependence, whereas prior-independent data-based calibration remains an open problem.",
-        "authors": [
-            "Gambhir, Rikab",
-            "Nachman, Benjamin",
-            "Thaler, Jesse"
-        ],
-        "date": "2022-05-12",
-        "doi": "10.1103/PhysRevD.106.036011",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.96U2.3YAH",
-            "10.7483/OPENDATA.CMS.RC9V.B5KX",
-            "10.7483/OPENDATA.CMS.CX2X.J3KW"
-        ],
-        "keywords": [
-            "calibration"
-        ],
-        "title": "Bias and priors in machine learning calibrations for high energy physics",
-        "url": "https://inspirehep.net/literature/2079976"
     },
     {
         "abstract": "The CMS Open Data project offers new opportunities to measure cross sections of standard model (SM) processes which have not been probed so far. We evaluate the challenges and the opportunities of the CMS Open Data project in the view of cross section measurements. In particular, we reevaluate the SM cross sections of the production of W bosons, Z bosons, top-quark pairs and WZ dibosons in several decay channels at a center of mass energy of 8 TeV with an integrated luminosity of 1.8 fb\u22121. These cross sections were previously measured by the ATLAS and CMS Collaborations and are used to validate our analysis and calibration strategy. The results indicate the achievable level of precision for future measurements using the CMS Open Data performed by scientists who are not members of the LHC Collaborations and hence lack detailed knowledge of experimental and detector related effects and their handling.",
@@ -2226,6 +2339,7 @@
             "Sintayehu, Bereket"
         ],
         "date": "2019-07-22",
+        "document_type": "article",
         "doi": "10.1088/1748-0221/15/01/P01009",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.C00V.SE32"
@@ -2246,6 +2360,7 @@
             "experimental results",
             "8000 GeV-cms"
         ],
+        "publication": "JINST",
         "title": "Opportunities and challenges of Standard Model production cross section measurements in proton-proton collisions at $\\sqrt {s}$ =8 TeV using CMS Open Data",
         "url": "https://inspirehep.net/literature/1744596"
     },
@@ -2255,6 +2370,7 @@
             "Larkoski, Andrew J."
         ],
         "date": "2022-05-26",
+        "document_type": "article",
         "doi": "10.21468/SciPostPhys.14.3.041",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.1BNU.8V1W",
@@ -2277,8 +2393,31 @@
             "numerical calculations",
             "new physics"
         ],
+        "publication": "SciPost Phys.",
         "title": "Designing observables for quantum interference in jets at subleading color",
         "url": "https://inspirehep.net/literature/2087537"
+    },
+    {
+        "abstract": "Machine learning offers an exciting opportunity to improve the calibration of nearly all reconstructed objects in high-energy physics detectors. However, machine learning approaches often depend on the spectra of examples used during training, an issue known as prior dependence. This is an undesirable property of a calibration, which needs to be applicable in a variety of environments. The purpose of this paper is to explicitly highlight the prior dependence of some machine-learning-based calibration strategies. We demonstrate how some recent proposals for both simulation-based and data-based calibrations inherit properties of the sample used for training, which can result in biases for downstream analyses. In the case of simulation-based calibration, we argue that our recently proposed Gaussian Ansatz approach can avoid some of the pitfalls of prior dependence, whereas prior-independent data-based calibration remains an open problem.",
+        "authors": [
+            "Gambhir, Rikab",
+            "Nachman, Benjamin",
+            "Thaler, Jesse"
+        ],
+        "date": "2022-05-12",
+        "document_type": "article",
+        "doi": "10.1103/PhysRevD.106.036011",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.96U2.3YAH",
+            "10.7483/OPENDATA.CMS.RC9V.B5KX",
+            "10.7483/OPENDATA.CMS.CX2X.J3KW"
+        ],
+        "keywords": [
+            "calibration"
+        ],
+        "publication": "Phys.Rev.D",
+        "title": "Bias and priors in machine learning calibrations for high energy physics",
+        "url": "https://inspirehep.net/literature/2079976"
     },
     {
         "abstract": "CERN (Centre Europeen pour la Recherce Nucleaire) is the largest research centre for high energy physics (HEP). It offers unique computational challenges as a result of the large amount of data generated by the large hadron collider. CERN has developed and supports a software called ROOT, which is the de facto standard for HEP data analysis. This framework offers a high-level and easy-to-use interface called RDataFrame, which allows managing and processing large data sets. In recent years, its functionality has been extended to take advantage of distributed computing capabilities. Thanks to its declarative programming model, the user-facing API can be decoupled from the actual execution backend. This decoupling allows physical analysis to scale automatically to thousands of computational cores over various types of distributed resources. In fact, the distributed RDataFrame module already supports the use of established general industry engines such as Apache Spark or Dask. Notwithstanding the foregoing, these current solutions will not be sufficient to meet future requirements in terms of the amount of data that the new projected accelerators will generate. It is of interest, for this reason, to investigate a different approach, the one offered by serverless computing. Based on a first prototype using AWS Lambda, this work presents the creation of a new backend for RDataFrame distributed over the OSCAR tool, an open source framework that supports serverless computing. The implementation introduces new ways, relative to the AWS Lambda-based prototype, to synchronize the work of functions.",
@@ -2291,6 +2430,7 @@
             "Molt\u00f3, Germ\u00e1n"
         ],
         "date": "2023-10-30",
+        "document_type": "article",
         "doi": "10.1007/s11227-022-05016-y",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.AAR1.4NZQ"
@@ -2302,6 +2442,7 @@
             "Serverless computing",
             "AWS Lambda"
         ],
+        "publication": "J.Supercomput.",
         "title": "Leveraging an open source serverless framework for high energy physics computing",
         "url": "https://inspirehep.net/literature/2715185"
     },
@@ -2315,6 +2456,7 @@
             "Alonso-Jord\u00e1, Pedro"
         ],
         "date": "2023-02-13",
+        "document_type": "article",
         "doi": "10.1007/s10723-023-09645-2",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.AAR1.4NZQ"
@@ -2334,6 +2476,7 @@
             "data management",
             "data compilation"
         ],
+        "publication": "J.Grid Comput.",
         "title": "Leveraging State-of-the-Art Engines for Large-Scale Data Analysis in High Energy Physics",
         "url": "https://inspirehep.net/literature/2631361"
     },
@@ -2347,6 +2490,7 @@
             "Pierini, M."
         ],
         "date": "2021-06-12",
+        "document_type": "article",
         "doi": "10.1007/s41781-021-00060-4",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.HBBW.LTT4"
@@ -2366,6 +2510,7 @@
             "numerical methods",
             "performance"
         ],
+        "publication": "Comput.Softw.Big Sci.",
         "title": "Analysis-Specific Fast Simulation at the LHC with Deep Learning",
         "url": "https://inspirehep.net/literature/1868092"
     },
@@ -2384,6 +2529,7 @@
             "Tavernelli, Ivano"
         ],
         "date": "2023-01-27",
+        "document_type": "article",
         "doi": "10.1088/2632-2153/ad07f7",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.3R3P.5JYR",
@@ -2403,6 +2549,7 @@
             "data analysis method",
             "programming"
         ],
+        "publication": "Mach.Learn.Sci.Tech.",
         "title": "Unravelling physics beyond the standard model with classical and quantum anomaly detection",
         "url": "https://inspirehep.net/literature/2626691"
     },
@@ -2412,6 +2559,7 @@
             "Padulano, Vincenzo Eduardo"
         ],
         "date": "2023-05-08",
+        "document_type": "thesis",
         "doi": "10.4995/Thesis/10251/193104",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.AAR1.4NZQ",
@@ -2441,51 +2589,9 @@
             "multiprocessor",
             "performance"
         ],
+        "publication": "",
         "title": "Distributed Computing Solutions for High Energy Physics Interactive Data Analysis",
         "url": "https://inspirehep.net/literature/2657528"
-    },
-    {
-        "abstract": "We describe the construction of novel end-to-end jet image classifiers to discriminate quark- versus gluon-initiated jets using the simulated CMS Open Data. These multi-detector images correspond to true maps of the low-level energy deposits in the detector, giving the classifiers direct access to the maximum recorded event information about the jet, differing fundamentally from conventional jet images constructed from reconstructed particle-level information. Using this approach, we achieve classification performance competitive with current state-of-the-art jet classifiers that are dominated by particle-based algorithms. We find the performance to be driven by the availability of precise spatial information, highlighting the importance of high-fidelity detector images. We then illustrate how end-to-end jet classification techniques can be incorporated into event classification workflows using Quantum Chromodynamics di-quark versus di-gluon events. We conclude with the end-to-end event classification of full detector images, which we find to be robust against the effects of underlying event and pileup outside the jet regions-of-interest.",
-        "authors": [
-            "Andrews, M.",
-            "Alison, J.",
-            "An, S.",
-            "Bryant, Patrick",
-            "Burkle, B.",
-            "Gleyzer, S.",
-            "Narain, M.",
-            "Paulini, M.",
-            "Poczos, B.",
-            "Usai, E."
-        ],
-        "date": "2019-02-25",
-        "doi": "10.1016/j.nima.2020.164304",
-        "dois_referenced": [
-            "10.7483/OPENDATA.CMS.2W51.W8AT"
-        ],
-        "keywords": [
-            "Machine learning",
-            "Jet images",
-            "End-to-end",
-            "CMS Open Data",
-            "Convolutional neural network",
-            "LHC",
-            "p p: scattering",
-            "p p: colliding beams",
-            "quark: jet",
-            "gluon: jet",
-            "CMS",
-            "CERN LHC Coll",
-            "quantum chromodynamics",
-            "underlying event",
-            "performance",
-            "pile-up",
-            "data analysis method",
-            "numerical calculations: Monte Carlo",
-            "programming"
-        ],
-        "title": "End-to-end jet classification of quarks and gluons with the CMS Open Data",
-        "url": "https://inspirehep.net/literature/1721350"
     },
     {
         "abstract": "Precise measurements of the energy of jets emerging from particle collisions at the LHC are essential for a vast majority of physics searches at the CMS experiment. In this study, we leverage well-established deep learning models for point clouds and CMS open data to improve the energy calibration of particle jets. To enable production-ready machine learning based jet energy calibration an end-to-end pipeline is built on the Kubeflow cloud platform. The pipeline allowed us to scale up our hyperparameter tuning experiments on cloud resources, and serve optimal models as REST endpoints. We present the results of the parameter tuning process and analyze the performance of the served models in terms of inference time and overhead, providing insights for future work in this direction. The study also demonstrates improvements in both flavor dependence and resolution of the energy response when compared to the standard jet energy corrections baseline.",
@@ -2495,6 +2601,7 @@
             "Kirschenmann, Henning"
         ],
         "date": "2023-08-25",
+        "document_type": "article",
         "doi": "10.1007/s41781-023-00103-y",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.RY2V.T797"
@@ -2522,8 +2629,54 @@
             "statistical analysis",
             "data analysis method"
         ],
+        "publication": "Comput.Softw.Big Sci.",
         "title": "Jet Energy Calibration with Deep Learning as a Kubeflow Pipeline",
         "url": "https://inspirehep.net/literature/2690614"
+    },
+    {
+        "abstract": "We describe the construction of novel end-to-end jet image classifiers to discriminate quark- versus gluon-initiated jets using the simulated CMS Open Data. These multi-detector images correspond to true maps of the low-level energy deposits in the detector, giving the classifiers direct access to the maximum recorded event information about the jet, differing fundamentally from conventional jet images constructed from reconstructed particle-level information. Using this approach, we achieve classification performance competitive with current state-of-the-art jet classifiers that are dominated by particle-based algorithms. We find the performance to be driven by the availability of precise spatial information, highlighting the importance of high-fidelity detector images. We then illustrate how end-to-end jet classification techniques can be incorporated into event classification workflows using Quantum Chromodynamics di-quark versus di-gluon events. We conclude with the end-to-end event classification of full detector images, which we find to be robust against the effects of underlying event and pileup outside the jet regions-of-interest.",
+        "authors": [
+            "Andrews, M.",
+            "Alison, J.",
+            "An, S.",
+            "Bryant, Patrick",
+            "Burkle, B.",
+            "Gleyzer, S.",
+            "Narain, M.",
+            "Paulini, M.",
+            "Poczos, B.",
+            "Usai, E."
+        ],
+        "date": "2019-02-25",
+        "document_type": "article",
+        "doi": "10.1016/j.nima.2020.164304",
+        "dois_referenced": [
+            "10.7483/OPENDATA.CMS.2W51.W8AT"
+        ],
+        "keywords": [
+            "Machine learning",
+            "Jet images",
+            "End-to-end",
+            "CMS Open Data",
+            "Convolutional neural network",
+            "LHC",
+            "p p: scattering",
+            "p p: colliding beams",
+            "quark: jet",
+            "gluon: jet",
+            "CMS",
+            "CERN LHC Coll",
+            "quantum chromodynamics",
+            "underlying event",
+            "performance",
+            "pile-up",
+            "data analysis method",
+            "numerical calculations: Monte Carlo",
+            "programming"
+        ],
+        "publication": "Nucl.Instrum.Meth.A",
+        "title": "End-to-end jet classification of quarks and gluons with the CMS Open Data",
+        "url": "https://inspirehep.net/literature/1721350"
     },
     {
         "abstract": "Jets of hadrons produced at high-energy colliders provide experimental access to the dynamics of asymptotically free quarks and gluons and their confinement into hadrons. In this Letter, we show that the high energies of the Large Hadron Collider (LHC), together with the exceptional resolution of its detectors, allow multipoint correlation functions of energy flow operators to be directly measured within jets for the first time. Using Open Data from the CMS experiment, we show that reformulating jet substructure in terms of these correlators provides new ways of probing the dynamics of QCD jets, which enables direct imaging of the confining transition to free hadrons as well as precision measurements of the scaling properties and interactions of quarks and gluons. This opens a new era in our understanding of jet substructure and illustrates the immense unexploited potential of high-quality LHC data sets for elucidating the dynamics of QCD.",
@@ -2534,6 +2687,7 @@
             "Zhu, Hua Xing"
         ],
         "date": "2022-01-21",
+        "document_type": "article",
         "doi": "10.1103/PhysRevLett.130.051901",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.7347.JDWH",
@@ -2553,6 +2707,7 @@
             "energy flow",
             "resolution"
         ],
+        "publication": "Phys.Rev.Lett.",
         "title": "Analyzing <math display=\"inline\"><mi>N</mi></math>-Point Energy Correlators inside Jets with CMS Open Data",
         "url": "https://inspirehep.net/literature/2014077"
     },
@@ -2566,6 +2721,7 @@
             "Xue, Wei"
         ],
         "date": "2017-04-19",
+        "document_type": "article",
         "doi": "10.1103/PhysRevLett.119.132003",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.3S7F.2E9W",
@@ -2580,6 +2736,7 @@
             "CMS",
             "parton"
         ],
+        "publication": "Phys.Rev.Lett.",
         "title": "Exposing the QCD Splitting Function with CMS Open Data",
         "url": "https://inspirehep.net/literature/1591972"
     },
@@ -2593,6 +2750,7 @@
             "Xie, Ke-Pan"
         ],
         "date": "2022-06-30",
+        "document_type": "article",
         "doi": "10.1038/s42005-023-01350-6",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.D00J.UVB1"
@@ -2610,6 +2768,7 @@
             "beam dump",
             "symmetry: U(1)"
         ],
+        "publication": "Commun.Phys.",
         "title": "Unveiling time-varying signals of ultralight bosonic dark matter at collider and beam dump experiments",
         "url": "https://inspirehep.net/literature/2103442"
     },
@@ -2622,8 +2781,12 @@
             "Zhu, Hua Xing"
         ],
         "date": "2022-05-09",
+        "document_type": "article",
         "doi": "10.1007/JHEP07(2022)146",
-        "dois_referenced": [],
+        "dois_referenced": [
+            "10.7483/opendata.cms.up77.p6pq",
+            "10.7483/opendata.cms.7347.jdwh"
+        ],
         "keywords": [
             "Jets and Jet Substructure",
             "Factorization",
@@ -2649,6 +2812,7 @@
             "interpretation of experiments: CMS",
             "structure"
         ],
+        "publication": "JHEP",
         "title": "Non-Gaussianities in collider energy flux",
         "url": "https://inspirehep.net/literature/2078066"
     },
@@ -2658,6 +2822,7 @@
             "Lohezic, Victor"
         ],
         "date": "2024-01-16",
+        "document_type": "thesis",
         "doi": "",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.2W51.W8AT"
@@ -2695,6 +2860,7 @@
             "data analysis method",
             "experimental results"
         ],
+        "publication": "",
         "title": "The measurement of the Higgs Boson properties and the timing calibration of the CMS detector using machine learning techniques",
         "url": "https://inspirehep.net/literature/2747079"
     },
@@ -2706,6 +2872,7 @@
             "Thaler, Jesse"
         ],
         "date": "2020-04-10",
+        "document_type": "article",
         "doi": "10.1007/JHEP07(2020)006",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.UP77.P6PQ"
@@ -2723,6 +2890,7 @@
             "safety",
             "space"
         ],
+        "publication": "JHEP",
         "title": "The Hidden Geometry of Particle Collisions",
         "url": "https://inspirehep.net/literature/1790702"
     },
@@ -2764,10 +2932,12 @@
             "Westhoff, Susanne"
         ],
         "date": "2021-09-14",
+        "document_type": "article",
         "doi": "10.1140/epjc/s10052-022-10541-4",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.AAR1.4NZQ",
-            "10.7483/OPENDATA.CMS.GV20.PR5T"
+            "10.7483/OPENDATA.CMS.GV20.PR5T",
+            "10.7483/opendata.cms.1bnu.8v1w/"
         ],
         "keywords": [
             "interpretation of experiments: CERN LHC Coll",
@@ -2784,6 +2954,7 @@
             "supersymmetry",
             "cosmological model: parameter space"
         ],
+        "publication": "Eur.Phys.J.C",
         "title": "Unveiling hidden physics at the LHC",
         "url": "https://inspirehep.net/literature/1921013"
     },
@@ -2793,6 +2964,7 @@
             "Nguyen, Thong Quang"
         ],
         "date": "2022-01-19",
+        "document_type": "thesis",
         "doi": "10.7907/knfz-q495",
         "dois_referenced": [
             "10.7483/OPENDATA.CMS.HBBW.LTT4"
@@ -2838,6 +3010,7 @@
             "experimental results",
             "13000 GeV-cms"
         ],
+        "publication": "",
         "title": "Searches for Nonresonant Higgs Boson Pair Production and Long-Lived Particles at the LHC and Machine-Learning Solutions for the High-Luminosity LHC Era",
         "url": "https://inspirehep.net/literature/2012566"
     }
