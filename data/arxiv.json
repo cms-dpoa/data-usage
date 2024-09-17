@@ -42,28 +42,6 @@
         "url": "http://arxiv.org/abs/2107.11405v1"
     },
     {
-        "abstract": "We describe a novel application of the end-to-end deep learning technique to\nthe task of discriminating top quark-initiated jets from those originating from\nthe hadronization of a light quark or a gluon. The end-to-end deep learning\ntechnique combines deep learning algorithms and low-level detector\nrepresentation of the high-energy collision event. In this study, we use\nlow-level detector information from the simulated CMS Open Data samples to\nconstruct the top jet classifiers. To optimize classifier performance we\nprogressively add low-level information from the CMS tracking detector,\nincluding pixel detector reconstructed hits and impact parameters, and\ndemonstrate the value of additional tracking information even when no new\nspatial structures are added. Relying only on calorimeter energy deposits and\nreconstructed pixel detector hits, the end-to-end classifier achieves an AUC\nscore of 0.975$\\pm$0.002 for the task of classifying boosted top quark jets.\nAfter adding derived track quantities, the classifier AUC score increases to\n0.9824$\\pm$0.0013, serving as the first performance benchmark for these CMS\nOpen Data samples. We additionally provide a timing performance comparison of\ndifferent processor unit architectures for training the network.",
-        "authors": [
-            "Michael Andrews",
-            "Bjorn Burkle",
-            "Yi-fan Chen",
-            "Davide DiCroce",
-            "Sergei Gleyzer",
-            "Ulrich Heintz",
-            "Meenakshi Narain",
-            "Manfred Paulini",
-            "Nikolas Pervan",
-            "Yusef Shafi",
-            "Wei Sun",
-            "Emanuele Usai",
-            "Kun Yang"
-        ],
-        "date": "2021-04-19",
-        "doi": "http://dx.doi.org/10.1103/PhysRevD.105.052008",
-        "title": "End-to-End Jet Classification of Boosted Top Quarks with the CMS Open\n  Data",
-        "url": "http://arxiv.org/abs/2104.14659v3"
-    },
-    {
         "abstract": "We study dimuon events in 2.11/fb of 7 TeV pp collisions, using CMS Open\nData, and search for a narrow dimuon resonance with moderate mass (14-66 GeV)\nand substantial transverse momentum (pT). Applying dimuon pT cuts of 25 GeV and\n60 GeV, we explore two overlapping samples: one with isolated muons, and one\nwith prompt muons without an isolation requirement. Using the latter sample\nrequires information about detector effects and QCD backgrounds, which we\nobtain directly from the CMS Open Data. We present model-independent limits on\nthe product of cross section, branching fraction, acceptance, and efficiencies.\nThese limits are stronger, relative to a corresponding inclusive search without\na pT cut, by factors of as much as nine. Our \"pT-enhanced\" dimuon search\nstrategy provides improved sensitivity to models in which a new particle is\nproduced mainly in the decay of something heavier, as could occur, for example,\nin decays of the Higgs boson or of a TeV-scale top partner. An implementation\nof this method with the current 13 TeV data should improve the sensitivity to\nsuch signals further by roughly an order of magnitude.",
         "authors": [
             "Cari Cesarotti",
@@ -92,18 +70,26 @@
         "url": "http://arxiv.org/abs/1908.08542v2"
     },
     {
-        "abstract": "The splitting function is a universal property of quantum chromodynamics\n(QCD) which describes how energy is shared between partons. Despite its\nubiquitous appearance in many QCD calculations, the splitting function cannot\nbe measured directly since it always appears multiplied by a collinear\nsingularity factor. Recently, however, a new jet substructure observable was\nintroduced which asymptotes to the splitting function for sufficiently high jet\nenergies. This provides a way to expose the splitting function through jet\nsubstructure measurements at the Large Hadron Collider. In this letter, we use\npublic data released by the CMS experiment to study the 2-prong substructure of\njets and test the 1 -> 2 splitting function of QCD. To our knowledge, this is\nthe first ever physics analysis based on the CMS Open Data.",
+        "abstract": "We describe a novel application of the end-to-end deep learning technique to\nthe task of discriminating top quark-initiated jets from those originating from\nthe hadronization of a light quark or a gluon. The end-to-end deep learning\ntechnique combines deep learning algorithms and low-level detector\nrepresentation of the high-energy collision event. In this study, we use\nlow-level detector information from the simulated CMS Open Data samples to\nconstruct the top jet classifiers. To optimize classifier performance we\nprogressively add low-level information from the CMS tracking detector,\nincluding pixel detector reconstructed hits and impact parameters, and\ndemonstrate the value of additional tracking information even when no new\nspatial structures are added. Relying only on calorimeter energy deposits and\nreconstructed pixel detector hits, the end-to-end classifier achieves an AUC\nscore of 0.975$\\pm$0.002 for the task of classifying boosted top quark jets.\nAfter adding derived track quantities, the classifier AUC score increases to\n0.9824$\\pm$0.0013, serving as the first performance benchmark for these CMS\nOpen Data samples. We additionally provide a timing performance comparison of\ndifferent processor unit architectures for training the network.",
         "authors": [
-            "Andrew Larkoski",
-            "Simone Marzani",
-            "Jesse Thaler",
-            "Aashish Tripathee",
-            "Wei Xue"
+            "Michael Andrews",
+            "Bjorn Burkle",
+            "Yi-fan Chen",
+            "Davide DiCroce",
+            "Sergei Gleyzer",
+            "Ulrich Heintz",
+            "Meenakshi Narain",
+            "Manfred Paulini",
+            "Nikolas Pervan",
+            "Yusef Shafi",
+            "Wei Sun",
+            "Emanuele Usai",
+            "Kun Yang"
         ],
-        "date": "2017-04-17",
-        "doi": "http://dx.doi.org/10.1103/PhysRevLett.119.132003",
-        "title": "Exposing the QCD Splitting Function with CMS Open Data",
-        "url": "http://arxiv.org/abs/1704.05066v3"
+        "date": "2021-04-19",
+        "doi": "http://dx.doi.org/10.1103/PhysRevD.105.052008",
+        "title": "End-to-End Jet Classification of Boosted Top Quarks with the CMS Open\n  Data",
+        "url": "http://arxiv.org/abs/2104.14659v3"
     },
     {
         "abstract": "This paper describes the construction of novel end-to-end image-based\nclassifiers that directly leverage low-level simulated detector data to\ndiscriminate signal and background processes in pp collision events at the\nLarge Hadron Collider at CERN. To better understand what end-to-end classifiers\nare capable of learning from the data and to address a number of associated\nchallenges, we distinguish the decay of the standard model Higgs boson into two\nphotons from its leading background sources using high-fidelity simulated CMS\nOpen Data. We demonstrate the ability of end-to-end classifiers to learn from\nthe angular distribution of the photons recorded as electromagnetic showers,\ntheir intrinsic shapes, and the energy of their constituent hits, even when the\nunderlying particles are not fully resolved, delivering a clear advantage in\nsuch cases over purely kinematics-based classifiers.",
@@ -117,6 +103,20 @@
         "doi": "http://dx.doi.org/10.1007/s41781-020-00038-8",
         "title": "End-to-End Physics Event Classification with CMS Open Data: Applying\n  Image-Based Deep Learning to Detector Data for the Direct Classification of\n  Collision Events at the LHC",
         "url": "http://arxiv.org/abs/1807.11916v3"
+    },
+    {
+        "abstract": "The splitting function is a universal property of quantum chromodynamics\n(QCD) which describes how energy is shared between partons. Despite its\nubiquitous appearance in many QCD calculations, the splitting function cannot\nbe measured directly since it always appears multiplied by a collinear\nsingularity factor. Recently, however, a new jet substructure observable was\nintroduced which asymptotes to the splitting function for sufficiently high jet\nenergies. This provides a way to expose the splitting function through jet\nsubstructure measurements at the Large Hadron Collider. In this letter, we use\npublic data released by the CMS experiment to study the 2-prong substructure of\njets and test the 1 -> 2 splitting function of QCD. To our knowledge, this is\nthe first ever physics analysis based on the CMS Open Data.",
+        "authors": [
+            "Andrew Larkoski",
+            "Simone Marzani",
+            "Jesse Thaler",
+            "Aashish Tripathee",
+            "Wei Xue"
+        ],
+        "date": "2017-04-17",
+        "doi": "http://dx.doi.org/10.1103/PhysRevLett.119.132003",
+        "title": "Exposing the QCD Splitting Function with CMS Open Data",
+        "url": "http://arxiv.org/abs/1704.05066v3"
     },
     {
         "abstract": "The underlying event is an important part of high-energy collision events. In\nthe event generators, the underlying event is tuned by fits to collision data.\nUsually, the underlying event observables are affected by the existence of\nextra jets and it is difficult to find a part of the phase space which is\ndominated by the underlying event. In this paper, we suggest to veto the jets\nin the considered region to disentangle these effects. The idea is verified to\nwork on CMS Open Data. To our knowledge, it is the first time that such ideas\nare tested on real collision data.",
@@ -333,6 +333,26 @@
         "doi": "http://arxiv.org/abs/2404.04138v1",
         "title": "Sparks in the Dark",
         "url": "http://arxiv.org/abs/2404.04138v1"
+    },
+    {
+        "abstract": "We introduce a hybrid quantum-classical vision transformer architecture,\nnotable for its integration of variational quantum circuits within both the\nattention mechanism and the multi-layer perceptrons. The research addresses the\ncritical challenge of computational efficiency and resource constraints in\nanalyzing data from the upcoming High Luminosity Large Hadron Collider,\npresenting the architecture as a potential solution. In particular, we evaluate\nour method by applying the model to multi-detector jet images from CMS Open\nData. The goal is to distinguish quark-initiated from gluon-initiated jets. We\nsuccessfully train the quantum model and evaluate it via numerical simulations.\nUsing this approach, we achieve classification performance almost on par with\nthe one obtained with the completely classical architecture, considering a\nsimilar number of parameters.",
+        "authors": [
+            "Mar\u00e7al Comajoan Cara",
+            "Gopal Ramesh Dahale",
+            "Zhongtian Dong",
+            "Roy T. Forestano",
+            "Sergei Gleyzer",
+            "Daniel Justice",
+            "Kyoungchul Kong",
+            "Tom Magorsch",
+            "Konstantin T. Matchev",
+            "Katia Matcheva",
+            "Eyup B. Unlu"
+        ],
+        "date": "2024-05-16",
+        "doi": "http://dx.doi.org/10.3390/axioms13050323",
+        "title": "Quantum Vision Transformers for Quark-Gluon Classification",
+        "url": "http://arxiv.org/abs/2405.10284v1"
     },
     {
         "abstract": "At high energy physics experiments, processing billions of records of\nstructured numerical data from collider events to a few statistical summaries\nis a common task. The data processing is typically more complex than standard\nquery languages allow, such that custom numerical codes are used. At present,\nthese codes mostly operate on individual event records and are parallelized in\nmulti-step data reduction workflows using batch jobs across CPU farms. Based on\na simplified top quark pair analysis with CMS Open Data, we demonstrate that it\nis possible to carry out significant parts of a collider analysis at a rate of\naround a million events per second on a single multicore server with optional\nGPU acceleration. This is achieved by representing HEP event data as\nmemory-mappable sparse arrays of columns, and by expressing common analysis\noperations as kernels that can be used to process the event data in parallel.\nWe find that only a small number of relatively simple functional kernels are\nneeded for a generic HEP analysis. The approach based on columnar processing of\ndata could speed up and simplify the cycle for delivering physics results at\nHEP experiments. We release the \\texttt{hepaccelerate} prototype library as a\ndemonstrator of such methods.",

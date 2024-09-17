@@ -65,11 +65,17 @@ for hi, hit in enumerate(hits):
     date = str(parse(hit['created']).date())
     hid = metadata['control_number']
     abstract = metadata['abstracts'][0]['value']
-    authors = [a['full_name'] for a in metadata['authors']]
+
+    try:
+        authors = [a['full_name'] for a in metadata['authors']]
+    except KeyError:
+        authors = []
+        
     document_type = metadata['document_type'][0]
     publication_info = handle_publication_info(metadata)        
     dois_referenced = get_dataset_dois(metadata['references'])
-
+    citations = metadata['citation_count']
+    
     try: 
         keywords = [m['value'] for m in metadata['keywords']]
     except KeyError:
@@ -92,6 +98,7 @@ for hi, hit in enumerate(hits):
     obj['dois_referenced'] = dois_referenced
     obj['document_type'] = document_type
     obj['publication'] = publication_info
+    obj['citations'] = citations
     
     papers.append(obj)
 

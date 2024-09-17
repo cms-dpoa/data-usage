@@ -16,6 +16,11 @@ Open `publications.ipynb` and analyze:
 > jupyter-notebook
 ```
 
+Create html:
+```
+> jupyter nbconvert publications.ipynb --to html --no-input --output index.html
+```
+
 ## Links
 * [INSPIRE API](https://github.com/inspirehep/rest-api-doc)
 * [ARXIV API](https://info.arxiv.org/help/api/basics.html)
