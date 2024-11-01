@@ -1,8 +1,13 @@
 # data-usage
 CMS open data usage tools
 
+## Install
+```
+virtualenv dpoa
+source dpoa/bin/activate
+pip install -r requirements.txt
+```
 ## Usage
-
 Create the `arxiv.json` and `inspire.json`:
 ```
 > cd data
@@ -13,7 +18,7 @@ Create the `arxiv.json` and `inspire.json`:
 Open `publications.ipynb` and analyze:
 ```
 > cd ../
-> jupyter-notebook
+> jupyter lab
 ```
 
 Create html:

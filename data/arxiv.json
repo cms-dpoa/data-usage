@@ -92,19 +92,6 @@
         "url": "http://arxiv.org/abs/2104.14659v3"
     },
     {
-        "abstract": "This paper describes the construction of novel end-to-end image-based\nclassifiers that directly leverage low-level simulated detector data to\ndiscriminate signal and background processes in pp collision events at the\nLarge Hadron Collider at CERN. To better understand what end-to-end classifiers\nare capable of learning from the data and to address a number of associated\nchallenges, we distinguish the decay of the standard model Higgs boson into two\nphotons from its leading background sources using high-fidelity simulated CMS\nOpen Data. We demonstrate the ability of end-to-end classifiers to learn from\nthe angular distribution of the photons recorded as electromagnetic showers,\ntheir intrinsic shapes, and the energy of their constituent hits, even when the\nunderlying particles are not fully resolved, delivering a clear advantage in\nsuch cases over purely kinematics-based classifiers.",
-        "authors": [
-            "Michael Andrews",
-            "Manfred Paulini",
-            "Sergei Gleyzer",
-            "Barnabas Poczos"
-        ],
-        "date": "2018-07-31",
-        "doi": "http://dx.doi.org/10.1007/s41781-020-00038-8",
-        "title": "End-to-End Physics Event Classification with CMS Open Data: Applying\n  Image-Based Deep Learning to Detector Data for the Direct Classification of\n  Collision Events at the LHC",
-        "url": "http://arxiv.org/abs/1807.11916v3"
-    },
-    {
         "abstract": "The splitting function is a universal property of quantum chromodynamics\n(QCD) which describes how energy is shared between partons. Despite its\nubiquitous appearance in many QCD calculations, the splitting function cannot\nbe measured directly since it always appears multiplied by a collinear\nsingularity factor. Recently, however, a new jet substructure observable was\nintroduced which asymptotes to the splitting function for sufficiently high jet\nenergies. This provides a way to expose the splitting function through jet\nsubstructure measurements at the Large Hadron Collider. In this letter, we use\npublic data released by the CMS experiment to study the 2-prong substructure of\njets and test the 1 -> 2 splitting function of QCD. To our knowledge, this is\nthe first ever physics analysis based on the CMS Open Data.",
         "authors": [
             "Andrew Larkoski",
@@ -117,17 +104,6 @@
         "doi": "http://dx.doi.org/10.1103/PhysRevLett.119.132003",
         "title": "Exposing the QCD Splitting Function with CMS Open Data",
         "url": "http://arxiv.org/abs/1704.05066v3"
-    },
-    {
-        "abstract": "The underlying event is an important part of high-energy collision events. In\nthe event generators, the underlying event is tuned by fits to collision data.\nUsually, the underlying event observables are affected by the existence of\nextra jets and it is difficult to find a part of the phase space which is\ndominated by the underlying event. In this paper, we suggest to veto the jets\nin the considered region to disentangle these effects. The idea is verified to\nwork on CMS Open Data. To our knowledge, it is the first time that such ideas\nare tested on real collision data.",
-        "authors": [
-            "Saeid Paktinat Mehdiabadi",
-            "Ali Fahim"
-        ],
-        "date": "2019-07-20",
-        "doi": "http://dx.doi.org/10.1088/1361-6471/ab33a9",
-        "title": "Explicit Jet Veto as a Tool to Purify the Underlying Event in the\n  Drell-Yan Process Using CMS Open Data",
-        "url": "http://arxiv.org/abs/1907.08842v1"
     },
     {
         "abstract": "We describe the construction of end-to-end jet image classifiers based on\nsimulated low-level detector data to discriminate quark- vs. gluon-initiated\njets with high-fidelity simulated CMS Open Data. We highlight the importance of\nprecise spatial information and demonstrate competitive performance to existing\nstate-of-the-art jet classifiers. We further generalize the end-to-end approach\nto event-level classification of quark vs. gluon di-jet QCD events. We compare\nthe fully end-to-end approach to using hand-engineered features and demonstrate\nthat the end-to-end algorithm is robust against the effects of underlying event\nand pile-up.",
@@ -149,6 +125,43 @@
         "url": "http://arxiv.org/abs/1902.08276v2"
     },
     {
+        "abstract": "In this work, we present a search for the possible production of Dark Matter\nparticles at the Large Hadron Collider alongside a new hypothetical gauge boson\ndenoted by Z$^{\\prime}$, which is governed by a model called Mono-Z$^{\\prime}$.\nThe topology of the studied events is dimuons plus large missing transverse\nmomentum. The analyzed data were the CMS open data samples collected by the CMS\ndetector, in addition to the CMS open Monte Carlo samples, for the\nproton-proton collisions at 8 TeV center of mass energy during 2012, which\ncorrespond to an integrated luminosity of 11.6 fb$^{-1}$. Two benchmarks\nscenarios were used for interpreting the data, the Dark Higgs scenario as a\nsimplified scenario of the Mono-Z$^{\\prime}$ model and the effective field\ntheory formalism of the same model. No evidence for the existence of dark\nmatter candidates was found. Consequently, 95$\\%$ confidence level limits were\nset on the masses of the Z$^{\\prime}$ and the cutoff scale of the effective\nfield theory.",
+        "authors": [
+            "S. Elgammal",
+            "M. Louka",
+            "A. Y. Ellithi",
+            "M. T. Hussein"
+        ],
+        "date": "2021-09-23",
+        "doi": "http://arxiv.org/abs/2109.11274v3",
+        "title": "Search for the production of dark matter candidates in association with\n  heavy dimuon resonance using the CMS open data for pp collisions at\n  $\\sqrt{s}$ = 8 TeV",
+        "url": "http://arxiv.org/abs/2109.11274v3"
+    },
+    {
+        "abstract": "This paper describes the construction of novel end-to-end image-based\nclassifiers that directly leverage low-level simulated detector data to\ndiscriminate signal and background processes in pp collision events at the\nLarge Hadron Collider at CERN. To better understand what end-to-end classifiers\nare capable of learning from the data and to address a number of associated\nchallenges, we distinguish the decay of the standard model Higgs boson into two\nphotons from its leading background sources using high-fidelity simulated CMS\nOpen Data. We demonstrate the ability of end-to-end classifiers to learn from\nthe angular distribution of the photons recorded as electromagnetic showers,\ntheir intrinsic shapes, and the energy of their constituent hits, even when the\nunderlying particles are not fully resolved, delivering a clear advantage in\nsuch cases over purely kinematics-based classifiers.",
+        "authors": [
+            "Michael Andrews",
+            "Manfred Paulini",
+            "Sergei Gleyzer",
+            "Barnabas Poczos"
+        ],
+        "date": "2018-07-31",
+        "doi": "http://dx.doi.org/10.1007/s41781-020-00038-8",
+        "title": "End-to-End Physics Event Classification with CMS Open Data: Applying\n  Image-Based Deep Learning to Detector Data for the Direct Classification of\n  Collision Events at the LHC",
+        "url": "http://arxiv.org/abs/1807.11916v3"
+    },
+    {
+        "abstract": "The underlying event is an important part of high-energy collision events. In\nthe event generators, the underlying event is tuned by fits to collision data.\nUsually, the underlying event observables are affected by the existence of\nextra jets and it is difficult to find a part of the phase space which is\ndominated by the underlying event. In this paper, we suggest to veto the jets\nin the considered region to disentangle these effects. The idea is verified to\nwork on CMS Open Data. To our knowledge, it is the first time that such ideas\nare tested on real collision data.",
+        "authors": [
+            "Saeid Paktinat Mehdiabadi",
+            "Ali Fahim"
+        ],
+        "date": "2019-07-20",
+        "doi": "http://dx.doi.org/10.1088/1361-6471/ab33a9",
+        "title": "Explicit Jet Veto as a Tool to Purify the Underlying Event in the\n  Drell-Yan Process Using CMS Open Data",
+        "url": "http://arxiv.org/abs/1907.08842v1"
+    },
+    {
         "abstract": "We apply an Adversarially Learned Anomaly Detection (ALAD) algorithm to the\nproblem of detecting new physics processes in proton-proton collisions at the\nLarge Hadron Collider. Anomaly detection based on ALAD matches performances\nreached by Variational Autoencoders, with a substantial improvement in some\ncases. Training the ALAD algorithm on 4.4 fb-1 of 8 TeV CMS Open Data, we show\nhow a data-driven anomaly detection and characterization would work in real\nlife, re-discovering the top quark by identifying the main features of the\nt-tbar experimental signature at the LHC.",
         "authors": [
             "Oliver Knapp",
@@ -162,19 +175,6 @@
         "doi": "http://arxiv.org/abs/2005.01598v2",
         "title": "Adversarially Learned Anomaly Detection on CMS Open Data: re-discovering\n  the top quark",
         "url": "http://arxiv.org/abs/2005.01598v2"
-    },
-    {
-        "abstract": "In this work, we present a search for the possible production of Dark Matter\nparticles at the Large Hadron Collider alongside a new hypothetical gauge boson\ndenoted by Z$^{\\prime}$, which is governed by a model called Mono-Z$^{\\prime}$.\nThe topology of the studied events is dimuons plus large missing transverse\nmomentum. The analyzed data were the CMS open data samples collected by the CMS\ndetector, in addition to the CMS open Monte Carlo samples, for the\nproton-proton collisions at 8 TeV center of mass energy during 2012, which\ncorrespond to an integrated luminosity of 11.6 fb$^{-1}$. Two benchmarks\nscenarios were used for interpreting the data, the Dark Higgs scenario as a\nsimplified scenario of the Mono-Z$^{\\prime}$ model and the effective field\ntheory formalism of the same model. No evidence for the existence of dark\nmatter candidates was found. Consequently, 95$\\%$ confidence level limits were\nset on the masses of the Z$^{\\prime}$ and the cutoff scale of the effective\nfield theory.",
-        "authors": [
-            "S. Elgammal",
-            "M. Louka",
-            "A. Y. Ellithi",
-            "M. T. Hussein"
-        ],
-        "date": "2021-09-23",
-        "doi": "http://arxiv.org/abs/2109.11274v3",
-        "title": "Search for the production of dark matter candidates in association with\n  heavy dimuon resonance using the CMS open data for pp collisions at\n  $\\sqrt{s}$ = 8 TeV",
-        "url": "http://arxiv.org/abs/2109.11274v3"
     },
     {
         "abstract": "In recent years novel inference techniques have been developed based on the\nconstruction of non-linear summary statistics with neural networks by\nminimising inferencemotivated losses. One such technique is inferno (P. de\nCastro and T. Dorigo, Comp. Phys. Comm. 244 (2019) 170) which was shown on toy\nproblems to outperform classical summary statistics for the problem of\nconfidence interval estimation in the presence of nuisance parameters. In order\nto test and benchmark the algorithm in a real world application, a full,\nsystematics-dominated analysis produced by the CMS experiment, \"Measurement of\nthe top-antitop production cross section in the tau+jets channel in pp\ncollisions at sqrt(s) = 7 TeV\" (CMS Collaboration, The European Physical\nJournal C, 2013) is reproduced with CMS Open Data. The application of the\ninferno-powered neural network architecture to this analysis demonstrates the\npotential to reduce the impact of systematic uncertainties in real LHC\nanalyses. This work also exemplifies the extent to which LHC analyses can be\nreproduced with open data.",
@@ -227,6 +227,20 @@
         "url": "http://arxiv.org/abs/2111.11415v1"
     },
     {
+        "abstract": "The ultralight boson represents a promising dark matter candidate exhibiting\nunique wave-like behaviors. These properties could transfer to the dark\nmediator, such as the kinetic mixing dark photon, which can be a link between\nthe dark and Standard Model sectors, resulting in periodic oscillations of its\nmass. We propose a method to detect ultralight dark matter using dark mediators\nin collider and beam dump experiments, distinguishing it from conventional\natomic, molecular, and optical methods. The time-varying nature of dark\nmediator mass exhibits a double-peak spectrum, reducing traditional constraints\nby 1 to 2 orders of magnitude, due to decreased luminosity exposure in each\nresonant mass bin. To enhance sensitivity, we utilize event time-stamps in the\nCMS Open Data and demonstrate that this technique boosts sensitivity by\napproximately one order of magnitude compared to the time-blind method.\nMoreover, it proves effective in detecting the invisible decay of the dark\nmediator.",
+        "authors": [
+            "Jinhui Guo",
+            "Yuxuan He",
+            "Jia Liu",
+            "Xiao-Ping Wang",
+            "Ke-Pan Xie"
+        ],
+        "date": "2022-06-28",
+        "doi": "http://dx.doi.org/10.1038/s42005-023-01350-6",
+        "title": "Unveiling Time-Varying Signals of Ultralight Bosonic Dark Matter at\n  Collider and Beam Dump Experiments",
+        "url": "http://arxiv.org/abs/2206.14221v3"
+    },
+    {
         "abstract": "The Standard Model violates parity, but only by mechanisms which are\ninvisible to Large Hadron Collider (LHC) experiments (on account of the lack of\ninitial state polarisation or spin-sensitivity in the detectors). Nonetheless,\nnew physical processes could potentially violate parity in ways which are\ndetectable by those same experiments. If those sources of new physics occur\nonly at LHC energies, they are untested by direct searches. We probe the\nfeasibility of such measurements using approximately 0.2 inverse femtobarns of\ndata which was recorded in 2012 by the CMS collaboration and made public within\nthe CMS Open Data initiative. In particular, we test an inclusive three-jet\nevent selection which is primarily sensitive to non-standard parity violating\neffects in quark-gluon interactions. Within our measurements, no significant\ndeviation from the Standard Model is seen and no obvious experimental\nlimitations have been found. We discuss other ways that searches for\nnon-standard parity violation could be performed, noting that these would be\nsensitive to very different sorts of models to those which our measurements\nconstrain. We hope that our initial studies provide a valuable starting point\nfor rigorous future analyses using the full LHC datasets at 13 TeV with a\ncareful and less conservative estimate of experimental uncertainties.",
         "authors": [
             "Christopher G. Lester",
@@ -256,20 +270,6 @@
         "doi": "http://arxiv.org/abs/1910.07029v1",
         "title": "End-to-end particle and event identification at the Large Hadron\n  Collider with CMS Open Data",
         "url": "http://arxiv.org/abs/1910.07029v1"
-    },
-    {
-        "abstract": "The ultralight boson represents a promising dark matter candidate exhibiting\nunique wave-like behaviors. These properties could transfer to the dark\nmediator, such as the kinetic mixing dark photon, which can be a link between\nthe dark and Standard Model sectors, resulting in periodic oscillations of its\nmass. We propose a method to detect ultralight dark matter using dark mediators\nin collider and beam dump experiments, distinguishing it from conventional\natomic, molecular, and optical methods. The time-varying nature of dark\nmediator mass exhibits a double-peak spectrum, reducing traditional constraints\nby 1 to 2 orders of magnitude, due to decreased luminosity exposure in each\nresonant mass bin. To enhance sensitivity, we utilize event time-stamps in the\nCMS Open Data and demonstrate that this technique boosts sensitivity by\napproximately one order of magnitude compared to the time-blind method.\nMoreover, it proves effective in detecting the invisible decay of the dark\nmediator.",
-        "authors": [
-            "Jinhui Guo",
-            "Yuxuan He",
-            "Jia Liu",
-            "Xiao-Ping Wang",
-            "Ke-Pan Xie"
-        ],
-        "date": "2022-06-28",
-        "doi": "http://dx.doi.org/10.1038/s42005-023-01350-6",
-        "title": "Unveiling Time-Varying Signals of Ultralight Bosonic Dark Matter at\n  Collider and Beam Dump Experiments",
-        "url": "http://arxiv.org/abs/2206.14221v3"
     },
     {
         "abstract": "This analysis shows a search for dark fermion particles produced in\nassociation with a heavy neutral gauge boson (Z$^{\\prime}$). The studied events\ntopology are dimuon and a large missing transverse momentum. %We considered the\nmuonic decay of Z$^{\\prime}$. The analyzed data were the Open Data collected by\nthe CMS detector in proton-proton collisions at the LHC in 2012 and correspond\nto an integrated luminosity of 11.6 fb$^{-1}$ at $\\sqrt{s} = $ 8 TeV. One\nbenchmark scenario the light vector was used for interpreting the data, based\non a simplified model so called the mono-Z$^{\\prime}$ model. No evidence of\ndark fermion candidates was found, 95$\\%$ confidence level limits have been set\non both Z$^{\\prime}$ and dark fermion masses.",
@@ -320,7 +320,7 @@
         "url": "http://arxiv.org/abs/2403.08907v1"
     },
     {
-        "abstract": "This study presents a novel method for the definition of signal regions in\nsearches for new physics at collider experiments, specifically those conducted\nat CERN's Large Hadron Collider. By leveraging multi-dimensional histograms\nwith precise arithmetic and utilizing the SparkDensityTree library, it is\npossible to identify high-density regions within the available phase space,\npotentially improving sensitivity to very small signals. Inspired by an ongoing\nsearch for dark mesons at the ATLAS experiment, CMS open data is used for this\nproof-of-concept intentionally targeting an already excluded signal. Several\nsignal regions are defined based on density estimates of signal and background.\nThese preliminary regions align well with the physical properties of the signal\nwhile effectively rejecting background events. While not explored in this work,\nthis method is also scalable, which makes it ideal for large datasets such as\nthose expected at the high-luminosity upgrade of the LHC. Finally, this method\nis flexible and can be easily extended, promising a boost to the signal region\ndefinition process for new physics searches at colliders.",
+        "abstract": "This study presents a novel method for the definition of signal regions in\nsearches for new physics at collider experiments, specifically those conducted\nat CERNs Large Hadron Collider. By leveraging multi-dimensional histograms with\nprecise arithmetic and utilizing the SparkDensityTree library, it is possible\nto identify high-density regions within the available phase space, potentially\nimproving sensitivity to very small signals. Inspired by an ongoing search for\ndark mesons at the ATLAS experiment, CMS open data is used for this\nproof-of-concept intentionally targeting an already excluded signal. Several\nsignal regions are defined based on density estimates of signal and background.\nThese preliminary regions align well with the physical properties of the signal\nwhile effectively rejecting background events. While not explored in this work,\nthis method is also scalable, which makes it ideal for large datasets such as\nthose expected at the high-luminosity upgrade of the LHC. Finally, this method\nis flexible and can be easily extended, promising a boost to the signal region\ndefinition process for new physics searches at colliders.",
         "authors": [
             "Olga Sunneborn Gudnadottir",
             "Axel Gall\u00e9n",
@@ -330,9 +330,9 @@
             "Rebeca Gonzalez Suarez"
         ],
         "date": "2024-04-05",
-        "doi": "http://arxiv.org/abs/2404.04138v1",
+        "doi": "http://arxiv.org/abs/2404.04138v2",
         "title": "Sparks in the Dark",
-        "url": "http://arxiv.org/abs/2404.04138v1"
+        "url": "http://arxiv.org/abs/2404.04138v2"
     },
     {
         "abstract": "We introduce a hybrid quantum-classical vision transformer architecture,\nnotable for its integration of variational quantum circuits within both the\nattention mechanism and the multi-layer perceptrons. The research addresses the\ncritical challenge of computational efficiency and resource constraints in\nanalyzing data from the upcoming High Luminosity Large Hadron Collider,\npresenting the architecture as a potential solution. In particular, we evaluate\nour method by applying the model to multi-detector jet images from CMS Open\nData. The goal is to distinguish quark-initiated from gluon-initiated jets. We\nsuccessfully train the quantum model and evaluate it via numerical simulations.\nUsing this approach, we achieve classification performance almost on par with\nthe one obtained with the completely classical architecture, considering a\nsimilar number of parameters.",
@@ -353,6 +353,16 @@
         "doi": "http://dx.doi.org/10.3390/axioms13050323",
         "title": "Quantum Vision Transformers for Quark-Gluon Classification",
         "url": "http://arxiv.org/abs/2405.10284v1"
+    },
+    {
+        "abstract": "This analysis uses the CMS open data to study the angular distribution of\nhigh-mass dimuon pairs produced during proton-proton interaction at a center of\nmass energy of 8 TeV. The study uses the cos$\\theta_{\\text{CS}}$ variable\ndefined in the Collins Soper frame. In the Standard Model, the production of\nhigh-mass dimuon pairs is dominated by the Drell-Yan process, which exhibits a\nstrong forward-backward asymmetry. However, many scenarios beyond the Standard\nModel predict different shapes for the cos$\\theta_{CS}$ distribution. In excess\nevents beyond the Standard Model, the angular distribution can be used to\ndistinguish between those models. The Mono-Z$^{\\prime}$ model has been used to\ninterpret the data, and no deviation from the SM has been observed.",
+        "authors": [
+            "S. Elgammal"
+        ],
+        "date": "2024-10-08",
+        "doi": "http://arxiv.org/abs/2410.05755v1",
+        "title": "Angular distribution study for high mass dimuon pairs in CMS open 2012\n  data and for Mono-Z$^{\\prime}$ model",
+        "url": "http://arxiv.org/abs/2410.05755v1"
     },
     {
         "abstract": "At high energy physics experiments, processing billions of records of\nstructured numerical data from collider events to a few statistical summaries\nis a common task. The data processing is typically more complex than standard\nquery languages allow, such that custom numerical codes are used. At present,\nthese codes mostly operate on individual event records and are parallelized in\nmulti-step data reduction workflows using batch jobs across CPU farms. Based on\na simplified top quark pair analysis with CMS Open Data, we demonstrate that it\nis possible to carry out significant parts of a collider analysis at a rate of\naround a million events per second on a single multicore server with optional\nGPU acceleration. This is achieved by representing HEP event data as\nmemory-mappable sparse arrays of columns, and by expressing common analysis\noperations as kernels that can be used to process the event data in parallel.\nWe find that only a small number of relatively simple functional kernels are\nneeded for a generic HEP analysis. The approach based on columnar processing of\ndata could speed up and simplify the cycle for delivering physics results at\nHEP experiments. We release the \\texttt{hepaccelerate} prototype library as a\ndemonstrator of such methods.",
@@ -403,6 +413,19 @@
         "url": "http://arxiv.org/abs/2205.04459v2"
     },
     {
+        "abstract": "Energy correlators have recently come to the forefront of jet substructure\nstudies at colliders due to their remarkable properties: they naturally\nseparate physics at different scales, are robust to contamination from soft\nradiation, and offer a direct connection with quantum field theory. The current\nparametrization used for energy correlators, however, is based on redundant\npairwise angles with complex phase space restrictions. In this Letter, we\nintroduce a new parametrization of energy correlators that features a simpler\nphase space structure and preserves information about the orientation of jet\nconstituents. Further, our parametrization drastically reduces the\ncomputational cost to compute energy correlators on experimental data; whereas\nthe time to compute a traditional projected N-point energy correlator scales as\nM^N/N! on a jet with M particles, our new parametrization achieves a scaling of\nM^2 log(M) independently of N. Theoretical calculations for our new energy\ncorrelators differ from those of traditional parametrizations only at\nnext-to-next-to-leading logarithmic accuracy and beyond, and we expect that our\nsimpler phase space structure will simplify those calculations. We also discuss\nhow to extend our parametrization to resolved N-point energy correlators that\nencode angular distances between greater numbers of particles, and we propose\ntwo possible generalizations for probing multi-prong jets and testing jet\nscaling behaviour.",
+        "authors": [
+            "Samuel Alipour-fard",
+            "Ankita Budhraja",
+            "Jesse Thaler",
+            "Wouter J. Waalewijn"
+        ],
+        "date": "2024-10-21",
+        "doi": "http://arxiv.org/abs/2410.16368v1",
+        "title": "New Angles on Energy Correlators",
+        "url": "http://arxiv.org/abs/2410.16368v1"
+    },
+    {
         "abstract": "The microscopic dynamics of particle collisions is imprinted into the\nstatistical properties of asymptotic energy flux, much like the dynamics of\ninflation is imprinted into the cosmic microwave background. This energy flux\nis characterized by correlation functions $\\langle \\mathcal{E}(\\vec n_1)\\cdots\n\\mathcal{E}(\\vec n_k) \\rangle$ of energy flow operators $ \\mathcal{E}(\\vec n)$.\nThere has been significant recent progress in studying energy flux, including\nthe calculation of multi-point correlation functions and their direct\nmeasurement inside high-energy jets at the Large Hadron Collider (LHC). In this\npaper, we build on these advances by defining a notion of \"celestial\nnon-gaussianity\" as a ratio of the three-point function to a product of\ntwo-point functions. We show that this celestial non-gaussianity is under\nperturbative control within jets at the LHC, allowing us to cleanly access the\nnon-gaussian interactions of quarks and gluons. We find good agreement between\nperturbative calculations of the non-gaussianity and a charged-particle-based\nanalysis using CMS Open Data, and we observe a strong non-gaussianity peaked in\nthe \"flattened triangle\" regime. The ability to robustly study three-point\ncorrelations is a significant step in advancing our understanding of jet\nsubstructure at the LHC. We anticipate that the celestial non-gaussianity, and\nits generalizations, will play an important role in the development of\nhigher-order parton showers simulations and in the hunt for ever more subtle\nsignals of potential new physics within jets.",
         "authors": [
             "Hao Chen",
@@ -414,5 +437,17 @@
         "doi": "http://dx.doi.org/10.1007/JHEP07(2022)146",
         "title": "Non-Gaussianities in Collider Energy Flux",
         "url": "http://arxiv.org/abs/2205.02857v2"
+    },
+    {
+        "abstract": "In recent years, energy correlators have emerged as a powerful tool for\nstudying jet substructure, with promising applications such as probing the\nhadronization transition, analyzing the quark-gluon plasma, and improving the\nprecision of top quark mass measurements. The projected $N$-point correlator\nmeasures correlations between $N$ final-state particles by tracking the largest\nseparation between them, showing a scaling behavior related to DGLAP splitting\nfunctions. These correlators can be analytically continued in $N$, commonly\nreferred to as $\\nu$-correlators, allowing access to non-integer moments of the\nsplitting functions. Of particular interest is the $\\nu \\to 0$ limit, where the\nsmall momentum fraction behavior of the splitting functions requires\nresummation. Originally, the computational complexity of evaluating\n$\\nu$-correlators for $M$ particles scaled as $2^{2M}$, making it impractical\nfor real-world analyses. However, by using recursion, we reduce this to $M\n2^M$, and through the FastEEC method of dynamically resolving subjets, $M$ is\nreplaced by the number of subjets. This breakthrough enables, for the first\ntime, the computation of $\\nu$-correlators for LHC data. In practice, limiting\nthe number of subjets to 16 is sufficient to achieve percent-level precision,\nwhich we validate using known integer-$\\nu$ results and convergence tests for\nnon-integer $\\nu$. We have implemented this in an update to FastEEC and\nconducted an initial study of power-law scaling in the perturbative regime as a\nfunction of $\\nu$, using CMS Open Data on jets. The results agree with DGLAP\nevolution, except at small $\\nu$, where the anomalous dimension saturates to a\nvalue that matches the BFKL anomalous dimension. This work is meant as a first\nstep towards detailed experimental measurements and precision theoretical\nstudies.",
+        "authors": [
+            "Ankita Budhraja",
+            "Hao Chen",
+            "Wouter J. Waalewijn"
+        ],
+        "date": "2024-09-18",
+        "doi": "http://arxiv.org/abs/2409.12235v1",
+        "title": "$\u03bd$-point energy correletors with FastEEC: small-$x$ physics from LHC\n  jets",
+        "url": "http://arxiv.org/abs/2409.12235v1"
     }
 ]
