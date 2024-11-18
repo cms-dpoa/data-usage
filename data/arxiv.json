@@ -106,6 +106,19 @@
         "url": "http://arxiv.org/abs/1704.05066v3"
     },
     {
+        "abstract": "This paper describes the construction of novel end-to-end image-based\nclassifiers that directly leverage low-level simulated detector data to\ndiscriminate signal and background processes in pp collision events at the\nLarge Hadron Collider at CERN. To better understand what end-to-end classifiers\nare capable of learning from the data and to address a number of associated\nchallenges, we distinguish the decay of the standard model Higgs boson into two\nphotons from its leading background sources using high-fidelity simulated CMS\nOpen Data. We demonstrate the ability of end-to-end classifiers to learn from\nthe angular distribution of the photons recorded as electromagnetic showers,\ntheir intrinsic shapes, and the energy of their constituent hits, even when the\nunderlying particles are not fully resolved, delivering a clear advantage in\nsuch cases over purely kinematics-based classifiers.",
+        "authors": [
+            "Michael Andrews",
+            "Manfred Paulini",
+            "Sergei Gleyzer",
+            "Barnabas Poczos"
+        ],
+        "date": "2018-07-31",
+        "doi": "http://dx.doi.org/10.1007/s41781-020-00038-8",
+        "title": "End-to-End Physics Event Classification with CMS Open Data: Applying\n  Image-Based Deep Learning to Detector Data for the Direct Classification of\n  Collision Events at the LHC",
+        "url": "http://arxiv.org/abs/1807.11916v3"
+    },
+    {
         "abstract": "We describe the construction of end-to-end jet image classifiers based on\nsimulated low-level detector data to discriminate quark- vs. gluon-initiated\njets with high-fidelity simulated CMS Open Data. We highlight the importance of\nprecise spatial information and demonstrate competitive performance to existing\nstate-of-the-art jet classifiers. We further generalize the end-to-end approach\nto event-level classification of quark vs. gluon di-jet QCD events. We compare\nthe fully end-to-end approach to using hand-engineered features and demonstrate\nthat the end-to-end algorithm is robust against the effects of underlying event\nand pile-up.",
         "authors": [
             "Michael Andrews",
@@ -136,19 +149,6 @@
         "doi": "http://arxiv.org/abs/2109.11274v3",
         "title": "Search for the production of dark matter candidates in association with\n  heavy dimuon resonance using the CMS open data for pp collisions at\n  $\\sqrt{s}$ = 8 TeV",
         "url": "http://arxiv.org/abs/2109.11274v3"
-    },
-    {
-        "abstract": "This paper describes the construction of novel end-to-end image-based\nclassifiers that directly leverage low-level simulated detector data to\ndiscriminate signal and background processes in pp collision events at the\nLarge Hadron Collider at CERN. To better understand what end-to-end classifiers\nare capable of learning from the data and to address a number of associated\nchallenges, we distinguish the decay of the standard model Higgs boson into two\nphotons from its leading background sources using high-fidelity simulated CMS\nOpen Data. We demonstrate the ability of end-to-end classifiers to learn from\nthe angular distribution of the photons recorded as electromagnetic showers,\ntheir intrinsic shapes, and the energy of their constituent hits, even when the\nunderlying particles are not fully resolved, delivering a clear advantage in\nsuch cases over purely kinematics-based classifiers.",
-        "authors": [
-            "Michael Andrews",
-            "Manfred Paulini",
-            "Sergei Gleyzer",
-            "Barnabas Poczos"
-        ],
-        "date": "2018-07-31",
-        "doi": "http://dx.doi.org/10.1007/s41781-020-00038-8",
-        "title": "End-to-End Physics Event Classification with CMS Open Data: Applying\n  Image-Based Deep Learning to Detector Data for the Direct Classification of\n  Collision Events at the LHC",
-        "url": "http://arxiv.org/abs/1807.11916v3"
     },
     {
         "abstract": "The underlying event is an important part of high-energy collision events. In\nthe event generators, the underlying event is tuned by fits to collision data.\nUsually, the underlying event observables are affected by the existence of\nextra jets and it is difficult to find a part of the phase space which is\ndominated by the underlying event. In this paper, we suggest to veto the jets\nin the considered region to disentangle these effects. The idea is verified to\nwork on CMS Open Data. To our knowledge, it is the first time that such ideas\nare tested on real collision data.",
@@ -227,31 +227,6 @@
         "url": "http://arxiv.org/abs/2111.11415v1"
     },
     {
-        "abstract": "The ultralight boson represents a promising dark matter candidate exhibiting\nunique wave-like behaviors. These properties could transfer to the dark\nmediator, such as the kinetic mixing dark photon, which can be a link between\nthe dark and Standard Model sectors, resulting in periodic oscillations of its\nmass. We propose a method to detect ultralight dark matter using dark mediators\nin collider and beam dump experiments, distinguishing it from conventional\natomic, molecular, and optical methods. The time-varying nature of dark\nmediator mass exhibits a double-peak spectrum, reducing traditional constraints\nby 1 to 2 orders of magnitude, due to decreased luminosity exposure in each\nresonant mass bin. To enhance sensitivity, we utilize event time-stamps in the\nCMS Open Data and demonstrate that this technique boosts sensitivity by\napproximately one order of magnitude compared to the time-blind method.\nMoreover, it proves effective in detecting the invisible decay of the dark\nmediator.",
-        "authors": [
-            "Jinhui Guo",
-            "Yuxuan He",
-            "Jia Liu",
-            "Xiao-Ping Wang",
-            "Ke-Pan Xie"
-        ],
-        "date": "2022-06-28",
-        "doi": "http://dx.doi.org/10.1038/s42005-023-01350-6",
-        "title": "Unveiling Time-Varying Signals of Ultralight Bosonic Dark Matter at\n  Collider and Beam Dump Experiments",
-        "url": "http://arxiv.org/abs/2206.14221v3"
-    },
-    {
-        "abstract": "The Standard Model violates parity, but only by mechanisms which are\ninvisible to Large Hadron Collider (LHC) experiments (on account of the lack of\ninitial state polarisation or spin-sensitivity in the detectors). Nonetheless,\nnew physical processes could potentially violate parity in ways which are\ndetectable by those same experiments. If those sources of new physics occur\nonly at LHC energies, they are untested by direct searches. We probe the\nfeasibility of such measurements using approximately 0.2 inverse femtobarns of\ndata which was recorded in 2012 by the CMS collaboration and made public within\nthe CMS Open Data initiative. In particular, we test an inclusive three-jet\nevent selection which is primarily sensitive to non-standard parity violating\neffects in quark-gluon interactions. Within our measurements, no significant\ndeviation from the Standard Model is seen and no obvious experimental\nlimitations have been found. We discuss other ways that searches for\nnon-standard parity violation could be performed, noting that these would be\nsensitive to very different sorts of models to those which our measurements\nconstrain. We hope that our initial studies provide a valuable starting point\nfor rigorous future analyses using the full LHC datasets at 13 TeV with a\ncareful and less conservative estimate of experimental uncertainties.",
-        "authors": [
-            "Christopher G. Lester",
-            "Matthias Schott"
-        ],
-        "date": "2019-04-25",
-        "doi": "http://dx.doi.org/10.1007/JHEP12(2019)120",
-        "title": "Search for Non-Standard Sources of Parity Violation in Jets at $\\sqrt\n  s$=8 TeV with CMS Open Data",
-        "url": "http://arxiv.org/abs/1904.11195v4"
-    },
-    {
         "abstract": "From particle identification to the discovery of the Higgs boson, deep\nlearning algorithms have become an increasingly important tool for data\nanalysis at the Large Hadron Collider (LHC). We present an innovative\nend-to-end deep learning approach for jet identification at the Compact Muon\nSolenoid (CMS) experiment at the LHC. The method combines deep neural networks\nwith low-level detector information, such as calorimeter energy deposits and\ntracking information, to build a discriminator to identify different particle\nspecies. Using two physics examples as references: electron vs. photon\ndiscrimination and quark vs. gluon discrimination, we demonstrate the\nperformance of the end-to-end approach on simulated events with full detector\ngeometry as available in the CMS Open Data. We also offer insights into the\nimportance of the information extracted from various sub-detectors and describe\nhow end-to-end techniques can be extended to event-level classification using\ninformation from the whole CMS detector.",
         "authors": [
             "John Alison",
@@ -270,6 +245,31 @@
         "doi": "http://arxiv.org/abs/1910.07029v1",
         "title": "End-to-end particle and event identification at the Large Hadron\n  Collider with CMS Open Data",
         "url": "http://arxiv.org/abs/1910.07029v1"
+    },
+    {
+        "abstract": "The Standard Model violates parity, but only by mechanisms which are\ninvisible to Large Hadron Collider (LHC) experiments (on account of the lack of\ninitial state polarisation or spin-sensitivity in the detectors). Nonetheless,\nnew physical processes could potentially violate parity in ways which are\ndetectable by those same experiments. If those sources of new physics occur\nonly at LHC energies, they are untested by direct searches. We probe the\nfeasibility of such measurements using approximately 0.2 inverse femtobarns of\ndata which was recorded in 2012 by the CMS collaboration and made public within\nthe CMS Open Data initiative. In particular, we test an inclusive three-jet\nevent selection which is primarily sensitive to non-standard parity violating\neffects in quark-gluon interactions. Within our measurements, no significant\ndeviation from the Standard Model is seen and no obvious experimental\nlimitations have been found. We discuss other ways that searches for\nnon-standard parity violation could be performed, noting that these would be\nsensitive to very different sorts of models to those which our measurements\nconstrain. We hope that our initial studies provide a valuable starting point\nfor rigorous future analyses using the full LHC datasets at 13 TeV with a\ncareful and less conservative estimate of experimental uncertainties.",
+        "authors": [
+            "Christopher G. Lester",
+            "Matthias Schott"
+        ],
+        "date": "2019-04-25",
+        "doi": "http://dx.doi.org/10.1007/JHEP12(2019)120",
+        "title": "Search for Non-Standard Sources of Parity Violation in Jets at $\\sqrt\n  s$=8 TeV with CMS Open Data",
+        "url": "http://arxiv.org/abs/1904.11195v4"
+    },
+    {
+        "abstract": "The ultralight boson represents a promising dark matter candidate exhibiting\nunique wave-like behaviors. These properties could transfer to the dark\nmediator, such as the kinetic mixing dark photon, which can be a link between\nthe dark and Standard Model sectors, resulting in periodic oscillations of its\nmass. We propose a method to detect ultralight dark matter using dark mediators\nin collider and beam dump experiments, distinguishing it from conventional\natomic, molecular, and optical methods. The time-varying nature of dark\nmediator mass exhibits a double-peak spectrum, reducing traditional constraints\nby 1 to 2 orders of magnitude, due to decreased luminosity exposure in each\nresonant mass bin. To enhance sensitivity, we utilize event time-stamps in the\nCMS Open Data and demonstrate that this technique boosts sensitivity by\napproximately one order of magnitude compared to the time-blind method.\nMoreover, it proves effective in detecting the invisible decay of the dark\nmediator.",
+        "authors": [
+            "Jinhui Guo",
+            "Yuxuan He",
+            "Jia Liu",
+            "Xiao-Ping Wang",
+            "Ke-Pan Xie"
+        ],
+        "date": "2022-06-28",
+        "doi": "http://dx.doi.org/10.1038/s42005-023-01350-6",
+        "title": "Unveiling Time-Varying Signals of Ultralight Bosonic Dark Matter at\n  Collider and Beam Dump Experiments",
+        "url": "http://arxiv.org/abs/2206.14221v3"
     },
     {
         "abstract": "This analysis shows a search for dark fermion particles produced in\nassociation with a heavy neutral gauge boson (Z$^{\\prime}$). The studied events\ntopology are dimuon and a large missing transverse momentum. %We considered the\nmuonic decay of Z$^{\\prime}$. The analyzed data were the Open Data collected by\nthe CMS detector in proton-proton collisions at the LHC in 2012 and correspond\nto an integrated luminosity of 11.6 fb$^{-1}$ at $\\sqrt{s} = $ 8 TeV. One\nbenchmark scenario the light vector was used for interpreting the data, based\non a simplified model so called the mono-Z$^{\\prime}$ model. No evidence of\ndark fermion candidates was found, 95$\\%$ confidence level limits have been set\non both Z$^{\\prime}$ and dark fermion masses.",
