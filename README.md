@@ -1,4 +1,6 @@
 # data-usage
+[![DOI](https://zenodo.org/badge/788452745.svg)](https://doi.org/10.5281/zenodo.15078670)
+
 CMS open data usage tools
 
 ## Install
