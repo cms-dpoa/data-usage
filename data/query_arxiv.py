@@ -1,6 +1,5 @@
 import json
-import urllib.request
-import io
+import requests
 
 import feedparser as fp
 
@@ -15,9 +14,8 @@ max_results = 100
 arxiv_url = 'http://export.arxiv.org/api/query?search_query='
 query=f'"CMS+Open+Data"&searchtype=all&source=header&max_results={max_results}'
 
-results = urllib.request.urlopen(f'{arxiv_url}{query}')
-
-feed = fp.parse(results.read().decode('utf-8'))
+results = requests.get(f'{arxiv_url}{query}')
+feed = fp.parse(results.text)
 
 entries = feed['entries']
 

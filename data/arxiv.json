@@ -55,20 +55,6 @@
         "url": "http://arxiv.org/abs/2502.14036v2"
     },
     {
-        "abstract": "We explore the metric space of jets using public collider data from the CMS\nexperiment. Starting from 2.3/fb of 7 TeV proton-proton collisions collected at\nthe Large Hadron Collider in 2011, we isolate a sample of 1,690,984 central\njets with transverse momentum above 375 GeV. To validate the performance of the\nCMS detector in reconstructing the energy flow of jets, we compare the CMS Open\nData to corresponding simulated data samples for a variety of jet kinematic and\nsubstructure observables. Even without detector unfolding, we find very good\nagreement for track-based observables after using charged hadron subtraction to\nmitigate the impact of pileup. We perform a range of novel analyses, using the\n\"energy mover's distance\" (EMD) to measure the pairwise difference between jet\nenergy flows. The EMD allows us to quantify the impact of detector effects,\nvisualize the metric space of jets, extract correlation dimensions, and\nidentify the most and least typical jet configurations. To facilitate future\njet studies with CMS Open Data, we make our datasets and analysis code\navailable, amounting to around two gigabytes of distilled data and one hundred\ngigabytes of simulation files.",
-        "authors": [
-            "Patrick T. Komiske",
-            "Radha Mastandrea",
-            "Eric M. Metodiev",
-            "Preksha Naik",
-            "Jesse Thaler"
-        ],
-        "date": "2019-08-22",
-        "doi": "http://dx.doi.org/10.1103/PhysRevD.101.034009",
-        "title": "Exploring the Space of Jets with CMS Open Data",
-        "url": "http://arxiv.org/abs/1908.08542v2"
-    },
-    {
         "abstract": "We study dimuon events in 2.11/fb of 7 TeV pp collisions, using CMS Open\nData, and search for a narrow dimuon resonance with moderate mass (14-66 GeV)\nand substantial transverse momentum (pT). Applying dimuon pT cuts of 25 GeV and\n60 GeV, we explore two overlapping samples: one with isolated muons, and one\nwith prompt muons without an isolation requirement. Using the latter sample\nrequires information about detector effects and QCD backgrounds, which we\nobtain directly from the CMS Open Data. We present model-independent limits on\nthe product of cross section, branching fraction, acceptance, and efficiencies.\nThese limits are stronger, relative to a corresponding inclusive search without\na pT cut, by factors of as much as nine. Our \"pT-enhanced\" dimuon search\nstrategy provides improved sensitivity to models in which a new particle is\nproduced mainly in the decay of something heavier, as could occur, for example,\nin decays of the Higgs boson or of a TeV-scale top partner. An implementation\nof this method with the current 13 TeV data should improve the sensitivity to\nsuch signals further by roughly an order of magnitude.",
         "authors": [
             "Cari Cesarotti",
@@ -81,6 +67,20 @@
         "doi": "http://dx.doi.org/10.1103/PhysRevD.100.015021",
         "title": "Searching in CMS Open Data for Dimuon Resonances with Substantial\n  Transverse Momentum",
         "url": "http://arxiv.org/abs/1902.04222v2"
+    },
+    {
+        "abstract": "We explore the metric space of jets using public collider data from the CMS\nexperiment. Starting from 2.3/fb of 7 TeV proton-proton collisions collected at\nthe Large Hadron Collider in 2011, we isolate a sample of 1,690,984 central\njets with transverse momentum above 375 GeV. To validate the performance of the\nCMS detector in reconstructing the energy flow of jets, we compare the CMS Open\nData to corresponding simulated data samples for a variety of jet kinematic and\nsubstructure observables. Even without detector unfolding, we find very good\nagreement for track-based observables after using charged hadron subtraction to\nmitigate the impact of pileup. We perform a range of novel analyses, using the\n\"energy mover's distance\" (EMD) to measure the pairwise difference between jet\nenergy flows. The EMD allows us to quantify the impact of detector effects,\nvisualize the metric space of jets, extract correlation dimensions, and\nidentify the most and least typical jet configurations. To facilitate future\njet studies with CMS Open Data, we make our datasets and analysis code\navailable, amounting to around two gigabytes of distilled data and one hundred\ngigabytes of simulation files.",
+        "authors": [
+            "Patrick T. Komiske",
+            "Radha Mastandrea",
+            "Eric M. Metodiev",
+            "Preksha Naik",
+            "Jesse Thaler"
+        ],
+        "date": "2019-08-22",
+        "doi": "http://dx.doi.org/10.1103/PhysRevD.101.034009",
+        "title": "Exploring the Space of Jets with CMS Open Data",
+        "url": "http://arxiv.org/abs/1908.08542v2"
     },
     {
         "abstract": "We describe a novel application of the end-to-end deep learning technique to\nthe task of discriminating top quark-initiated jets from those originating from\nthe hadronization of a light quark or a gluon. The end-to-end deep learning\ntechnique combines deep learning algorithms and low-level detector\nrepresentation of the high-energy collision event. In this study, we use\nlow-level detector information from the simulated CMS Open Data samples to\nconstruct the top jet classifiers. To optimize classifier performance we\nprogressively add low-level information from the CMS tracking detector,\nincluding pixel detector reconstructed hits and impact parameters, and\ndemonstrate the value of additional tracking information even when no new\nspatial structures are added. Relying only on calorimeter energy deposits and\nreconstructed pixel detector hits, the end-to-end classifier achieves an AUC\nscore of 0.975$\\pm$0.002 for the task of classifying boosted top quark jets.\nAfter adding derived track quantities, the classifier AUC score increases to\n0.9824$\\pm$0.0013, serving as the first performance benchmark for these CMS\nOpen Data samples. We additionally provide a timing performance comparison of\ndifferent processor unit architectures for training the network.",
@@ -119,15 +119,17 @@
         "url": "http://arxiv.org/abs/1704.05066v3"
     },
     {
-        "abstract": "The underlying event is an important part of high-energy collision events. In\nthe event generators, the underlying event is tuned by fits to collision data.\nUsually, the underlying event observables are affected by the existence of\nextra jets and it is difficult to find a part of the phase space which is\ndominated by the underlying event. In this paper, we suggest to veto the jets\nin the considered region to disentangle these effects. The idea is verified to\nwork on CMS Open Data. To our knowledge, it is the first time that such ideas\nare tested on real collision data.",
+        "abstract": "This paper describes the construction of novel end-to-end image-based\nclassifiers that directly leverage low-level simulated detector data to\ndiscriminate signal and background processes in pp collision events at the\nLarge Hadron Collider at CERN. To better understand what end-to-end classifiers\nare capable of learning from the data and to address a number of associated\nchallenges, we distinguish the decay of the standard model Higgs boson into two\nphotons from its leading background sources using high-fidelity simulated CMS\nOpen Data. We demonstrate the ability of end-to-end classifiers to learn from\nthe angular distribution of the photons recorded as electromagnetic showers,\ntheir intrinsic shapes, and the energy of their constituent hits, even when the\nunderlying particles are not fully resolved, delivering a clear advantage in\nsuch cases over purely kinematics-based classifiers.",
         "authors": [
-            "Saeid Paktinat Mehdiabadi",
-            "Ali Fahim"
+            "Michael Andrews",
+            "Manfred Paulini",
+            "Sergei Gleyzer",
+            "Barnabas Poczos"
         ],
-        "date": "2019-07-20",
-        "doi": "http://dx.doi.org/10.1088/1361-6471/ab33a9",
-        "title": "Explicit Jet Veto as a Tool to Purify the Underlying Event in the\n  Drell-Yan Process Using CMS Open Data",
-        "url": "http://arxiv.org/abs/1907.08842v1"
+        "date": "2018-07-31",
+        "doi": "http://dx.doi.org/10.1007/s41781-020-00038-8",
+        "title": "End-to-End Physics Event Classification with CMS Open Data: Applying\n  Image-Based Deep Learning to Detector Data for the Direct Classification of\n  Collision Events at the LHC",
+        "url": "http://arxiv.org/abs/1807.11916v3"
     },
     {
         "abstract": "We describe the construction of end-to-end jet image classifiers based on\nsimulated low-level detector data to discriminate quark- vs. gluon-initiated\njets with high-fidelity simulated CMS Open Data. We highlight the importance of\nprecise spatial information and demonstrate competitive performance to existing\nstate-of-the-art jet classifiers. We further generalize the end-to-end approach\nto event-level classification of quark vs. gluon di-jet QCD events. We compare\nthe fully end-to-end approach to using hand-engineered features and demonstrate\nthat the end-to-end algorithm is robust against the effects of underlying event\nand pile-up.",
@@ -147,6 +149,17 @@
         "doi": "http://dx.doi.org/10.1016/j.nima.2020.164304",
         "title": "End-to-End Jet Classification of Quarks and Gluons with the CMS Open\n  Data",
         "url": "http://arxiv.org/abs/1902.08276v2"
+    },
+    {
+        "abstract": "The underlying event is an important part of high-energy collision events. In\nthe event generators, the underlying event is tuned by fits to collision data.\nUsually, the underlying event observables are affected by the existence of\nextra jets and it is difficult to find a part of the phase space which is\ndominated by the underlying event. In this paper, we suggest to veto the jets\nin the considered region to disentangle these effects. The idea is verified to\nwork on CMS Open Data. To our knowledge, it is the first time that such ideas\nare tested on real collision data.",
+        "authors": [
+            "Saeid Paktinat Mehdiabadi",
+            "Ali Fahim"
+        ],
+        "date": "2019-07-20",
+        "doi": "http://dx.doi.org/10.1088/1361-6471/ab33a9",
+        "title": "Explicit Jet Veto as a Tool to Purify the Underlying Event in the\n  Drell-Yan Process Using CMS Open Data",
+        "url": "http://arxiv.org/abs/1907.08842v1"
     },
     {
         "abstract": "We apply an Adversarially Learned Anomaly Detection (ALAD) algorithm to the\nproblem of detecting new physics processes in proton-proton collisions at the\nLarge Hadron Collider. Anomaly detection based on ALAD matches performances\nreached by Variational Autoencoders, with a substantial improvement in some\ncases. Training the ALAD algorithm on 4.4 fb-1 of 8 TeV CMS Open Data, we show\nhow a data-driven anomaly detection and characterization would work in real\nlife, re-discovering the top quark by identifying the main features of the\nt-tbar experimental signature at the LHC.",
@@ -175,19 +188,6 @@
         "doi": "http://arxiv.org/abs/2109.11274v3",
         "title": "Search for the production of dark matter candidates in association with\n  heavy dimuon resonance using the CMS open data for pp collisions at\n  $\\sqrt{s}$ = 8 TeV",
         "url": "http://arxiv.org/abs/2109.11274v3"
-    },
-    {
-        "abstract": "This paper describes the construction of novel end-to-end image-based\nclassifiers that directly leverage low-level simulated detector data to\ndiscriminate signal and background processes in pp collision events at the\nLarge Hadron Collider at CERN. To better understand what end-to-end classifiers\nare capable of learning from the data and to address a number of associated\nchallenges, we distinguish the decay of the standard model Higgs boson into two\nphotons from its leading background sources using high-fidelity simulated CMS\nOpen Data. We demonstrate the ability of end-to-end classifiers to learn from\nthe angular distribution of the photons recorded as electromagnetic showers,\ntheir intrinsic shapes, and the energy of their constituent hits, even when the\nunderlying particles are not fully resolved, delivering a clear advantage in\nsuch cases over purely kinematics-based classifiers.",
-        "authors": [
-            "Michael Andrews",
-            "Manfred Paulini",
-            "Sergei Gleyzer",
-            "Barnabas Poczos"
-        ],
-        "date": "2018-07-31",
-        "doi": "http://dx.doi.org/10.1007/s41781-020-00038-8",
-        "title": "End-to-End Physics Event Classification with CMS Open Data: Applying\n  Image-Based Deep Learning to Detector Data for the Direct Classification of\n  Collision Events at the LHC",
-        "url": "http://arxiv.org/abs/1807.11916v3"
     },
     {
         "abstract": "In recent years novel inference techniques have been developed based on the\nconstruction of non-linear summary statistics with neural networks by\nminimising inferencemotivated losses. One such technique is inferno (P. de\nCastro and T. Dorigo, Comp. Phys. Comm. 244 (2019) 170) which was shown on toy\nproblems to outperform classical summary statistics for the problem of\nconfidence interval estimation in the presence of nuisance parameters. In order\nto test and benchmark the algorithm in a real world application, a full,\nsystematics-dominated analysis produced by the CMS experiment, \"Measurement of\nthe top-antitop production cross section in the tau+jets channel in pp\ncollisions at sqrt(s) = 7 TeV\" (CMS Collaboration, The European Physical\nJournal C, 2013) is reproduced with CMS Open Data. The application of the\ninferno-powered neural network architecture to this analysis demonstrates the\npotential to reduce the impact of systematic uncertainties in real LHC\nanalyses. This work also exemplifies the extent to which LHC analyses can be\nreproduced with open data.",
@@ -240,6 +240,17 @@
         "url": "http://arxiv.org/abs/2111.11415v1"
     },
     {
+        "abstract": "The Standard Model violates parity, but only by mechanisms which are\ninvisible to Large Hadron Collider (LHC) experiments (on account of the lack of\ninitial state polarisation or spin-sensitivity in the detectors). Nonetheless,\nnew physical processes could potentially violate parity in ways which are\ndetectable by those same experiments. If those sources of new physics occur\nonly at LHC energies, they are untested by direct searches. We probe the\nfeasibility of such measurements using approximately 0.2 inverse femtobarns of\ndata which was recorded in 2012 by the CMS collaboration and made public within\nthe CMS Open Data initiative. In particular, we test an inclusive three-jet\nevent selection which is primarily sensitive to non-standard parity violating\neffects in quark-gluon interactions. Within our measurements, no significant\ndeviation from the Standard Model is seen and no obvious experimental\nlimitations have been found. We discuss other ways that searches for\nnon-standard parity violation could be performed, noting that these would be\nsensitive to very different sorts of models to those which our measurements\nconstrain. We hope that our initial studies provide a valuable starting point\nfor rigorous future analyses using the full LHC datasets at 13 TeV with a\ncareful and less conservative estimate of experimental uncertainties.",
+        "authors": [
+            "Christopher G. Lester",
+            "Matthias Schott"
+        ],
+        "date": "2019-04-25",
+        "doi": "http://dx.doi.org/10.1007/JHEP12(2019)120",
+        "title": "Search for Non-Standard Sources of Parity Violation in Jets at $\\sqrt\n  s$=8 TeV with CMS Open Data",
+        "url": "http://arxiv.org/abs/1904.11195v4"
+    },
+    {
         "abstract": "From particle identification to the discovery of the Higgs boson, deep\nlearning algorithms have become an increasingly important tool for data\nanalysis at the Large Hadron Collider (LHC). We present an innovative\nend-to-end deep learning approach for jet identification at the Compact Muon\nSolenoid (CMS) experiment at the LHC. The method combines deep neural networks\nwith low-level detector information, such as calorimeter energy deposits and\ntracking information, to build a discriminator to identify different particle\nspecies. Using two physics examples as references: electron vs. photon\ndiscrimination and quark vs. gluon discrimination, we demonstrate the\nperformance of the end-to-end approach on simulated events with full detector\ngeometry as available in the CMS Open Data. We also offer insights into the\nimportance of the information extracted from various sub-detectors and describe\nhow end-to-end techniques can be extended to event-level classification using\ninformation from the whole CMS detector.",
         "authors": [
             "John Alison",
@@ -272,17 +283,6 @@
         "doi": "http://dx.doi.org/10.1038/s42005-023-01350-6",
         "title": "Unveiling Time-Varying Signals of Ultralight Bosonic Dark Matter at\n  Collider and Beam Dump Experiments",
         "url": "http://arxiv.org/abs/2206.14221v3"
-    },
-    {
-        "abstract": "The Standard Model violates parity, but only by mechanisms which are\ninvisible to Large Hadron Collider (LHC) experiments (on account of the lack of\ninitial state polarisation or spin-sensitivity in the detectors). Nonetheless,\nnew physical processes could potentially violate parity in ways which are\ndetectable by those same experiments. If those sources of new physics occur\nonly at LHC energies, they are untested by direct searches. We probe the\nfeasibility of such measurements using approximately 0.2 inverse femtobarns of\ndata which was recorded in 2012 by the CMS collaboration and made public within\nthe CMS Open Data initiative. In particular, we test an inclusive three-jet\nevent selection which is primarily sensitive to non-standard parity violating\neffects in quark-gluon interactions. Within our measurements, no significant\ndeviation from the Standard Model is seen and no obvious experimental\nlimitations have been found. We discuss other ways that searches for\nnon-standard parity violation could be performed, noting that these would be\nsensitive to very different sorts of models to those which our measurements\nconstrain. We hope that our initial studies provide a valuable starting point\nfor rigorous future analyses using the full LHC datasets at 13 TeV with a\ncareful and less conservative estimate of experimental uncertainties.",
-        "authors": [
-            "Christopher G. Lester",
-            "Matthias Schott"
-        ],
-        "date": "2019-04-25",
-        "doi": "http://dx.doi.org/10.1007/JHEP12(2019)120",
-        "title": "Search for Non-Standard Sources of Parity Violation in Jets at $\\sqrt\n  s$=8 TeV with CMS Open Data",
-        "url": "http://arxiv.org/abs/1904.11195v4"
     },
     {
         "abstract": "This analysis shows a search for dark fermion particles produced in\nassociation with a heavy neutral gauge boson (Z$^{\\prime}$). The studied events\ntopology are dimuon and a large missing transverse momentum. %We considered the\nmuonic decay of Z$^{\\prime}$. The analyzed data were the Open Data collected by\nthe CMS detector in proton-proton collisions at the LHC in 2012 and correspond\nto an integrated luminosity of 11.6 fb$^{-1}$ at $\\sqrt{s} = $ 8 TeV. One\nbenchmark scenario the light vector was used for interpreting the data, based\non a simplified model so called the mono-Z$^{\\prime}$ model. No evidence of\ndark fermion candidates was found, 95$\\%$ confidence level limits have been set\non both Z$^{\\prime}$ and dark fermion masses.",
@@ -464,17 +464,29 @@
         "url": "http://arxiv.org/abs/2404.04138v2"
     },
     {
-        "abstract": "Energy correlators have recently come to the forefront of jet substructure\nstudies at colliders due to their remarkable properties: they naturally\nseparate physics at different scales, are robust to contamination from soft\nradiation, and offer a direct connection with quantum field theory. The current\nparametrization used for energy correlators, however, is based on redundant\npairwise angles with complex phase space restrictions. In this Letter, we\nintroduce a new parametrization of energy correlators that features a simpler\nphase space structure and preserves information about the orientation of jet\nconstituents. Further, our parametrization drastically reduces the\ncomputational cost to compute energy correlators on experimental data; whereas\nthe time to compute a traditional projected N-point energy correlator scales as\nM^N/N! on a jet with M particles, our new parametrization achieves a scaling of\nM^2 log(M) independently of N. Theoretical calculations for our new energy\ncorrelators differ from those of traditional parametrizations only at\nnext-to-next-to-leading logarithmic accuracy and beyond, and we expect that our\nsimpler phase space structure will simplify those calculations. We also discuss\nhow to extend our parametrization to resolved N-point energy correlators that\nencode angular distances between greater numbers of particles, and we propose\ntwo possible generalizations for probing multi-prong jets and testing jet\nscaling behaviour.",
+        "abstract": "A search is performed for pairs of light pseudoscalar bosons (a) produced\nfrom decays of the 125 GeV Higgs boson ($\\text{h}_{125}$). The analysis is\nbased on publicly available data collected in 2016 by the CMS experiment at the\nLHC in proton-proton collisions at a center-of-mass energy of 13 TeV. The\namount of data analyzed corresponds to an integrated luminosity of 16.4\n$\\text{fb}^{-1}$. The analysis explores for the first time at the LHC the final\nstate exhibiting two muons and two c-quarks, which originate from\nflavor-asymmetric decays of the pseudoscalar pair. The search probes the\npseudoscalar boson mass interval comprised between 4 and 11 GeV, which\nrepresents a region where the light bosons exhibit a considerable Lorentz\nboost, and thus their decay products overlap. No significant deviation from the\nstandard model expectation is observed. Model-independent upper limits at 95%\nconfidence level are set on the product of the cross section and branching\nfraction for the ${\\text{h}_{125} \\rightarrow \\text{a}\\text{a} \\rightarrow\n\\mu^{-}\\mu^{+} c\\bar{c}}$ process relative to the standard model Higgs boson\nproduction cross section, reaching a minimum value close to $3.3 \\times\n10^{-4}$. The results are interpreted in the context of two Higgs doublets plus\nsinglet models and compared to existing experimental results covering other\ndecay channels. The exclusion limits obtained by this search improve the\ncurrent constraints set by various LHC searches in scenarios where the coupling\nof the light boson to up-type quarks is enhanced.",
         "authors": [
-            "Samuel Alipour-fard",
-            "Ankita Budhraja",
-            "Jesse Thaler",
-            "Wouter J. Waalewijn"
+            "Danyer Perez Adan"
         ],
-        "date": "2024-10-21",
-        "doi": "http://arxiv.org/abs/2410.16368v1",
-        "title": "New Angles on Energy Correlators",
-        "url": "http://arxiv.org/abs/2410.16368v1"
+        "date": "2025-04-16",
+        "doi": "http://arxiv.org/abs/2504.12161v1",
+        "title": "Search for an exotic decay of the 125 GeV Higgs boson to a pair of light\n  pseudoscalars in the final state of two muons and two c-quarks in\n  proton-proton collisions at $\\sqrt{s} = 13\\;\\text{TeV}$ with CMS Open Data",
+        "url": "http://arxiv.org/abs/2504.12161v1"
+    },
+    {
+        "abstract": "Distinguishing between quark- and gluon-initiated jets is a critical and\nchallenging task in high-energy physics, pivotal for improving new physics\nsearches and precision measurements at the Large Hadron Collider. While deep\nlearning, particularly Convolutional Neural Networks (CNNs), has advanced jet\ntagging using image-based representations, the potential of Vision Transformer\n(ViT) architectures, renowned for modeling global contextual information,\nremains largely underexplored for direct calorimeter image analysis, especially\nunder realistic detector and pileup conditions. This paper presents a\nsystematic evaluation of ViTs and ViT-CNN hybrid models for quark-gluon jet\nclassification using simulated 2012 CMS Open Data. We construct multi-channel\njet-view images from detector-level energy deposits (ECAL, HCAL) and\nreconstructed tracks, enabling an end-to-end learning approach. Our\ncomprehensive benchmarking demonstrates that ViT-based models, notably\nViT+MaxViT and ViT+ConvNeXt hybrids, consistently outperform established CNN\nbaselines in F1-score, ROC-AUC, and accuracy, highlighting the advantage of\ncapturing long-range spatial correlations within jet substructure. This work\nestablishes the first systematic framework and robust performance baselines for\napplying ViT architectures to calorimeter image-based jet classification using\npublic collider data, alongside a structured dataset suitable for further deep\nlearning research in this domain.",
+        "authors": [
+            "Md Abrar Jahin",
+            "Shahriar Soudeep",
+            "Arian Rahman Aditta",
+            "M. F. Mridha",
+            "Nafiz Fahad",
+            "Md. Jakir Hossen"
+        ],
+        "date": "2025-06-17",
+        "doi": "http://arxiv.org/abs/2506.14934v1",
+        "title": "Vision Transformers for End-to-End Quark-Gluon Jet Classification from\n  Calorimeter Images",
+        "url": "http://arxiv.org/abs/2506.14934v1"
     },
     {
         "abstract": "The microscopic dynamics of particle collisions is imprinted into the\nstatistical properties of asymptotic energy flux, much like the dynamics of\ninflation is imprinted into the cosmic microwave background. This energy flux\nis characterized by correlation functions $\\langle \\mathcal{E}(\\vec n_1)\\cdots\n\\mathcal{E}(\\vec n_k) \\rangle$ of energy flow operators $ \\mathcal{E}(\\vec n)$.\nThere has been significant recent progress in studying energy flux, including\nthe calculation of multi-point correlation functions and their direct\nmeasurement inside high-energy jets at the Large Hadron Collider (LHC). In this\npaper, we build on these advances by defining a notion of \"celestial\nnon-gaussianity\" as a ratio of the three-point function to a product of\ntwo-point functions. We show that this celestial non-gaussianity is under\nperturbative control within jets at the LHC, allowing us to cleanly access the\nnon-gaussian interactions of quarks and gluons. We find good agreement between\nperturbative calculations of the non-gaussianity and a charged-particle-based\nanalysis using CMS Open Data, and we observe a strong non-gaussianity peaked in\nthe \"flattened triangle\" regime. The ability to robustly study three-point\ncorrelations is a significant step in advancing our understanding of jet\nsubstructure at the LHC. We anticipate that the celestial non-gaussianity, and\nits generalizations, will play an important role in the development of\nhigher-order parton showers simulations and in the hunt for ever more subtle\nsignals of potential new physics within jets.",
