@@ -55,20 +55,6 @@
         "url": "http://arxiv.org/abs/2502.14036v2"
     },
     {
-        "abstract": "We study dimuon events in 2.11/fb of 7 TeV pp collisions, using CMS Open\nData, and search for a narrow dimuon resonance with moderate mass (14-66 GeV)\nand substantial transverse momentum (pT). Applying dimuon pT cuts of 25 GeV and\n60 GeV, we explore two overlapping samples: one with isolated muons, and one\nwith prompt muons without an isolation requirement. Using the latter sample\nrequires information about detector effects and QCD backgrounds, which we\nobtain directly from the CMS Open Data. We present model-independent limits on\nthe product of cross section, branching fraction, acceptance, and efficiencies.\nThese limits are stronger, relative to a corresponding inclusive search without\na pT cut, by factors of as much as nine. Our \"pT-enhanced\" dimuon search\nstrategy provides improved sensitivity to models in which a new particle is\nproduced mainly in the decay of something heavier, as could occur, for example,\nin decays of the Higgs boson or of a TeV-scale top partner. An implementation\nof this method with the current 13 TeV data should improve the sensitivity to\nsuch signals further by roughly an order of magnitude.",
-        "authors": [
-            "Cari Cesarotti",
-            "Yotam Soreq",
-            "Matthew J. Strassler",
-            "Jesse Thaler",
-            "Wei Xue"
-        ],
-        "date": "2019-02-12",
-        "doi": "http://dx.doi.org/10.1103/PhysRevD.100.015021",
-        "title": "Searching in CMS Open Data for Dimuon Resonances with Substantial\n  Transverse Momentum",
-        "url": "http://arxiv.org/abs/1902.04222v2"
-    },
-    {
         "abstract": "We explore the metric space of jets using public collider data from the CMS\nexperiment. Starting from 2.3/fb of 7 TeV proton-proton collisions collected at\nthe Large Hadron Collider in 2011, we isolate a sample of 1,690,984 central\njets with transverse momentum above 375 GeV. To validate the performance of the\nCMS detector in reconstructing the energy flow of jets, we compare the CMS Open\nData to corresponding simulated data samples for a variety of jet kinematic and\nsubstructure observables. Even without detector unfolding, we find very good\nagreement for track-based observables after using charged hadron subtraction to\nmitigate the impact of pileup. We perform a range of novel analyses, using the\n\"energy mover's distance\" (EMD) to measure the pairwise difference between jet\nenergy flows. The EMD allows us to quantify the impact of detector effects,\nvisualize the metric space of jets, extract correlation dimensions, and\nidentify the most and least typical jet configurations. To facilitate future\njet studies with CMS Open Data, we make our datasets and analysis code\navailable, amounting to around two gigabytes of distilled data and one hundred\ngigabytes of simulation files.",
         "authors": [
             "Patrick T. Komiske",
@@ -105,6 +91,20 @@
         "url": "http://arxiv.org/abs/2104.14659v3"
     },
     {
+        "abstract": "We study dimuon events in 2.11/fb of 7 TeV pp collisions, using CMS Open\nData, and search for a narrow dimuon resonance with moderate mass (14-66 GeV)\nand substantial transverse momentum (pT). Applying dimuon pT cuts of 25 GeV and\n60 GeV, we explore two overlapping samples: one with isolated muons, and one\nwith prompt muons without an isolation requirement. Using the latter sample\nrequires information about detector effects and QCD backgrounds, which we\nobtain directly from the CMS Open Data. We present model-independent limits on\nthe product of cross section, branching fraction, acceptance, and efficiencies.\nThese limits are stronger, relative to a corresponding inclusive search without\na pT cut, by factors of as much as nine. Our \"pT-enhanced\" dimuon search\nstrategy provides improved sensitivity to models in which a new particle is\nproduced mainly in the decay of something heavier, as could occur, for example,\nin decays of the Higgs boson or of a TeV-scale top partner. An implementation\nof this method with the current 13 TeV data should improve the sensitivity to\nsuch signals further by roughly an order of magnitude.",
+        "authors": [
+            "Cari Cesarotti",
+            "Yotam Soreq",
+            "Matthew J. Strassler",
+            "Jesse Thaler",
+            "Wei Xue"
+        ],
+        "date": "2019-02-12",
+        "doi": "http://dx.doi.org/10.1103/PhysRevD.100.015021",
+        "title": "Searching in CMS Open Data for Dimuon Resonances with Substantial\n  Transverse Momentum",
+        "url": "http://arxiv.org/abs/1902.04222v2"
+    },
+    {
         "abstract": "The splitting function is a universal property of quantum chromodynamics\n(QCD) which describes how energy is shared between partons. Despite its\nubiquitous appearance in many QCD calculations, the splitting function cannot\nbe measured directly since it always appears multiplied by a collinear\nsingularity factor. Recently, however, a new jet substructure observable was\nintroduced which asymptotes to the splitting function for sufficiently high jet\nenergies. This provides a way to expose the splitting function through jet\nsubstructure measurements at the Large Hadron Collider. In this letter, we use\npublic data released by the CMS experiment to study the 2-prong substructure of\njets and test the 1 -> 2 splitting function of QCD. To our knowledge, this is\nthe first ever physics analysis based on the CMS Open Data.",
         "authors": [
             "Andrew Larkoski",
@@ -132,25 +132,6 @@
         "url": "http://arxiv.org/abs/1807.11916v3"
     },
     {
-        "abstract": "We describe the construction of end-to-end jet image classifiers based on\nsimulated low-level detector data to discriminate quark- vs. gluon-initiated\njets with high-fidelity simulated CMS Open Data. We highlight the importance of\nprecise spatial information and demonstrate competitive performance to existing\nstate-of-the-art jet classifiers. We further generalize the end-to-end approach\nto event-level classification of quark vs. gluon di-jet QCD events. We compare\nthe fully end-to-end approach to using hand-engineered features and demonstrate\nthat the end-to-end algorithm is robust against the effects of underlying event\nand pile-up.",
-        "authors": [
-            "Michael Andrews",
-            "John Alison",
-            "Sitong An",
-            "Patrick Bryant",
-            "Bjorn Burkle",
-            "Sergei Gleyzer",
-            "Meenakshi Narain",
-            "Manfred Paulini",
-            "Barnabas Poczos",
-            "Emanuele Usai"
-        ],
-        "date": "2019-02-21",
-        "doi": "http://dx.doi.org/10.1016/j.nima.2020.164304",
-        "title": "End-to-End Jet Classification of Quarks and Gluons with the CMS Open\n  Data",
-        "url": "http://arxiv.org/abs/1902.08276v2"
-    },
-    {
         "abstract": "The underlying event is an important part of high-energy collision events. In\nthe event generators, the underlying event is tuned by fits to collision data.\nUsually, the underlying event observables are affected by the existence of\nextra jets and it is difficult to find a part of the phase space which is\ndominated by the underlying event. In this paper, we suggest to veto the jets\nin the considered region to disentangle these effects. The idea is verified to\nwork on CMS Open Data. To our knowledge, it is the first time that such ideas\nare tested on real collision data.",
         "authors": [
             "Saeid Paktinat Mehdiabadi",
@@ -175,6 +156,25 @@
         "doi": "http://arxiv.org/abs/2005.01598v2",
         "title": "Adversarially Learned Anomaly Detection on CMS Open Data: re-discovering\n  the top quark",
         "url": "http://arxiv.org/abs/2005.01598v2"
+    },
+    {
+        "abstract": "We describe the construction of end-to-end jet image classifiers based on\nsimulated low-level detector data to discriminate quark- vs. gluon-initiated\njets with high-fidelity simulated CMS Open Data. We highlight the importance of\nprecise spatial information and demonstrate competitive performance to existing\nstate-of-the-art jet classifiers. We further generalize the end-to-end approach\nto event-level classification of quark vs. gluon di-jet QCD events. We compare\nthe fully end-to-end approach to using hand-engineered features and demonstrate\nthat the end-to-end algorithm is robust against the effects of underlying event\nand pile-up.",
+        "authors": [
+            "Michael Andrews",
+            "John Alison",
+            "Sitong An",
+            "Patrick Bryant",
+            "Bjorn Burkle",
+            "Sergei Gleyzer",
+            "Meenakshi Narain",
+            "Manfred Paulini",
+            "Barnabas Poczos",
+            "Emanuele Usai"
+        ],
+        "date": "2019-02-21",
+        "doi": "http://dx.doi.org/10.1016/j.nima.2020.164304",
+        "title": "End-to-End Jet Classification of Quarks and Gluons with the CMS Open\n  Data",
+        "url": "http://arxiv.org/abs/1902.08276v2"
     },
     {
         "abstract": "In this work, we present a search for the possible production of Dark Matter\nparticles at the Large Hadron Collider alongside a new hypothetical gauge boson\ndenoted by Z$^{\\prime}$, which is governed by a model called Mono-Z$^{\\prime}$.\nThe topology of the studied events is dimuons plus large missing transverse\nmomentum. The analyzed data were the CMS open data samples collected by the CMS\ndetector, in addition to the CMS open Monte Carlo samples, for the\nproton-proton collisions at 8 TeV center of mass energy during 2012, which\ncorrespond to an integrated luminosity of 11.6 fb$^{-1}$. Two benchmarks\nscenarios were used for interpreting the data, the Dark Higgs scenario as a\nsimplified scenario of the Mono-Z$^{\\prime}$ model and the effective field\ntheory formalism of the same model. No evidence for the existence of dark\nmatter candidates was found. Consequently, 95$\\%$ confidence level limits were\nset on the masses of the Z$^{\\prime}$ and the cutoff scale of the effective\nfield theory.",
