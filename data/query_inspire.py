@@ -1,5 +1,5 @@
 import json
-import urllib.request
+import requests
 import io
 import re
 
@@ -48,9 +48,8 @@ query_string = f'{n_results}&{sort_order}&{search_query}'
 
 query = f'{inspire_url}/{record_type}?{query_string}'
 
-results = json.load(
-    urllib.request.urlopen(query)
-)
+response = requests.get(query, timeout=300, stream=True)
+results = response.json()
 
 papers = []
 ofile = open('inspire.json', 'w')
