@@ -137,6 +137,17 @@
         "url": "https://arxiv.org/abs/1704.05066v3"
     },
     {
+        "abstract": "In this work, we present preliminary results from a measurement of the recently proposed observable, $v_0(p_T)$, in lead-lead (PbPb) collisions at $\\sqrt{s_{NN}}=2.76 \\text{ TeV}$, using public data from the CMS Open Data portal. This observable is directly sensitive to radial flow and characterizes the transverse momentum ($p_T$) dependence of radial flow fluctuations, serving as probe of collective phenomena in the quark-gluon plasma (QGP) formed in heavy-ion collisions. Consistently with the ATLAS results at $\\sqrt{s_{NN}}=5.02 \\text{ TeV}$, we observe the three key features of collective radial flow: long-range correlations in pseudorapidity ($\u03b7$), a centrality-independent shape as a function of $p_T$, and factorization in $p_T$. The results presented in this work are generally compatible, within uncertainties, with the ATLAS measurements at $\\sqrt{s_{NN}}=5.02\\text{ TeV}$ reported in Phys. Rev. Lett. 136, 032301 (2026).",
+        "authors": [
+            "Allan E. F. G. Ferreira",
+            "Cesar A. Bernardes"
+        ],
+        "date": "2026-03-06",
+        "doi": "https://arxiv.org/abs/2603.05798v1",
+        "title": "Study of Collective Phenomena in Heavy-Ion Collisions Using CMS Open Data",
+        "url": "https://arxiv.org/abs/2603.05798v1"
+    },
+    {
         "abstract": "We use the CMS Open Data to examine the performance of weakly-supervised learning for tagging quark and gluon jets at the LHC. We target $Z$+jet and dijet events as respective quark- and gluon-enriched mixtures and derive samples both from data taken in 2011 at 7 TeV, and from Monte Carlo. CWoLa and TopicFlow models are trained on real data and compared to fully-supervised classifiers trained on simulation. In order to obtain estimates for the discrimination power in real data, we consider three different estimates of the quark/gluon mixture fractions in the data. Compared to when the models are evaluated on simulation, we find reversed rankings for the fully- and weakly-supervised approaches. Further, these rankings based on data are robust to the estimate of the mixture fraction in the test set. Finally, we use TopicFlow to smooth statistical fluctuations in the small testing set, and to provide uncertainty on the performance in real data.",
         "authors": [
             "Matthew J. Dolan",
@@ -391,6 +402,16 @@
         "url": "https://arxiv.org/abs/2412.08134v1"
     },
     {
+        "abstract": "This note summarizes the lectures given in the tutorial session of the Introduction to the Terascale school at DESY on March 2023. The target audience are advanced bachelor and master physics students. The tutorial aims to best prepare the students for starting an LHC experimental physics thesis. The cross section of the top quark pair production is detailed alongside with the reconstruction of the invariant masses of the top quark as well as of the $W$ and $Z$ bosons. The tutorial uses ideas and CMS open data files from the CMS HEP Tutorial written by C. Sander and A. Schmidt, but is entirely rewritten so that it can be run in Google Colab Cloud in a columnar style of analysis with python. In addition, a minimal C/C++ version of a simple event-loop analysis relying on ROOT is exampled. The code is kept as short as possible with emphasis on the transparency of the analysis steps, rather than the elegance of the software, having in mind that the students will in any case need to rewrite their own custom analysis framework.",
+        "authors": [
+            "Konstantinos Theofilatos"
+        ],
+        "date": "2024-03-13",
+        "doi": "https://arxiv.org/abs/2403.08907v1",
+        "title": "The terascale tutorial",
+        "url": "https://arxiv.org/abs/2403.08907v1"
+    },
+    {
         "abstract": "We introduce a hybrid quantum-classical vision transformer architecture, notable for its integration of variational quantum circuits within both the attention mechanism and the multi-layer perceptrons. The research addresses the critical challenge of computational efficiency and resource constraints in analyzing data from the upcoming High Luminosity Large Hadron Collider, presenting the architecture as a potential solution. In particular, we evaluate our method by applying the model to multi-detector jet images from CMS Open Data. The goal is to distinguish quark-initiated from gluon-initiated jets. We successfully train the quantum model and evaluate it via numerical simulations. Using this approach, we achieve classification performance almost on par with the one obtained with the completely classical architecture, considering a similar number of parameters.",
         "authors": [
             "Mar\u00e7al Comajoan Cara",
@@ -409,16 +430,6 @@
         "doi": "https://arxiv.org/abs/2405.10284v1",
         "title": "Quantum Vision Transformers for Quark-Gluon Classification",
         "url": "https://arxiv.org/abs/2405.10284v1"
-    },
-    {
-        "abstract": "This note summarizes the lectures given in the tutorial session of the Introduction to the Terascale school at DESY on March 2023. The target audience are advanced bachelor and master physics students. The tutorial aims to best prepare the students for starting an LHC experimental physics thesis. The cross section of the top quark pair production is detailed alongside with the reconstruction of the invariant masses of the top quark as well as of the $W$ and $Z$ bosons. The tutorial uses ideas and CMS open data files from the CMS HEP Tutorial written by C. Sander and A. Schmidt, but is entirely rewritten so that it can be run in Google Colab Cloud in a columnar style of analysis with python. In addition, a minimal C/C++ version of a simple event-loop analysis relying on ROOT is exampled. The code is kept as short as possible with emphasis on the transparency of the analysis steps, rather than the elegance of the software, having in mind that the students will in any case need to rewrite their own custom analysis framework.",
-        "authors": [
-            "Konstantinos Theofilatos"
-        ],
-        "date": "2024-03-13",
-        "doi": "https://arxiv.org/abs/2403.08907v1",
-        "title": "The terascale tutorial",
-        "url": "https://arxiv.org/abs/2403.08907v1"
     },
     {
         "abstract": "We present a novel hybrid quantum-classical vision transformer architecture incorporating quantum orthogonal neural networks (QONNs) to enhance performance and computational efficiency in high-energy physics applications. Building on advancements in quantum vision transformers, our approach addresses limitations of prior models by leveraging the inherent advantages of QONNs, including stability and efficient parameterization in high-dimensional spaces. We evaluate the proposed architecture using multi-detector jet images from CMS Open Data, focusing on the task of distinguishing quark-initiated from gluon-initiated jets. The results indicate that embedding quantum orthogonal transformations within the attention mechanism can provide robust performance while offering promising scalability for machine learning challenges associated with the upcoming High Luminosity Large Hadron Collider. This work highlights the potential of quantum-enhanced models to address the computational demands of next-generation particle physics experiments.",
