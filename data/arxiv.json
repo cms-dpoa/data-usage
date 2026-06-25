@@ -522,6 +522,21 @@
         "url": "https://arxiv.org/abs/2506.14934v1"
     },
     {
+        "abstract": "We present a time-domain search strategy for resonances with periodically varying masses in high-energy collider data. Conventional resonance searches rely on time-integrated event samples and are therefore insensitive to signals whose properties evolve during data taking. To address this limitation, we develop a two-dimensional unbinned likelihood framework in invariant mass and time, allowing the reconstruction of signals that trace nontrivial trajectories in the $(m,t)$ plane rather than appearing as stationary resonances.\n  As a benchmark scenario, we consider a $Z'$ boson arising from a gauged $U(1)_{B-L}$ extension of the Standard Model and introduce a phenomenological model in which the mediator mass undergoes periodic temporal modulation. The resulting signal manifests as a resonance whose position changes with time, producing distinctive patterns that are inaccessible to conventional analyses based solely on invariant-mass information. The method is implemented using dimuon events from the CMS Open Data corresponding to the Run~G data-taking period at $\\sqrt{s}=13~\\mathrm{TeV}$, with an integrated luminosity of $7.54~\\mathrm{fb}^{-1}$. We derive upper limits on the gauge coupling $g'$ as a function of the $Z'$ mass for several choices of the modulation amplitude. The results demonstrate that incorporating temporal information can enhance sensitivity relative to standard time-integrated searches, particularly in regions with sufficient signal statistics.",
+        "authors": [
+            "Marlon P. Brade",
+            "Jeremiah D. Juevesano",
+            "Venus Abbegaile S. Carbonel",
+            "Karen E. Bustamante",
+            "Dennis C. Arogancia",
+            "Jan Mickelle V. Maratas"
+        ],
+        "date": "2026-06-16",
+        "doi": "https://arxiv.org/abs/2606.17569v1",
+        "title": "Search for a Time-Dependent Z' Resonance in the Dimuon Channel",
+        "url": "https://arxiv.org/abs/2606.17569v1"
+    },
+    {
         "abstract": "The remarkably high energies of the Large Hadron Collider (LHC) have allowed for the first measurements of the shapes and scalings of multi-point correlators of energy flow operators, $\\langle \u03a8| \\mathcal{E}(\\vec n_1) \\mathcal{E}(\\vec n_2) \\cdots \\mathcal{E}(\\vec n_k) |\u03a8\\rangle$, providing new insights into the Lorentzian dynamics of quantum chromodynamics (QCD). In this Letter, we use recent advances in effective field theory to derive a rigorous factorization theorem for the light-ray density matrix, $\u03c1= |\u03a8\\rangle \\langle \u03a8|$, inside high transverse momentum jets at the LHC. Using the light-ray operator product expansion, the scaling behavior of multi-point correlators can be computed from the expectation value of the twist-2 spin-$J$ light-ray operators, $\\mathbb{O}^{[J]}$, in this state, $\\text{Tr}[ \u03c1~\\mathbb{O}^{[J]} ]$. We compute the light-ray density matrix at next-to-leading order, and combine this with results for the next-to-leading logarithmic scaling behavior of the correlators up to six-points, comparing with CMS Open Data. This theoretical accuracy allows us to resolve the quantum scaling dimensions of QCD light-ray operators inside jets at the LHC. Our factorization theorem for the light-ray density matrix at the LHC completes the link between recent developments in the study of energy correlators and LHC phenomenology, opening the door to a wide variety of precision jet substructure studies.",
         "authors": [
             "Kyle Lee",
