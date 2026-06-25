@@ -18,7 +18,13 @@ Create the `arxiv.json` and `inspire.json`:
 > python3 query_arxiv.py
 ```
 
-Open `publications.ipynb` and analyze:
+Run the script:
+```
+cd ../
+python3 publications.py
+```
+
+Alternatively, open `publications.ipynb` and analyze:
 ```
 > cd ../
 > jupyter lab
