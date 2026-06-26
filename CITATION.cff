@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "CMS open data usage tools"
+type: software
+authors:
+  - family-names: McCauley
+    given-names: Thomas
+    orcid: "https://orcid.org/0000-0001-6589-8286"
+    affiliation: "University of Notre Dame"
+repository-code: "https://github.com/cms-dpoa/data-usage"
+license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15078670
+    description: "Concept DOI resolving to the latest version"
